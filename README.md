@@ -1,0 +1,4 @@
+wingidecn
+=========
+
+wingide chinese translation
