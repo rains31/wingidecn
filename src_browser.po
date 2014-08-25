@@ -1,0 +1,243 @@
+# Module src_browser translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2013-11-23 16:28+0800\n"
+"Last-Translator: Rains <rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:49
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1224
+msgid "Methods"
+msgstr "方法"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:50
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1226
+msgid "Functions"
+msgstr "函数"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:51
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1223
+msgid "Classes"
+msgstr "类"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:52
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1225
+msgid "Attributes"
+msgstr "属性"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:53
+msgid "Derived Classes"
+msgstr "派生类"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:54
+msgid "Modules"
+msgstr "模块"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:55
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1227
+msgid "Variables"
+msgstr "变量"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:57
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1215
+msgid "Follow Selection"
+msgstr "追随选定"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:59
+msgid ""
+"When checked, the browser selection is visited in a non-sticky editor that "
+"auto-closes when hidden.  Double clicking always opens a sticky (non-"
+"transient) file for editing."
+msgstr ""
+"选中此项时，浏览器选定内容会在一个隐藏时自动关闭的非粘着性编辑器中显示，双击"
+"时始终打开一个粘着的(非临时)文件进行编辑。"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:63
+msgid ""
+"When checked, browser selection is visited in transient editor that auto-"
+"closes when hidden.  Double clicking always opens non-transient file as for "
+"editing."
+msgstr ""
+"选中此项时，浏览器选定内容会在临时编辑器中打开，它隐藏时自动关闭。双击时始终"
+"打开非临时文件进行编辑。"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:68
+msgid "Public"
+msgstr "公有"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:69
+msgid "Private"
+msgstr "私有"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:70
+msgid "Semi-Private"
+msgstr "半私有"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:71
+msgid "Inherited"
+msgstr "继承"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:72
+msgid "Imported"
+msgstr "导入的"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:85
+msgid "Class Hierarchy"
+msgstr "类继承"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:86
+msgid "By Module"
+msgstr "按模块"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:87
+msgid "All Classes"
+msgstr "所有类"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:88
+msgid "Current Module"
+msgstr "当前模块"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:89
+msgid "Current Package"
+msgstr "当前包"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:90
+msgid "Python Path"
+msgstr "Python路径"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:104
+msgid "Browse Project Modules"
+msgstr "浏览项目模块"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:105
+msgid "Browse Project Classes"
+msgstr "浏览项目类"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:107
+msgid "Browse Current Module"
+msgstr "浏览当前模块"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:458
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:608
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:621
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:718
+msgid "<i>no children</i>"
+msgstr "<i>没有子对象</i>"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:546
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:869
+msgid "No symbols"
+msgstr "没有符号"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:582
+msgid "All symbols hidden"
+msgstr "所有隐藏符号"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1217
+msgid "Public Symbols"
+msgstr "公有符号"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1218
+msgid "Semi-Private Symbols"
+msgstr "半私有符号"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1219
+msgid "Private Symbols"
+msgstr "私有符号"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1220
+msgid "Inherited Symbols"
+msgstr "继承的符号"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1221
+msgid "Imported Symbols"
+msgstr "导入的符号"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1230
+msgid "Sort Alphabetically"
+msgstr "按字母顺序排序"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1231
+msgid "Sort by Type"
+msgstr "按类型排列"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1232
+msgid "Sort in File Order"
+msgstr "按文件排序"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1245
+msgid "_Options"
+msgstr "选项(_O)"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1286
+msgid "Hide "
+msgstr "隐藏"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1288
+msgid "Show "
+msgstr "显示"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1343
+msgid "Name"
+msgstr "名称"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1585
+msgid "Goto Source"
+msgstr "转到源码"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1654
+msgid "Cannot find base class"
+msgstr "找不到基础类"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1655
+msgid ""
+"Cannot find an instance of the base class to display.  If imported symbols "
+"are not visible in the browser, showing them may enable the base class to be "
+"displayed.  You may also need to adjust other symbol visibility options"
+msgstr ""
+"找不到要显示的基类的实例。如果导入的元件在浏览器中不可见，展示他们可能需要让"
+"基类处于可见状态。您可能还需要调整其他符号的可见性选项。"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1661
+msgid " base class"
+msgstr "基础类"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1661
+msgid "Goto "
+msgstr "转到"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1681
+msgid "Find Points of Use"
+msgstr "查找使用的地方"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1686
+msgid "Show Source Browser Documentation"
+msgstr "显示源码浏览器文档"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1804
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1829
+msgid "Source browser state"
+msgstr "源码浏览器状态"
+
+#: /Users/sdeibel/src/ide/src/browser/clsbrowse.py:1820
+msgid "Source browser visibility option %s"
+msgstr "源码浏览器可视选项 %s"
+
+#: /Users/sdeibel/src/ide/src/browser/manager.py:247
+msgid "Source Browser"
+msgstr "源码浏览器"
+
+#: /Users/sdeibel/src/ide/src/browser/manager.py:252
+msgid "Source Code Module and Class Browser"
+msgstr "源码模块和类浏览器"

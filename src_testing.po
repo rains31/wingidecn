@@ -1,0 +1,333 @@
+# Module src_testing translation file for language=en
+# Copyright (C) 2010 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2010-11-24 23:48 EST\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: /Users/sdeibel/src/ide/src/testing/adaptors.py:72
+msgid "Unittest"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/adaptors.py:82
+msgid "Nose"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/adaptors.py:110
+msgid "Doctest"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/adaptors.py:138
+msgid "Django Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:25
+msgid "List of test files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:30
+msgid "Glob / Wild Card"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:31
+msgid "Regexp"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:35
+msgid ""
+"List of glob wildcard or regular expressions identifying project test "
+"files.  Project files whose full path matches one of the patterns will be "
+"considered  test files and automatically added to the Testing tool."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:43
+msgid ""
+"List of glob patterns for project test files. Project files whose full path "
+"matches one of the patterns will be considered test files and automatically "
+"added to the Testing tool."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:50
+msgid "Name of the unit testing framework"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:62
+msgid ""
+"The environment to use when running unit tests.  Either select a launch "
+"configuration, or use the given run arguments with the default environment "
+"for the project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:70
+msgid "Per-Module"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:71
+msgid "Per-Package"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/attribs.py:75
+msgid ""
+"How many processes are spawned for each test run.  In the per-module model, "
+"one process is spawned for each module; in the per-package model, one "
+"process is spawned for each package or ddirectory.  Note that differing "
+"environment settings or run arguments can cause additional processes to be "
+"spawned."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:319
+msgid "<i>no children</i>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:480
+msgid "Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:614
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:1100
+msgid "_Run Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:619
+msgid "_Debug Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:642
+msgid "Filter: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:704
+msgid "Succeeded"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:706
+msgid "Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:708
+msgid "Error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:710
+msgid "Syntax Error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:712
+msgid "Running"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:743
+msgid "No tests to run"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:810
+msgid "Clear All Test Results?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:811
+msgid "Are you sure you want to clear all the stored test results?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:812
+msgid "Clear All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:813
+msgid "Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:858
+msgid "Remove File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:858
+msgid "Remove Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:866
+msgid "Sort Tests Alphabetically"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:871
+msgid "Sort Tests by Source Order"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:876
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:883
+msgid "Goto Source"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:877
+msgid "Run Test"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:878
+msgid "Debug Test"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:879
+msgid "Run All Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:880
+msgid "Clear All Results"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:884
+msgid "Abort Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:889
+msgid "Expand All Failed Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:890
+msgid "Collapse All Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:893
+msgid "Add Files from Project..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:894
+msgid "Add Single File..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:897
+msgid "File Properties..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:899
+msgid "Show Testing Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:902
+msgid "Select All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:909
+msgid "Copy Selected Text"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:913
+msgid "Copy Failure Summary"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:917
+msgid "Copy All Results"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:1070
+msgid "Completed tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:1097
+msgid "_Abort Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:1112
+msgid "Abort Debug"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:1115
+msgid "Debug Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:1228
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:1236
+msgid "Testing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/cap_testinggui.py:1241
+msgid "Unit Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:34
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:49
+msgid "Test file patterns"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:38
+msgid "Pattern Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:39
+msgid "Pattern"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:56
+msgid "Default Test Framework"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:64
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:115
+msgid "Environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:70
+msgid "Process Model"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:74
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:121
+msgid "_Testing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:86
+msgid "Default (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:90
+msgid "Test Framework"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:100
+msgid "Use Project Setting and Run Args:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:101
+msgid ""
+"Use the testing configuration from Project Properties with the specified run "
+"arguments"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:103
+msgid "Use Selected Launch Configuration:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:104
+msgid "Select a custom launch configuration for testing this file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/proppanels.py:107
+msgid ""
+"The environment to use when running this file as a unit test.  Either select "
+"a launch configuration, or use the given run arguments with the project-"
+"specified environment."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/runtests.py:395
+msgid "Starting tests: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/runtests.py:447
+msgid "Could not start debug process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/runtests.py:475
+msgid "Finished tests: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/testing/runtests.py:477
+msgid "No results from tests: %s"
+msgstr ""

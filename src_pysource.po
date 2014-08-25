@@ -1,0 +1,226 @@
+# Module src_pysource translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:24GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/pysource/attribs.py:23
+msgid "Analyze main file for sys.path changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/codewarn.py:272
+msgid "Undefined name: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/codewarn.py:294
+msgid "a %s instance"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/codewarn.py:296
+msgid "the %s class"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/codewarn.py:298
+msgid "the %s module"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/codewarn.py:301
+msgid "a %s literal"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/codewarn.py:303
+msgid "a ?? literal"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/codewarn.py:305
+msgid "the %s symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/codewarn.py:309
+msgid "Undefined attribute: %s, %s is probably %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/codewarn.py:310
+msgid " or "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/llinecache.py:61
+msgid "Inconsistent indentation (not in units of indent size)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/llinecache.py:63
+msgid "This code will never be reached"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/llinecache.py:65
+msgid "Expected indentation to decrease"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/llinecache.py:67
+msgid "Expected indentation to increase"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/llinecache.py:69
+msgid "Unexpected indentation decrease"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/llinecache.py:71
+msgid "Unexpected indentation increase"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/llinecache.py:73
+msgid "Bad indentation level"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/llinecache.py:75
+msgid "Indentation error (unspecified)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:161
+msgid "(Analyzing Files: pass 1, Q=%i) "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:163
+msgid "(Analyzing Files: pass 2, Q=%i) "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:849
+msgid ""
+"Scrape errors for %s:\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:856
+msgid "%s does not exist (scrape failed)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:859
+msgid "%s is empty (scrape failed; removing file now)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:892
+msgid "Scraping %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:900
+msgid "Failed to scrape extension module %s: Python not found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:915
+msgid ""
+"Failed to start process to scrape extension module %s: could not find "
+"suitable rundir"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:940
+msgid ""
+"Failed to start process to scrape extension module %s: cannot encode "
+"arguments"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:958
+msgid "Cache file is %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:966
+msgid "Failed to start process to scrape extension module %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:971
+msgid "Failed scraping API for %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/manager.py:973
+msgid "API scraping process for %s completed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:28
+msgid ""
+"Path to search for interface files for extension modules.  If directory name "
+"is relative, it will be interpreted as relative to the  user settings "
+"directory (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:35
+msgid "Whether Wing should try to analyze python source in the background."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:44
+msgid "The maximum size of the disk cache in megabytes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:45
+msgid "Clear cache"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:46
+msgid "Clear cache files and re-analyse all source code"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:50
+msgid ""
+"The maximum # of analysis info buffers that can be in-memory at once for "
+"files that are not open."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:58
+msgid ""
+"Enable to automatically load and introspect extension modules and other "
+"modules that cannot be statically analysed.  These modules are loaded in "
+"another process space and 'scraped' to obtain at least some analysis of the "
+"module's contents."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:86
+msgid ""
+"This is a dictionary from module name to Python code that should be executed "
+"before attempting to load extension modules for scraping.  This is needed in "
+"cases where the extension modules are designed to be loaded only after some "
+"configuration magic is performed.  For most extension modules, no extra "
+"configuration should be needed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:120
+msgid "Configuration Code"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:120
+msgid "Module Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:125
+msgid ""
+"Use slower, dotfile locking for sqllite databases to work around buggy "
+"remote file servers.  Only needed if the user cache directory is on a remote "
+"file system or can be accessed via a remote file system.  It is recommended "
+"that the user cache directory be on the local file system for performance "
+"reasons."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:134
+msgid ""
+"Prefix for Python Standard Library Documentation.  This should be in the "
+"form http://docs.python.org/library/ and Wing will append module and symbol "
+"specific to the given URL.  To use locally stored documentation, you must "
+"run a local web server since # bookmarksdo not work in file: URLs."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:141
+msgid "Use docs.python.org"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pysource/prefs.py:142
+msgid "Other:"
+msgstr ""

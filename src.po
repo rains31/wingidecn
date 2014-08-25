@@ -1,0 +1,1074 @@
+# Module src translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:22GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:79
+msgid "101"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:80
+msgid "Personal"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:81
+msgid "Professional"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:82
+msgid "Enterprise"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:111
+msgid "Advanced indentation analysis and translation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:112
+msgid "Folding in the source code editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:113
+msgid "Recent menus"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:114
+msgid "Attach/detach to debug processes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:115
+msgid "Expression and value watching for debugger"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:116
+msgid "Interactive debug probe tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:117
+msgid "Debug externally launched processes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:118
+msgid "Advance exception handling modes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:119
+msgid "Module-oriented debug data view"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:120
+msgid "Shared projects for use in revision control"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:121
+msgid "Advanced breakpoints for debugger"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:122
+msgid "Debugger breakpoint manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:123
+msgid "Source code browser"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:124
+msgid "Source assistant"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:125
+msgid "Scripting support"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:126
+msgid "Keyboard and command macro support"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:127
+msgid "User-defined named bookmarks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:128
+msgid "Autocompletion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:129
+msgid "Projects"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:130
+msgid "Wildcard and regular expression search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:131
+msgid "Batch search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:132
+msgid "Disk search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:133
+msgid "Multi-window GUI support"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:134
+msgid "Messages view"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:135
+msgid "Unit testing tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:136
+msgid "Support for running external processes in a console"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:137
+msgid "Code snippets"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:138
+msgid "Version control"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:139
+msgid "Perspectives"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:140
+msgid "Difference and merge tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:141
+msgid "Code warnings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:142
+msgid "Auto-editing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:143
+msgid "Named file sets"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:144
+msgid "Launch Configurations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:146
+msgid "Generic support specific to Wing IDE 101"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:147
+msgid "Generic support specific to Wing IDE Personal"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/capabilities.py:148
+msgid "Generic support specific to Wing IDE Professional"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/config.py:293
+msgid ""
+"This product contains the following open source modules:\n"
+"    \n"
+"  * Python, the programming language, written by Guido van Rossum and "
+"contributors.\n"
+"\n"
+"  * Qt cross-platform GUI toolkit, developed by many contributors (see qt."
+"digia.com)\n"
+"  \n"
+"  * PySide Python bindings for Qt, developed by Nokia and contributors.\n"
+"  \n"
+"  * Python Imaging Library, developed by Secret Labs AB and Fredrik Lundh.\n"
+"  \n"
+"  * Scintilla, a source code editor widget, written by Neil Hodgson and "
+"contributors.\n"
+"  \n"
+"  * Docutils, tools for ReST document conversion, written by David Goodger "
+"and contributors.\n"
+"  \n"
+"  * Sqlite, an embedded sql database engine, written by D. Richard Hipp, Dan "
+"Kennedy, Shane Harrelson, Christian Werner, and contributors.\n"
+"  \n"
+"  * Pysqlite, Python bindings for sqlite, written by Gerhard Häring.\n"
+"  \n"
+"  * pexpect by Noah Spurrier, Richard Holden, Marco Molteni, Kimberley "
+"Burchett, Robert Stone, Hartmut Goebel, Chad Schroeder, Erick Tryzelaar, "
+"Dave Kirby, Ids vander Molen, George Todd, Noel Taylor, Nicolas D. Cesar, "
+"Alexander Gattin, Geoffrey Marshall, Francisco Lourenco, Glen Mabey, Karthik "
+"Gurusamy, and Fernando Perez.\n"
+"  \n"
+"  * Py2PDF by Dinu Gherman\n"
+"  \n"
+"  * Icons from Crystal Clear by Everaldo and Tulliana-1.0 by M. Umut Pulat.\n"
+"  \n"
+"  We gratefully acknowledge the efforts of all that have contributed to "
+"these and other open source products used in the development of Wing IDE.\n"
+"  \n"
+"  "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/config.py:321
+msgid ""
+"This product contains the following open source modules:\n"
+"    \n"
+"  * Python, the programming language, written by Guido van Rossum and "
+"contributors.\n"
+"  \n"
+"  * GTK, a GUI development framework, written by Jonathan Blandford, Hans "
+"Breuer, Matthias Clasen, Tim Janik, Tor Lillqvist, Federico Mena Quintero, "
+"Kristian Rietveld, Søren Sandmann, Manish Singh, Owen Taylor, and "
+"contributors.\n"
+"  \n"
+"  * GTK Theme Engines by The Rasterman, Owen Taylor, Randy Gordon\n"
+"  \n"
+"  * GTK Themes as follows: AluminumAlloy by Robert Izsaki (roberTO); Black-"
+"Background based on work by Eric R. Reitz; Glider by Link Dupont; Glossy P "
+"by m5brane; GnuBubble by Kyle Davis; H2O by Eric R. Reitz; High Contrast, "
+"Low Contrast, and Large Print themes by Bill Haneman and T. Liebeck; Smokey-"
+"Blue by Jakub Steiner and Paul Hendrick; Smooth-2000 and Smooth-Sea-Ice by "
+"ajgenius; Smooth-Desert and Smooth-Retro by Ken Joseph.\n"
+"  \n"
+"  * GTK Wimp Theme for Windows compatibility by Raymond Penners, Evan "
+"Martin, Owen Taylor, Arnaud Charlet, and Dom Lachowicz.\n"
+"  \n"
+"  * Additional icons from Crystal Clear by Everaldo and Tulliana-1.0 by M. "
+"Umut Pulat\n"
+"  \n"
+"  * PyGTK, Python bindings for GTK, written by James Henstridge and "
+"contributors.\n"
+"  \n"
+"  * Scintilla, a source code editor widget, written by Neil Hodgson and "
+"contributors.\n"
+"  \n"
+"  * GtkScintilla2, a GTK integration for Scintilla, written by Dennis J "
+"Houy, Sven Herzberg, and contributors.\n"
+"  \n"
+"  * PyScintilla2, Python bindings for GtkScintilla2, written by Roberto "
+"Cavada and contributors.\n"
+"  \n"
+"  * Docutils, tools for ReST document conversion, written by David Goodger "
+"and contributors.\n"
+"  \n"
+"  * Sqlite, an embedded sql database engine, written by D. Richard Hipp, Dan "
+"Kennedy, Shane Harrelson, Christian Werner, and contributors.\n"
+"  \n"
+"  * Pysqlite, Python bindings for sqlite, written by Gerhard Häring.\n"
+"  \n"
+"  * Additional support libraries as follows:  atk by Bill Haneman, Marc "
+"Mulcahy, and Padraig Obriain; expat by the Thai Open Source Software Center "
+"Ltd, Clark Cooper, and contributors; fontconfig by Keith Packard; freetype "
+"by Werner Lemberg, David Turner, and contributors; glib by Hans Breuer, "
+"Matthias Clasen, Tor Lillqvist, Tim Janik, Havoc Pennington, Ron Steinke, "
+"Owen Taylor, Sebastian Wilhelmi, and contributors; libiconv written by Bruno "
+"Haible; libpng by Glenn Randers-Pehrson, Andreas Eric Dilger, Guy Eric "
+"Schalnat, and contributors; libXft, libXrender, and render by Keith Packard "
+"and contributors; pexpect by Noah Spurrier, Richard Holden, Marco Molteni, "
+"Kimberley Burchett, Robert Stone, Hartmut Goebel, Chad Schroeder, Erick "
+"Tryzelaar, Dave Kirby, Ids vander Molen, George Todd, Noel Taylor, Nicolas "
+"D. Cesar, Alexander Gattin, Geoffrey Marshall, Francisco Lourenco, Glen "
+"Mabey, Karthik Gurusamy, and Fernando Perez; Py2PDF by Dinu Gherman; and "
+"zlib by Jean-loup Gailly and Mark Adler.\n"
+"  \n"
+"  We gratefully acknowledge the efforts of all that have contributed to "
+"these and other open source products used in the development of Wing IDE.\n"
+"  \n"
+"  "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:62
+msgid "Wing IDE %s version is %s build %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:63
+msgid "kWingHome set to"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:64
+msgid "kUserWingDir set to"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:65
+msgid "kDefaultCacheDir set to"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:69
+msgid "Cannot run without WINGHOME: exiting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:86
+msgid "Exit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:92
+msgid "Could not create or access user settings directory "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:99
+msgid "Creating singletons..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:109
+msgid "Checking for updates..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:259
+msgid "_Use dotfile locking"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:260
+msgid "_Don't use dotfile locking"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:261
+msgid "Wing may not have started correctly"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/main.py:262
+msgid ""
+"Wing may have hung when trying to open a database file in your ~/.cache "
+"directory the last time it was run.  This may be caused by a file locking "
+"failure with a remote file server.  To work around the file locking failure, "
+"use the slower dotfile locking."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:27
+msgid "System Default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:36
+msgid ""
+"The language to use for the user interface.  Either the default for this "
+"system, or set to a specific supported language."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:46
+msgid ""
+"The language to use for the documentation, when available (not all "
+"documentation is translated into all supported languages)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:55
+msgid ""
+"Controls whether most recent project is reopened at startup, in the absence "
+"of any other project on the command line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:68
+msgid ""
+"This is a map from file extension or wildcard to mime type.  It adds "
+"additional file type mappings to those built into Wing IDE.  File extensions "
+"can be specified alone without dot or wildcard, for example \"xcf\" or using "
+"wildcards containing \"*\" and/or \"?\", for example \"Makefile*\". The mime "
+"type to use for Python files is \"text/x-python\"."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:74
+msgid "File Extension"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:74
+#: /Users/sdeibel/src/ide/src/mainprefs.py:83
+#: /Users/sdeibel/src/ide/src/mainprefs.py:92
+msgid "Mime Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:80
+msgid ""
+"This is a map from mime type to displayable name for that mime type; one "
+"entry should be added for each new mime type added with the main.extra-mime-"
+"types preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:83
+#: /Users/sdeibel/src/ide/src/mainprefs.py:549
+msgid "Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:89
+msgid ""
+"This is a map from mime type to tuple of start/end comment characters for "
+"each mime type.  One entry should be added for each new mime type added with "
+"the main.extra-mime-types preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:92
+msgid "Comment Characters"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:93
+msgid "End"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:93
+msgid "Start"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:98
+msgid "System default (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:100
+msgid ""
+"The default encoding to use for text files opened in the source editor and "
+"other tools, when an encoding for that file cannot be determined by reading "
+"the file.  Other encodings may also be tried.  This also sets the encoding "
+"to use for newly created files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:111
+msgid ""
+"The number of bytes at which the error log file (%s) is truncated.  This "
+"file can be sent to technical support to help diagnose problems with the IDE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:119
+msgid "Auto Reload"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:120
+#: /Users/sdeibel/src/ide/src/mainprefs.py:127
+msgid "Immediately Request Reload"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:121
+#: /Users/sdeibel/src/ide/src/mainprefs.py:128
+msgid "Request Reload on Edit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:122
+#: /Users/sdeibel/src/ide/src/mainprefs.py:129
+msgid "Never Reload"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:133
+msgid ""
+"Selects action to perform on files found to be externally changed but "
+"unaltered within the IDE.  Use Auto Reload to automatically reload these "
+"files, Immediately Request Reload to ask via a dialog box upon detection, "
+"Requst Reload on Edit to ask only if the unchanged file is edited within the "
+"IDE subsequently, or Never Reload to ignore external changes (although you "
+"will still be warned if you try to save over an externally changed file)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:142
+msgid ""
+"Selects action to perform on files found to be externally changed and that "
+"also have been altered in the IDE.  One of Immediately Request Reload to ask "
+"via a dialog box upon detection, Request Reload on Edit to ask if the file "
+"is edited further, or Never Reload to ignore external changes (although you "
+"will always be warned if you try to save over an externally changed file)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:150
+msgid ""
+"Time in seconds indicating the frequency with which the IDE should check the "
+"disk for files that have changed externally. Set to 0 to disable entirely."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:157
+msgid ""
+"Specifies the directories in which Wing will look for user-defined scripts "
+"that extend the functionality of the IDE itself.  The directory names may "
+"contain environment variables in the $(envname) form.  Use $(WING:"
+"PROJECT_DIR) for the project directory.For each directory, Wing will load "
+"all found Python modules and packages, treating any function whose name "
+"starts with a letter (not _ or __) as a script-provided command.  Extension "
+"scripts found in files within directories later in the list will override "
+"scripts of the same name found earlier, except that scripts can never "
+"override commands that are defined internally in Wing itself (these are "
+"documented in the Command Reference in the users manual). See the Scripting "
+"and Extending chapter of the manual for more information on writing and "
+"using extension scripts.  Note that %s is always appended to the given path "
+"since it contains scripts that ship with Wing."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:175
+msgid ""
+"When enabled, Wing will automatically reload scripts that extend the IDE "
+"when they are edited and saved from the IDE.  This makes developing "
+"extension scripts for the IDE very fast, and should work in most cases.  "
+"Disable this when working on extension scripts that do not reload properly, "
+"such as those that reach through the scripting API extensively."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:188
+msgid ""
+"Automatically attempt to connect to wingware.com to check for updates once "
+"every day after Wing is started."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:198
+msgid ""
+"Show a reminder when Support+Upgrades for the active license is expired or "
+"will expire soon."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:203
+msgid "Used internally to keep track of updates the user is not interested in"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:208
+msgid "Base on the Current File or Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:209
+msgid "Use Project's Home Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:210
+msgid "Use Last Open/Save Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:211
+msgid "Use Startup or Current Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:212
+msgid "Use Fixed Directory Specified Below"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:217
+msgid ""
+"Defines how Wing determines the starting directory to use when prompting for "
+"a file name:  Either based on location of the resource at current focus, "
+"location of the current project home directory, the last directory visited "
+"for file selection, the current directory at startup (or selected since), or "
+"always the specific fixed directory entered here."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:284
+msgid "Attributes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:284
+msgid "Text Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:288
+msgid "Attribute"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:288
+msgid "Value"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:291
+#: /Users/sdeibel/src/ide/src/mainprefs.py:625
+#: /Users/sdeibel/src/ide/src/mainprefs.py:651
+msgid "Default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:292
+msgid "Specify"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:362
+msgid ""
+"Defines text styles used in data and document display.  Each style is "
+"specified as a list of (name, value) tuples.  The names and values must be "
+"valid Pango text attribute names and values.  To set default values that "
+"apply to all styles, use the \"default\" style name (for example adding "
+"(\"size\", 14) changes default display size to 14 points. Note that size of "
+"menus, buttons, labels, and other basic GUI elements are set using system-"
+"wide theme configuration and not from this preference.  The source editor is "
+"also configured separately."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:391
+msgid "Python Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:392
+msgid "Hidden & Temporary Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:393
+msgid "All Source Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:402
+msgid "C/C++ Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:409
+msgid "HTML and XML Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:495
+#: /Users/sdeibel/src/ide/src/mainprefs.py:496
+msgid "Spec"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:495
+#: /Users/sdeibel/src/ide/src/mainprefs.py:496
+msgid "Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:501
+msgid "Exclude"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:501
+msgid "Include"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:506
+msgid ""
+"Defines file filters to apply to file names for inclusion and exclusion from "
+"a larger set (such as scanned disk files or all project files).\n"
+"\n"
+"Each filter is named and contains one list of inclusion patterns and one "
+"list of exclusion patterns.  The patterns can be a wildcard on the file "
+"name, wildcard on a directory name, or a mime type name.\n"
+"\n"
+" Only a single pattern needs to be matched for inclusion or exclusion.  "
+"Exclusion patterns take precedence over inclusion patterns, so any match on "
+"an exclusion pattern will always exclude a file from the selected set.  "
+"Filters are used in constraining search, adding project files, and for other "
+"operations on collections of files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:526
+msgid ""
+"Defines file sets by specifying filters to apply to file names for inclusion "
+"and exclusion from a larger set (such as scanned disk files or all project "
+"files).\n"
+"\n"
+"Each file set is named and contains one list of inclusion patterns and one "
+"list of exclusion patterns.  The patterns can be a wildcard on the file "
+"name, wildcard on a directory name, or a mime type name.\n"
+"\n"
+" Only a single pattern needs to be matched for inclusion or exclusion.  "
+"Exclusion patterns take precedence over inclusion patterns, so any match on "
+"an exclusion pattern will always exclude a file from the set.  File sets are "
+"used in constraining search, adding project files, and for other operations "
+"on collections of files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:549
+msgid "Specification"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:555
+msgid ""
+"If True and a gtk, gdk, or glib critical message is logged, Wing tries to "
+"start a C debugger and break at the current execution point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:563
+msgid "Controls whether or not the splash screen is shown at startup."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:570
+msgid ""
+"Allows manual configuration of an http proxy to be used for feedback, bug "
+"reports, and license activation, all of which result in Wing connecting to "
+"wingware.com via http.  Leave user name and password blank if not required."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:574
+msgid "No proxy server (or auto-detected)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:575
+msgid "Configure proxy server manually:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:576
+msgid "Host name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:576
+msgid "Port"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:576
+msgid "User name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:577
+msgid "Password"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:583
+#: /Users/sdeibel/src/ide/src/mainprefs.py:631
+msgid "Never"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:584
+msgid "When saving files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:585
+msgid "When saving files in project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:589
+msgid ""
+"Controls whether to automatically strip trailing white space in the editor.  "
+"May be enabled for any file or only files that are part of the current "
+"project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:600
+msgid "Tools and Layout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:601
+msgid "Tools, Layout, and Editors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:602
+msgid "All Visual State"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:607
+msgid ""
+"Controls what parts of the GUI are altered when switching perspectives.  "
+"Tools and Layout only captures the set of visible tools and overall layout, "
+"Tool, Layout, and Editors stores also the set of open editors, and All "
+"Visual State captures all details of the visual state, including the state "
+"of the tools, the size and position of windows, and the caret position."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:620
+msgid ""
+"Selects the file to use for storing and retrieving shared perspectives. By "
+"default (when value is None) the file 'perspectives' in the user settings "
+"directory is used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:626
+#: /Users/sdeibel/src/ide/src/mainprefs.py:652
+msgid "File:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:630
+msgid "Always"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:632
+msgid "Prompt"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:633
+msgid "Configured by Perspective"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:636
+msgid ""
+"Selects whether to auto-save perspectives when switching to another "
+"perspective. Can always auto-save, never auto-save, prompt each time a "
+"perspective is left, or auto-save as configured on a per-perspective basis."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:646
+msgid ""
+"Selects the file to use for storing and retrieving shared named files sets. "
+"By default (when value is None) the file 'filesets' in the user settings "
+"directory is used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:656
+msgid "Defines which plugins are enabled or disabled."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:663
+msgid ""
+"The amount by which to zoom font sizes in or out in the documentation viewer."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:668
+msgid ""
+"Whether to try parsing docstrings as ReST format for display in the Source "
+"Assistant.  This may destroy formatting of some docstrings."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:674
+msgid ""
+"Whether show docstrings as ReST even if they contain parse errors.  When "
+"disabled, they are shown as plain text instead.  When enabled, this may "
+"destroy formatting of some docstrings."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:681
+msgid ""
+"Whether to rewrap plain text docstrings for display in the Source "
+"Assistant.  This may destroy formatting of some docstrings."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:687
+msgid ""
+"Whether to always show docstrings in the Source Assistant.  When disabled, "
+"only the docstring for the last displayed symbol is shown."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/mainprefs.py:693
+msgid "Whether show docstring type and validity in the Source Assistant."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:51
+msgid "Warning: A filename must follow the --prefs-file option"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:55
+msgid "Warning: A prefs filename cannot begin with \"--\""
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:205
+msgid "Using Qt version %s and PySide version %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:208
+msgid "Using GTK version %d.%d.%d and PyGTK version %d.%d.%d"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:504
+msgid "Top-level Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:506
+msgid "Project Manager Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:508
+msgid "Editor Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:510
+msgid "Search Manager Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:512
+msgid "Unit Testing Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:515
+msgid "Version Control Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:518
+msgid "Debugger Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:520
+msgid "Refactoring Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:523
+msgid "Source Browser Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:526
+msgid "Script-provided Add-on Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:558
+#: /Users/sdeibel/src/ide/src/premain.py:658
+msgid "OS X"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:759
+msgid "Preferences Dialog Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:761
+msgid "Internal Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:762
+msgid "Data Specification"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:766
+msgid "Default Value"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:792
+msgid "Core Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:793
+msgid "User Interface Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:794
+msgid "Editor Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:798
+msgid "Diff/Merge Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:801
+msgid "Project Manager Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:802
+msgid "Debugger Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:803
+msgid "Source Analysis Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:807
+msgid "Source Browser Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:809
+msgid "Version Control Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/premain.py:811
+msgid "Internal Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/singleton.py:254
+msgid "Creating singletons... %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/singleton.py:581
+msgid "Enter Command Arguments"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/singleton.py:910
+msgid "Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wing.py:798
+msgid "No X Windows DISPLAY has been specified"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wing.py:799
+msgid "Exiting Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wing.py:836
+msgid "Use console_%s to print a diagnostic log while running."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wing.py:839
+msgid "--verbose                  Print a diagnostic log while running"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wing.py:843
+msgid ""
+"\n"
+"--private-qt               Use the Qt libraries shipped with Wing.  This\n"
+"                           option may be used to work around problems\n"
+"                           in the system-provided Qt libraries, which\n"
+"                           may not match the version that Wing was \n"
+"                           built with.\n"
+"--system-qt                Use the system-provided Qt rather than Wing's\n"
+"                           private Qt. This option may not work properly\n"
+"                           with some versions of Qt.\n"
+"                           \n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wing.py:857
+msgid ""
+"Wing IDE %(product)s Command Line Usage:\n"
+"\n"
+"%(execname)s <args> [<project>.wpr] [file1[:lineno], ...]\n"
+"\n"
+"Optionally specify a project to open and/or a list of files.  Filenames\n"
+"may be followed by ':' and a line number to scroll to that line.\n"
+"\n"
+"Valid arguments are:\n"
+"  \n"
+"--prefs-file=<filename>    Set preferences override file.  Any preferences\n"
+"                           in the file override those in the default user\n"
+"                           preferences file and any changes made during the\n"
+"                           session are written to the override file.\n"
+"                             \n"
+"--new                      Force creation of a new instance of Wing even if\n"
+"                           an instance is already running.\n"
+"--reuse                    Force reusing any existing instance of Wing even\n"
+"                           if no files were given on the command line.\n"
+"  \n"
+"%(verbose)s\n"
+"%(private_qt)s\n"
+"--help                     Show this message.\n"
+"  \n"
+"See also http://wingware.com/doc/install/command-line-usage  \n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wing.py:1055
+msgid "Fatal startup error:  Exiting Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:320
+msgid "wingdb.py: Error: Debug file does not exist:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:324
+msgid "wingdb.py: Error: Debug file is not a file:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:480
+msgid "Network peer is "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:481
+msgid "Attach port = "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:482
+msgid "Initial stop = "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:496
+msgid "wingdb.py: Could not create debug server"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:511
+msgid "wingdb.py: Running %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:519
+msgid "wingdb.py: Server exiting abnormally on exception"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:652
+msgid "wingdb.py: Error: Failed to start the debug server"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:653
+msgid "wingdb.py: Error: You may be running an unsupported version of Python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:654
+msgid "wingdb.py: Python version = %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:660
+msgid "wingdb.py: Error: Cannot run a debug process with optimized python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:661
+msgid "wingdb.py: Error: You must omit the -O or -OO command line option, or"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:662
+msgid "wingdb.py: Error: undefine environment variable PYTHONOPTIMIZE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingdb.py:733
+#: /Users/sdeibel/src/ide/src/wingdb.py:735
+msgid "-- Type return or enter to exit --\n"
+msgstr ""

@@ -1,0 +1,242 @@
+# Module src_proj_commands translation file for language=en
+# Copyright (C) 2004 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2004-02-23 15:25 EST\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:47
+msgid ""
+"These commands act on the project manager or on the current project,\n"
+"  regardless of whether the project list has the keyboard focus."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:60
+msgid " Utility method to get location of active editor. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:69
+msgid " Finds a view to apply project commands to. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:78
+msgid " Raise the project manager window "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:82
+msgid ""
+" Create a new blank project.  Use show_dialog to control whether the\n"
+"    New Project dialog is shown or instead a blank new project is created.\n"
+"    By default, the Project > Show New Project Dialog preference is used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:91
+msgid ""
+" Open the given project file, or prompt the user to select a\n"
+"    file if the filename is not given."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:106
+msgid " Close currently open project file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:120
+msgid " Save project file. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:127
+msgid ""
+" Save project file under the given name, or prompt user for a name\n"
+"    if the filename is not given."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:139
+msgid " Add an existing file to the project. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:145
+msgid " Add directory to project. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:156
+msgid " Add the frontmost currently open file to project "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:165
+msgid " Remove directory from project. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:174
+#: /Users/sdeibel/src/ide/src/proj/commands.py:437
+msgid " Remove currently selected file or package from the project "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:181
+msgid ""
+" Scan project directories for changes.  If list of directories is not\n"
+"    specified, currently selected directories are used. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:214
+msgid ""
+"Show the currently selected file in the project view, if present.\n"
+"    The selection may be the current editor, if it has focus, or files\n"
+"    selected in other views."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:230
+msgid ""
+"Show current file failed::Could not show the current file in the project "
+"tool -- the project view could not be displayed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:235
+msgid ""
+"Show current file failed::Could not show the current file in the project "
+"tool -- There is no selected file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:240
+msgid ""
+"Show current file failed::Could not show the current file in the project "
+"tool -- the file %s is not in the project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:246
+msgid ""
+" Set current editor file as the main debug entry point for this project "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:258
+msgid ""
+" Clear main debug entry point to nothing, so that debugging runs the\n"
+"    file in the current editor by default "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:267
+msgid ""
+" Store project single-user (one file) format, which can also be read by Wing "
+"IDE Personal."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:275
+msgid ""
+" Store project in sharable (two file) format.  The .wpr file can be checked "
+"into revision\n"
+"      control or other shared with other users and machines.  This is the "
+"default and the format\n"
+"      cannot be read by Wing IDE Personal."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:285
+msgid "View or change project-wide properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:296
+msgid ""
+"View project properties for a particular file (current file if none\n"
+"    is given)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:335
+msgid "Show the project manager's directory properties dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:348
+msgid ""
+"Show the effective Python version and path for the current configuration"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:352
+msgid ""
+"Show the effective Python version and path for the current\n"
+"    configuration. This command name will be deprecated in Wing 5 and "
+"removed\n"
+"    in Wing 6. Use show-python-environment in any new code or key bindings."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:358
+#: /Users/sdeibel/src/ide/src/proj/commands.py:444
+msgid " Set selected file as the main debug file for this project "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:365
+#: /Users/sdeibel/src/ide/src/proj/commands.py:451
+msgid " Open files currently selected in the project manager "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:372
+#: /Users/sdeibel/src/ide/src/proj/commands.py:500
+msgid " Open file currently selected in the project manager "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:379
+#: /Users/sdeibel/src/ide/src/proj/commands.py:507
+msgid " Browse file currently selected in the project manager "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:386
+#: /Users/sdeibel/src/ide/src/proj/commands.py:521
+msgid " Start debugging the file currently selected in the project manager "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:393
+#: /Users/sdeibel/src/ide/src/proj/commands.py:528
+msgid " Execute the file currently selected in the project manager "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:400
+#: /Users/sdeibel/src/ide/src/proj/commands.py:535
+msgid "View project as directory tree from project file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:407
+#: /Users/sdeibel/src/ide/src/proj/commands.py:542
+msgid "View project as flattened directory tree from project file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:421
+msgid ""
+"Commands that are available only when the project view has the\n"
+"    keyboard focus."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:458
+msgid "Rename the currently selected file or directory in the project view"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:473
+msgid "New name for the directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:474
+msgid "New Directory Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:476
+msgid "New name for the file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:477
+msgid "New File Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:493
+msgid ""
+" Move the files and/or directories currently selected in the project\n"
+"      view to the trash or recycling bin "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/commands.py:514
+msgid " Search in file or directory currently selected in the project manager "
+msgstr ""

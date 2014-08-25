@@ -1,0 +1,93 @@
+# Module src_scripting translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:24GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptgui.py:85
+msgid "%s.contexts callable failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:79
+msgid "%scontexts must be list or tuple"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:91
+msgid "%scontexts: Unknown context %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:168
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:172
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:176
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:180
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:184
+msgid "Script Input Error::Scripts cannot read from stdin"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:667
+msgid "Loading script directory %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:679
+msgid "Failed to (re)load script module %s from %s:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:738
+msgid "Skipping directory %s (not a package)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:741
+msgid "Failed to find module %s in %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:774
+msgid "Failed to load %s from %s:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:790
+msgid "Skipping module %s from %s (_ignore_scripts is set)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/cap_scriptmgr.py:833
+msgid "Failed to load sub-module %s in %s:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/plugins.py:25
+msgid "_Enable All Plugins"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/plugins.py:26
+msgid "_Disable All Plugins"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/plugins.py:27
+msgid "_Enable Selected Plugins:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/plugins.py:43
+msgid "Close"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/plugins.py:65
+msgid "Enabled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/plugins.py:65
+msgid "Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/scripting/plugins.py:77
+msgid "Manage Plugins"
+msgstr ""

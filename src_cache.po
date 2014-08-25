@@ -1,0 +1,62 @@
+# Module src_cache translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2013-11-23 16:28+0800\n"
+"Last-Translator: 小雨 <rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Users/sdeibel/src/ide/src/cache/textcache.py:418
+msgid "Codec not found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/cache/textcache.py:419
+msgid ""
+"Could not convert file %s when reading it -- the codec for the '%s' text "
+"encoding could not be found.  Trying default encoding '%s' instead."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/cache/textcache.py:432
+msgid "Could not convert from encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/cache/textcache.py:433
+msgid ""
+"Could not convert all characters in %s when reading it as a %s encoded "
+"file.  Replacing unmappable characters with ?'s so saving the file may "
+"result in a corrupted file.  You may want to right click on the file and set "
+"encoding in the file's properties, or reopen it after changing the Files / "
+"Default Encoding preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/cache/textcache.py:586
+msgid ""
+"Unsupported encoding '%s' found in encoding comment -- Wing cannot write "
+"this file until the comment is changed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/cache/textcache.py:638
+msgid "Could not convert text \"%s\" on line %d to the %s encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/cache/textcache.py:641
+msgid "Could not convert file contents to the %s encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/cache/textcache.py:670
+msgid "General write error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/cache/textcache.py:816
+msgid "Encoding of %s changed to %s"
+msgstr ""

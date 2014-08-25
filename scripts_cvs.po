@@ -1,0 +1,410 @@
+# Module scripts_cvs translation file for language=en
+# Copyright (C) 2005 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2013-11-23 16:28+0800\n"
+"Last-Translator: 小雨 <rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:1
+msgid ""
+"This is an integration with the CVS revision control system.\n"
+"\n"
+"Copyright (c) 2005, Wingware All rights reserved.\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n"
+"IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\n"
+"CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n"
+"TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n"
+"SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:53
+msgid "Perform cvs update on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:66
+msgid "CVS _Update"
+msgstr "CSV 更新(_U)"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:70
+#: /Users/sdeibel/src/ide/scripts/cvs.py:88
+#: /Users/sdeibel/src/ide/scripts/cvs.py:139
+#: /Users/sdeibel/src/ide/scripts/cvs.py:149
+#: /Users/sdeibel/src/ide/scripts/cvs.py:202
+#: /Users/sdeibel/src/ide/scripts/cvs.py:216
+#: /Users/sdeibel/src/ide/scripts/cvs.py:251
+#: /Users/sdeibel/src/ide/scripts/cvs.py:864
+msgid "_CVS"
+msgstr "_CVS"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:73
+msgid ""
+"Perform cvs diff on the given files or directories.  The form of diff\n"
+"  is controlled from the options dialog."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:85
+msgid "CVS _Diff"
+msgstr "CVS 比较(_D)"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:91
+msgid "Perform cvs diff on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:97
+msgid "Perform cvs diff -u on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:103
+msgid "Perform cvs diff -c on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:109
+msgid ""
+"Perform cvs diff between the current checked out repository \n"
+"   revision of the file and the previous revision before that."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:138
+msgid "Show Last Re_vision Diffs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:142
+msgid "Perform cvs log on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:146
+msgid "CVS _Log"
+msgstr "CVS 日志(_L)"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:152
+msgid "Perform cvs status on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:156
+msgid "CVS _Status"
+msgstr "CVS 状态(_S)"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:160
+msgid "Perform cvs commit on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:165
+#: /Users/sdeibel/src/ide/scripts/cvs.py:182
+msgid "CVS _Commit"
+msgstr "CVS 提交(_C)"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:167
+msgid "Log message to attach to this revision"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:172
+msgid ""
+"Perform cvs commit on the given files or directories\n"
+"  after prompting for log message"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:186
+msgid "Perform cvs add on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:199
+msgid "CVS _Add"
+msgstr "CSV 添加(_A)"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:205
+msgid ""
+"Cancel pending CVS commands that are running in the background \n"
+"  but have not yet completed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:215
+msgid "Canc_el Active Requests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:219
+msgid "Login to CVS pserver"
+msgstr "登录到CSV的pserver"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:236
+msgid "Login to PServer"
+msgstr "登录到PServer"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:242
+msgid "Configure CVS options"
+msgstr "配置CVS选项"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:250
+msgid "_Options..."
+msgstr "选项"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:262
+msgid "Logging in..."
+msgstr "正在登录..."
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:277
+msgid "Login failed: Time out"
+msgstr "登录失败: 超时"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:286
+msgid "Login successful"
+msgstr "登录成功"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:288
+msgid "Login failed"
+msgstr "登录失败"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:304
+msgid ""
+"Check to see that ssh-agent is running to avoid hanging up on\n"
+"  password prompts."
+msgstr "检查ssh-agent是否在运行，避免因提示密码而导致挂起。"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:310
+msgid "SSH Agent Not Found"
+msgstr "SSH Agent没有找到"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:311
+msgid ""
+"Could not find ssh-agent, or there are no valid identities loaded into it.  "
+"Please make sure ssh-agent is running before starting Wing and ssh-add has "
+"been executed before attempting CVS commands on an SSH secured CVS "
+"repository.\n"
+"\n"
+"If you are using CVS with pserver or have SSH configured to use "
+"authorized_keys or an unencrypted private key, you can disable this test and "
+"your CVS operations should succeed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:320
+msgid "Disable this test"
+msgstr "禁用这个测试"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:321
+msgid "OK"
+msgstr "确认"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:331
+msgid "Perform given cvs operation on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:366
+msgid ""
+"Get dict of directories and files w/in the directory from\n"
+"  the given list.  If prune is True, the list is collapsed to\n"
+"  remove redundant entries (assuming recursive application of\n"
+"  a CVS command to directories) and to combine into as small a \n"
+"  tree as possible where 'CVS' directories exist so as few\n"
+"  commands as possible can be run."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:398
+msgid ""
+"Prune out all items below a directory we're acting on as a\n"
+"    whole since they are redundant (CVS action is itself recursive)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:412
+msgid ""
+"Combine all items below a directory in CVS into one big list\n"
+"    of partial paths"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:489
+msgid "Manage multiple pending CVS commands for single status display"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:539
+msgid "CVS %s Result"
+msgstr "CVS %s 结果"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:579
+msgid "Changing to: %s"
+msgstr "改变为: %s"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:583
+msgid "Error executing command: errno=%i"
+msgstr "执行命令出错：错误号=%i"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:585
+#: /Users/sdeibel/src/ide/scripts/cvs.py:665
+msgid "Exit status=%i"
+msgstr "退出状态=%d"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:587
+#: /Users/sdeibel/src/ide/scripts/cvs.py:614
+#: /Users/sdeibel/src/ide/scripts/cvs.py:654
+msgid "Errors/Warnings (stderr):"
+msgstr "错误和警告(stderr):"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:600
+msgid "No differences found"
+msgstr "没有发现差异。"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:601
+msgid ""
+"The file(s) match the corresponding CVS revision(s).  The command was:\n"
+"\n"
+"cvs %s %s\n"
+"\n"
+"Executed in: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:623
+msgid "CVS Results"
+msgstr "CVS结果"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:638
+msgid "CVS found concurrent changes -- do an update before committing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:640
+msgid "CVS Error"
+msgstr "CVS 错误"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:642
+#, fuzzy
+msgid "CVS %s failed to execute.  errno=%i"
+msgstr "无法执行内部合并"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:644
+#, fuzzy
+msgid "CVS %s returned unexpected exit status=%i"
+msgstr "子进程 %s 返回了错误号 %d"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:651
+#, fuzzy
+msgid "Executing: %s"
+msgstr "执行一个查询"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:652
+#, fuzzy
+msgid "In: %s"
+msgstr "英寸"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:658
+#, fuzzy
+msgid "Results (stdout):"
+msgstr "过滤结果"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:663
+#, fuzzy
+msgid "Error executing command.  errno=%i:"
+msgstr "等待命令出错"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:688
+msgid ""
+"Check that an ssh-agent is present and has at least one valid looking\n"
+"  identity loaded into it."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:714
+msgid ""
+"Get all CVSROOTs from CVS/Root files within given directories\n"
+"  and enumeration of protocols found (pserver or ext)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:746
+msgid ""
+"Read the CVS/Entries file corresponding w/ given file name and\n"
+"  return (dir, version, date, flags). Returns all None's if not in\n"
+"  Entries file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:776
+msgid ""
+"Set this to the CVS command line executable.  In some cases, a full path is "
+"needed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:781
+#, fuzzy
+msgid "Default"
+msgstr "缺省"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:782
+#, fuzzy
+msgid "Context Diff"
+msgstr "比较菜单..."
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:783
+#, fuzzy
+msgid "Unified Diff"
+msgstr "查看统一差异"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:787
+msgid ""
+"The type of diff to produce:  Default form, with added context, or as "
+"unified diffs."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:795
+msgid ""
+"Set this to show results of CVS operations in non-sticky editors that auto-"
+"close when not visible."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:801
+msgid ""
+"Set this to check for ssh-agent with at least one loaded key before issuing "
+"commands.  This avoids hanging up the IDE at background password prompt if "
+"SSH is not configured to display a graphical prompt."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:814
+#, fuzzy
+msgid "CVS options dialog"
+msgstr "显示选项对话框(_O)"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:833
+#, fuzzy
+msgid "CVS Options"
+msgstr "客户端选项："
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:850
+msgid "Create and return the form pages to use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:852
+#, fuzzy
+msgid "CVS Executable"
+msgstr "可执行文件"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:854
+#, fuzzy
+msgid "Type of Diffs"
+msgstr "附注类型"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:856
+#, fuzzy
+msgid "Transient Result Buffers"
+msgstr "多重文件缓冲区"
+
+#: /Users/sdeibel/src/ide/scripts/cvs.py:861
+#, fuzzy
+msgid "Check for SSH Agent"
+msgstr "检查更新失败"

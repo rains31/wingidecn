@@ -1,0 +1,214 @@
+# Module build-files translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2013-11-23 16:28+0800\n"
+"Last-Translator: 小雨 <rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:75
+msgid "101"
+msgstr "101"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:76
+msgid "Personal"
+msgstr "个人版"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:77
+msgid "Professional"
+msgstr "专业版"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:78
+msgid "Enterprise"
+msgstr "企业版"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:107
+msgid "Advanced indentation analysis and translation"
+msgstr "高级缩进分析和翻译"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:108
+msgid "Folding in the source code editor"
+msgstr "代码折叠"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:109
+msgid "Recent menus"
+msgstr "最近菜单"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:110
+msgid "Attach/detach to debug processes"
+msgstr "绑定/解绑调试进程"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:111
+msgid "Expression and value watching for debugger"
+msgstr "表达式/值 监视器"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:112
+msgid "Interactive debug probe tool"
+msgstr "交互式调试工具"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:113
+msgid "Debug externally launched processes"
+msgstr "调试外部进程"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:114
+msgid "Advance exception handling modes"
+msgstr "高级异常处理模式"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:115
+msgid "Module-oriented debug data view"
+msgstr "面向模块的调试数据视图"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:116
+msgid "Shared projects for use in revision control"
+msgstr "共享项目用版本管理"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:117
+msgid "Advanced breakpoints for debugger"
+msgstr "高级断点调试"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:118
+msgid "Debugger breakpoint manager"
+msgstr "调试断点管理"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:119
+msgid "Source code browser"
+msgstr "源码浏览器"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:120
+msgid "Source assistant"
+msgstr "源码助手"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:121
+msgid "Scripting support"
+msgstr "脚本支持"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:122
+msgid "Keyboard and command macro support"
+msgstr "键盘与命令宏"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:123
+msgid "User-defined named bookmarks"
+msgstr "用户定义书签"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:124
+msgid "Autocompletion"
+msgstr "自动完成"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:125
+msgid "Projects"
+msgstr "项目"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:126
+msgid "Wildcard and regular expression search"
+msgstr "模糊匹配正则搜索"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:127
+msgid "Batch search"
+msgstr "批量搜索"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:128
+msgid "Disk search"
+msgstr "磁盘搜索"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:129
+msgid "Multi-window GUI support"
+msgstr "多窗口图形界面支持"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:130
+msgid "Messages view"
+msgstr "消息视图"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:131
+msgid "Unit testing tool"
+msgstr "单元测试工具"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:132
+msgid "Support for running external processes in a console"
+msgstr "支持在控制台运行外部进程"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:133
+msgid "Code snippets"
+msgstr "代码片段"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:134
+msgid "Version control"
+msgstr "版本管理"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:135
+msgid "Perspectives"
+msgstr "视图"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:136
+msgid "Difference and merge tool"
+msgstr "比较和合并工具"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:137
+msgid "Code warnings"
+msgstr "代码警告"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:138
+msgid "Auto-editing"
+msgstr "自动编辑"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:139
+msgid "Named file sets"
+msgstr "命名的文件集"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:140
+msgid "Launch Configurations"
+msgstr "加载配置"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:142
+msgid "Generic support specific to Wing IDE 101"
+msgstr "Wing IDE 101 支持详情"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:143
+msgid "Generic support specific to Wing IDE Personal"
+msgstr "Wing IDE 个人版支持详情"
+
+#: /Users/sdeibel/src/ide/build-files/staticcaps.py:144
+msgid "Generic support specific to Wing IDE Professional"
+msgstr "Wing IDE 专业版支持详情"
+
+#: /Users/sdeibel/src/ide/build-files/wingide.py:1403
+#: /Users/sdeibel/src/ide/build-files/wingide.py:1563
+msgid "Table of Contents"
+msgstr "内容目录"
+
+#: /Users/sdeibel/src/ide/build-files/wingide.py:1404
+msgid "Wing Tips"
+msgstr "Wing 点滴"
+
+#: /Users/sdeibel/src/ide/build-files/wingide.py:1507
+msgid "Introduction to Wing IDE %s"
+msgstr "Wing IDE 介绍"
+
+#: /Users/sdeibel/src/ide/build-files/wingide.py:1508
+msgid "Wing IDE %s Reference Manual"
+msgstr "Wing IDE 参考手册"
+
+#: /Users/sdeibel/src/ide/build-files/wingide.py:1509
+msgid "Wing IDE %s How-Tos"
+msgstr "Wing IDE 帮助"
+
+#: /Users/sdeibel/src/ide/build-files/wingide.py:4632
+msgid "Wing IDE for Steam - Non-Commercial Use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/build-files/wingide.py:4633
+msgid "Wing IDE for Steam - 30-Day Trial"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/build-files/wingide.py:4634
+msgid "Wing IDE for Steam - Commercial Use"
+msgstr ""

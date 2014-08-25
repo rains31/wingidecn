@@ -1,0 +1,730 @@
+# Module src_license translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:23GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:273
+msgid "License missing required %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:282
+msgid "Failed to package host information"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:394
+msgid "Contains invalid characters: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:397
+msgid "Wrong length (should contain 20 non-hyphen characters)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:410
+msgid "Invalid first character: Should be one of %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:416
+msgid "an unknown product"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:419
+msgid ""
+"Your license is for %s, but you are currently running %s.  Please download "
+"the correct product from http://wingware.com/downloads or upgrade your "
+"license at https://wingware.com/store/upgrade"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:431
+msgid ""
+"You cannot activate using a Wing IDE 1.1 license:  Please use a trial "
+"license or upgrade your license at http://wingware.com/store/upgrade"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:447
+msgid "Request code should start with R"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:449
+msgid "Invalid second character:  Should be one of %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:451
+msgid "Invalid third character:  Should be one of %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:464
+msgid "Invalid prefix:  Should be '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:531
+msgid "License lock file %s not found or removed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:618
+msgid "License is valid."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:621
+msgid "License file not found or could not be read."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:623
+msgid "Activation key not valid for this license:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:626
+msgid "The license term has expired."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:628
+msgid "The maximum number of users for this license has been reached."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:631
+msgid "License OS does not match current OS."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:634
+msgid "License does not match this product or product level."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:637
+msgid "License does not match this host's identity."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:639
+msgid "An internal error occurred:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:645
+msgid "Unknown error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:697
+msgid "Other users are:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:699
+msgid "(%s) on host %s (%s) process id %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:701
+msgid "No other users at this time."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:739
+msgid "Current OS '%s' is not supported"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:743
+msgid "License OS '%s' does not match current OS '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:866
+msgid "expired"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:871
+msgid "Missing a required line %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:912
+msgid "Invalid license activation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:917
+msgid "unlimited"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:919
+#: /Users/sdeibel/src/ide/src/process/abstract.py:923
+#: /Users/sdeibel/src/ide/src/process/abstract.py:925
+msgid "Invalid date or termdays in file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:927
+msgid " days left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:992
+msgid "Invalid usercount in file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:1037
+msgid ""
+"Could not write license lock file to %s.  Please check permissions and for "
+"available disk space."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:1083
+msgid "Unknown"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/abstract.py:1099
+msgid "# License lock file:  Removing this will break user's session!\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:42
+msgid "_Accept"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:43
+msgid "_Decline"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:162
+msgid ""
+"Unable to read End User License Agreement from %s. Please check your Wing "
+"installation."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:166
+msgid "_Exit Wing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:167
+msgid "Unable to read EULA"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:246
+msgid "License product '%s' is not a valid product code."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:254
+msgid "License is for Wing IDE %s and cannot be used with Wing IDE %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:268
+msgid "License is for version %s:  An upgrade is needed to run %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:335
+msgid "No valid license file was found.  The following errors occurred:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:352
+msgid "Wing IDE Trial: %i Days Left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:354
+msgid "License Expiring: %i Days Left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:359
+msgid ""
+"Otherwise, please note that trial licenses can be renewed at least twice for "
+"a total evaluation period of 30 days."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:363
+msgid ""
+"Your free Wing IDE trial period will expire in %s days. If you are ready, "
+"please purchase a permanent license now.  %s\n"
+"\n"
+"Thanks for using Wing IDE!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:367
+msgid ""
+"The license you are using will expire in %s days. If you are ready, please "
+"purchase a permanent license now.  %s\n"
+"\n"
+"Thanks for using Wing IDE!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:381
+msgid "_Purchase License"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:382
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:389
+msgid "_Continue Working"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:388
+msgid "_Use Permanent License"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:428
+msgid "Expired Trial"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:429
+msgid ""
+"The free trial period for Wing IDE has ended.  Please purchase a license "
+"from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:431
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:887
+msgid "No Valid License"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:432
+msgid ""
+"Wing could not reach Steam to verify that you own a license.  Please check "
+"your internet connection and try starting again.  If you do not own a "
+"license, please purchase one from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:442
+msgid "_Show Store"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:443
+msgid "Just _Quit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:521
+msgid ""
+"Unable to create the required directory %s because the disk is read-only or "
+"a file of the same name already exists."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:596
+msgid "Con_tinue"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:597
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:991
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:601
+msgid "No License Found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:603
+msgid "Purchase License"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:658
+msgid ""
+"Trial licenses can be obtained directly from Wing IDE and last for 10 days.  "
+"Once the license expires, you can renew it twice for a total of 30 days.  "
+"You will need to email us at support@wingware.com if you need more time than "
+"that."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:665
+msgid "Obtain or extend a trial license"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:673
+msgid ""
+"Licenses can be purchased from our website and via fax or email.  Even if "
+"you do not want to pay online, filling out an order helps to expedite the "
+"process and provides a printable form for off-line processing."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:678
+msgid "Purchase a permanent license"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:691
+msgid ""
+"Wing requires that you activate each license before using it.  If you run "
+"out of activations and you are a licensed user, please contact us at "
+"sales@wingware.com.  We use activations to prevent abuse, but never to limit "
+"the activities of valid users. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:698
+msgid "Activate your pre-loaded license:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:700
+msgid ""
+"Install and activate a permanent license.\n"
+"Enter license id:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:707
+msgid ""
+"You can try Wing for a short period of time without any license.  At the end "
+"of the allocated time, this dialog will reappear and you will be given the "
+"option to obtain a trial or permanent license or quit Wing after saving any "
+"unsaved changes."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:713
+msgid "10 minute emergency session"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:716
+msgid ""
+"You have already used up the allowed time period during which Wing will run "
+"without any license.  If you do not want to get a trial or permanent "
+"license, you must quit now after saving any unsaved changes."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:721
+msgid "Exit after saving any unsaved changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:753
+msgid "Choose your preferred method of license activation:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:765
+msgid ""
+"This is the easiest way to activate your new license.  Wing sends only your "
+"license id and your request code to our server.  We do not collect "
+"information about you or your machine here."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:770
+msgid "Configure Proxy..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:776
+msgid "Recommended: Connect Wing IDE directly to wingware.com"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:782
+msgid ""
+"If your machine does not have a network connection that can access port 80 "
+"(http) on wingware.com, you will need to activate your license manually by "
+"entering your license id and request code on a machine that does have "
+"network access.  If you cannot browse the web at all, email the information "
+"to us at support@wingware.com and we will email you the activation code."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:796
+msgid ""
+"You may enter these optional values to record in your activation file for "
+"your own tracking purposes.  This data is not sent to our server:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:809
+msgid "Company/Org"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:809
+msgid "Licensed user"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:809
+msgid "Notes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:883
+msgid "To change to another license, you may now:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:884
+msgid "Change License"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:886
+msgid "Wing is running without a valid license. You may now:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:918
+msgid "Your trial license has been created.  To activate it you can:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:919
+msgid "Activate Trial License"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:921
+msgid "Please choose your preferred method of license activation:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:922
+msgid "Activate License"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:925
+msgid ""
+"Or:  Activate manually at http://wingware.com/activate.  You will need your "
+"license id %s and request code %s.  Then enter the provided activation key "
+"here:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:978
+msgid "Opening Browser"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:979
+msgid ""
+"Click OK to open http://wingware.com/store in a web browser.  Once you have "
+"purchased a license, return here to activate it."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:990
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1006
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1141
+msgid "_OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1003
+msgid "You cannot enter a trial license id here"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1005
+msgid ""
+"Invalid license id: %s. Please check and correct it.  Errors found were:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1007
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1061
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1104
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1288
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1361
+msgid "Invalid License ID"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1062
+msgid ""
+"Invalid activation key: %s. Please check and correct it.  Errors found "
+"were:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1099
+msgid "Invalid activation key: %s. Please check and correct it."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1103
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1287
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1360
+msgid ""
+"  Validation errors were:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1172
+msgid "Activating"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1173
+msgid "Submitting activation request. Please wait"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1183
+msgid "Connecting to wingware.com"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1187
+msgid "Preparing activation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1240
+msgid "Waiting for Reply"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1247
+msgid "Reading Reply"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1252
+msgid "Could not obtain activation key"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1259
+msgid "Add Activations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1268
+msgid "Upgrade"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1279
+msgid "Validating Activation Key"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1284
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1357
+msgid ""
+"Internal activation error: %s. Please report this to support@wingware.com."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1296
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1369
+msgid "Writing Activation File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1312
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1323
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1328
+msgid "Invalid license"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1313
+msgid "The license code you provided is invalid for this product"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1320
+msgid "Validating License"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1324
+msgid ""
+"The license code you provided is invalid -- please check it and try again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1329
+msgid "The license code you provided not valid for this operating system"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1336
+msgid "Creating Activation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1352
+msgid "Validating Activation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1401
+msgid "Internal error (missing field)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1403
+msgid "Internal error (invalid license)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1405
+msgid "Internal error (invalid request code)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1408
+msgid ""
+"You have exceeded the allowed number of trial licenses on this machine. "
+"Please email your license id %s to support@wingware.com if you need more "
+"time.\n"
+"\n"
+"Sorry about the inconvenience, and thanks for trying Wing IDE!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1412
+msgid ""
+"You have exceeded your allowed number of license activations. You can "
+"increase activation limits at http://wingware.com/license or by emailing "
+"your license id %s to support@wingware.com.\n"
+"\n"
+"Sorry for the inconvenience and thanks for using Wing IDE!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1418
+msgid ""
+"That license id %s cannot be activated on additional operating systems.  "
+"Please contact sales@wingware.com if you wish to upgrade your license."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1422
+msgid ""
+"We have no record of that license id %s.  Please check it and try again."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1428
+msgid ""
+"Internal error (unexpected server return value).  This may indicate network "
+"problems such as a misconfigured proxy server."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1432
+msgid ""
+"That license id %s can only be activated on specially patched versions of "
+"Wing.  Please contact your vendor  or sales@wingware.com."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1436
+msgid ""
+"This license is not valid for this version of Wing.  Please upgrade at "
+"https://wingware.com/store/upgrade&license-id=%s  Upgrades to new major "
+"releases made within a year of your original purchase are free."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1447
+msgid ""
+"Received an invalid activation key \"%s\" from the server.  This may "
+"indicate network problems such as a misconfigured proxy server.  Errors "
+"found were:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1459
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1466
+msgid "Failed to use activated license"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1460
+msgid ""
+"The following errors occurred while copying the license activation file into "
+"place:\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1467
+msgid ""
+"The following exception occurred while copying the license activation file "
+"into place:\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1479
+msgid "Trial License Generated"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1480
+msgid ""
+"Your 10-day trial license has been created and activated.  If this is your "
+"first trial, you will be able to extend the license term twice for up to 30 "
+"days.\n"
+"\n"
+"Thanks for trying Wing IDE!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1487
+msgid "License Activated"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1488
+msgid "License activation succeeded.  Thanks for using Wing IDE!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1495
+msgid "Unexpected License Activation Error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1496
+msgid ""
+"A validated license was corrupted during copying.  Please send email to "
+"support@wingware.com"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1537
+msgid "License Agreement"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1547
+msgid ""
+"Wing IDE is licensed software.  Its use is subject to the terms and "
+"conditions of the following license agreement:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/process/wingctl.py:1557
+msgid ""
+"If you accept the terms of this license agreement, press 'Accept'.  "
+"Otherwise, press 'Decline.'"
+msgstr ""

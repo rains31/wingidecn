@@ -1,0 +1,280 @@
+# Module src_diff translation file for language=en
+# Copyright (C) 2010 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2010-11-24 23:48 EST\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:53
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:135
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:187
+msgid "Diff/Merge"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:59
+msgid "Difference and Merge"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:114
+#: /Users/sdeibel/src/ide/src/diff/manager.py:837
+msgid "Wrapped to diff number %i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:116
+#: /Users/sdeibel/src/ide/src/diff/manager.py:839
+msgid "Displaying diff number %i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:158
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:168
+msgid "Diff/merge panel state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:180
+msgid "Dummy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:295
+msgid "Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/diffpanel.py:302
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2037
+msgid "Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/diffutils.py:281
+msgid "%s Lines"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/diffutils.py:283
+msgid "Changed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:268
+msgid "Compare Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:269
+msgid ""
+"Compare to repository failed:  You must save changes or revert to disk "
+"before comparing to the repository."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:272
+msgid "OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:405
+msgid "No Differences Found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:406
+msgid ""
+"One or more diff/merge sessions are now empty because white space "
+"differences are being ignored."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:411
+#: /Users/sdeibel/src/ide/src/diff/manager.py:633
+msgid "Show White Space"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:412
+#: /Users/sdeibel/src/ide/src/diff/manager.py:634
+msgid "Continue"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:416
+#: /Users/sdeibel/src/ide/src/diff/manager.py:639
+msgid "Don't show this message again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:480
+msgid "Failed to set up the diff session"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:483
+msgid "Diff Failed::Diff failed: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:493
+msgid "Compare to Repositor_y"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:508
+msgid "Compare to Directory..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:511
+msgid "Compare to File..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:616
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1829
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1888
+msgid "There are no differences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:623
+msgid "Session Contains Only White Space Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:624
+msgid ""
+"This diff/merge session contains only white space changes but white space is "
+"being ignored."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:635
+msgid "Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1073
+msgid "Create Directories?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1074
+msgid ""
+"The enclosing directories for this file do not exist but must be created "
+"before performing this merge.  Should Wing create the following directories "
+"or cancel the merge operation?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1083
+msgid "Create"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1084
+msgid "Cancel Merge"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1394
+msgid "Line %s: Changed %s Lines%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1396
+msgid "Line %s: Deleted %s Lines%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1398
+msgid "Line %s: Inserted %s Lines%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1414
+msgid "Terminate Diff/Merge Session"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1419
+msgid "Lock Scrolling"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1424
+msgid "Ignore Whitespace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1533
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1577
+msgid "Could not open one or both editors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1596
+msgid "Revision"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1639
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1643
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2167
+msgid "%s does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1641
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1645
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2169
+msgid "%s is not a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1915
+#: /Users/sdeibel/src/ide/src/diff/manager.py:1918
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2187
+msgid "%s is not a file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2037
+msgid "Filename"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2156
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2370
+msgid "Could not find version control system for %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2241
+msgid "Could not obtain revision information from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2262
+msgid "No Differences::There are no differences in directory %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2293
+msgid "Disk File: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2377
+msgid "Fetching revision..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2416
+msgid ""
+"Encoding Error::The encoding of the differences received from the version "
+"control system does not seem to match the file's encoding (%s).  "
+"Unidentifiable characters have been replaced with '?'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2444
+msgid "No differences::There are no differences in %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/manager.py:2461
+msgid "%s rev %s -- %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/prefs.py:21
+msgid "Side by Side"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/prefs.py:22
+msgid "Top and Bottom"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/prefs.py:26
+msgid "Orientation of difference/merge views: Side-by-side or top/bottom"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/prefs.py:32
+msgid ""
+"Controls whether scrolling of the diff/merge editors is locked to "
+"synchronize the editor scroll positions."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/prefs.py:38
+msgid ""
+"Controls whether differences will ignore changes that alter white space only."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/diff/prefs.py:43
+msgid ""
+"Controls whether to warn when changing white space filtering causes sessions "
+"to become empty of changes."
+msgstr ""

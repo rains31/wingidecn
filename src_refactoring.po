@@ -1,0 +1,242 @@
+# Module src_refactoring translation file for language=en
+# Copyright (C) 2010 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2010-11-24 23:48 EST\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:77
+msgid "_Rename Symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:78
+msgid "_Move Symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:79
+msgid "E_xtract Function / Method"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:80
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:659
+msgid "_Introduce Variable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:156
+msgid "Select code to refactor in the editor and then use the Refactor menu"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:168
+msgid "Show Refactoring Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:415
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:657
+msgid "_Name: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:418
+msgid "_Toplevel Function"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:421
+msgid "_Method"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:424
+msgid "N_ested Function"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:432
+msgid "E_xtract"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:434
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:661
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1069
+msgid "_Revert"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:469
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:711
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:987
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1149
+msgid "Revert all changes?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:470
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:712
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:988
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1150
+msgid "Other changes were made to files.  Revert them all?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:525
+msgid "line %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:527
+msgid "lines %s through %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:529
+msgid "Extracting %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:559
+msgid "Extract function / method"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:761
+msgid "Introducing Variable for: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:767
+msgid "Introduce Variable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:861
+msgid "Refresh"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:863
+msgid "Show Possible Uses"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:865
+msgid "Show Unlikely Uses"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:871
+msgid "Search Project Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:873
+msgid "Search for uses in all Python files in the project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:877
+msgid "Search Original File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:879
+msgid "Search for uses in the file where the symbol was selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:894
+msgid "Searching..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:939
+msgid "New _Name: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:941
+msgid "_Rename Checked"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:945
+msgid "Revert"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:968
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:981
+msgid "Rename in progress"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:969
+msgid "Renaming %s to %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:979
+msgid "Reverting renaming %s to %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1023
+msgid "Rename "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1029
+msgid "<module global scope>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1040
+msgid "Destination"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1050
+msgid "Destination File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1052
+msgid "_File: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1063
+msgid "_Scope:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1065
+msgid "_Move & Update Checked"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1110
+#: /Users/sdeibel/src/ide/src/refactoring/utils.py:149
+msgid " in "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1114
+msgid "moving %s to %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1133
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1143
+msgid "Move in progress"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1142
+msgid "Reverting "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1198
+msgid "Move "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1235
+#: /Users/sdeibel/src/ide/src/refactoring/cap_refactorgui.py:1240
+msgid "Refactoring"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/operations.py:142
+msgid "Can't introduce variable because original expression is not valid"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/utils.py:112
+msgid "module %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/utils.py:125
+msgid "class %s in %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/utils.py:128
+msgid "method %s of %s in %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/utils.py:131
+msgid "function %s in %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/refactoring/utils.py:147
+msgid "module "
+msgstr ""

@@ -1,0 +1,804 @@
+# Module src_guiutils translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:23GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/guiutils/combo_gtk.py:716
+msgid "Clear"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dialogs.py:773
+msgid "<untitled item>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dialogs.py:935
+msgid "The quick brown fox programs zippily in Python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dialogs.py:963
+#: /Users/sdeibel/src/ide/src/guiutils/dialogs.py:996
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:149
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:460
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1571
+#: /Users/sdeibel/src/ide/src/guiutils/formutils.py:552
+#: /Users/sdeibel/src/ide/src/guiutils/formutils.py:578
+#: /Users/sdeibel/src/ide/src/guiutils/formutils.py:960
+msgid "_OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dialogs.py:964
+#: /Users/sdeibel/src/ide/src/guiutils/dialogs.py:997
+#: /Users/sdeibel/src/ide/src/guiutils/dialogs.py:1025
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:461
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1572
+#: /Users/sdeibel/src/ide/src/guiutils/formutils.py:555
+#: /Users/sdeibel/src/ide/src/guiutils/formutils.py:581
+#: /Users/sdeibel/src/ide/src/guiutils/formutils.py:961
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dockview.py:556
+msgid "Failed to restore visual state for %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dockview.py:621
+msgid "General error getting panel view state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dockview.py:636
+msgid "General error setting panel view state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dockview.py:1513
+msgid "Current tab for tool panel split %i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dockview.py:1531
+msgid "General error getting notebook doc visual state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dockview.py:1596
+msgid "Could not find panel type '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dockview.py:1615
+msgid "General error setting notebook visual state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dockview.py:2328
+msgid "General error getting side notebook state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/dockview.py:2360
+msgid "General error setting side notebook state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/docviewer.py:310
+msgid "<< _Back"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/docviewer.py:311
+msgid "_Forward >>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/docviewer.py:312
+msgid "<< _Previous"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/docviewer.py:313
+msgid "_Next >>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/docviewer.py:314
+msgid "_Contents"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:76
+msgid "Select a file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:141
+msgid "file name or directory name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:143
+msgid "file name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:145
+msgid "directory name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:147
+msgid "Bad %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:148
+msgid "You must enter a valid %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:164
+msgid "Confirm overwrite"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:164
+msgid "Overwrite existing file?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:165
+msgid "_No"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:165
+msgid "_Yes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:227
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:314
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:603
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:691
+msgid "All Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_gtk.py:314
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:691
+msgid "Python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:60
+msgid "Executable Files (*.exe)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:62
+msgid "Executable Files (*)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:85
+msgid "All Files (*.*)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:87
+msgid "All Files (*)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:208
+msgid "Use Executable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:212
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:219
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:260
+msgid "Directory Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:213
+msgid "Create"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:225
+msgid "Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:226
+#: /Users/sdeibel/src/ide/src/guiutils/filedialog_qt4.py:261
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:149
+#: /Users/sdeibel/src/ide/src/guiutils/wgtk_gtk.py:394
+msgid "OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:119
+msgid "True"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:122
+msgid "False"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:948
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1077
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1127
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1184
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1873
+msgid "Invalid"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1235
+msgid "Font Spec"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1274
+msgid "Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1310
+msgid "Icon"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1314
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1629
+msgid "Edit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1314
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1629
+msgid "Remove"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1314
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1629
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:858
+msgid "Insert"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1507
+msgid "New Value"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1563
+msgid "Edit Value"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1629
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1733
+msgid "View as Text"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1735
+msgid "View as List"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formbuilder.py:1923
+msgid "Filename"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/formutils.py:568
+#: /Users/sdeibel/src/ide/src/guiutils/formutils.py:586
+#: /Users/sdeibel/src/ide/src/guiutils/formutils.py:962
+msgid "_Apply"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/guidefn.py:58
+msgid "Select File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/guidefn.py:60
+msgid "Select Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:775
+msgid "Ctrl-"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:777
+msgid "Command-"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:779
+msgid "Alt-"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:781
+msgid "Shift-"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:784
+msgid "<unknown>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:798
+msgid "Shift-Tab"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:830
+msgid "Left_Click"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:831
+msgid "Middle_Click"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:832
+msgid "Right_Click"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:842
+msgid "Alt"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:842
+msgid "Ctrl"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:842
+msgid "Esc"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:842
+msgid "Escape"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:842
+msgid "Shift"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:843
+msgid "ISO_Left_Tab"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:843
+msgid "Tab"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:844
+msgid "Down"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:844
+msgid "End"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:844
+msgid "Home"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:844
+msgid "Left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:844
+msgid "Right"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:844
+msgid "Up"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:845
+msgid "Page_Down"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:845
+msgid "Page_Up"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:846
+msgid "KP_Down"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:846
+msgid "KP_End"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:846
+msgid "KP_Home"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:846
+msgid "KP_Left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:846
+msgid "KP_Right"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:846
+msgid "KP_Up"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:847
+msgid "KP_Page_Down"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:847
+msgid "KP_Page_Up"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:848
+msgid "KP_Add"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:848
+msgid "KP_Divide"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:848
+msgid "KP_Multiply"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:848
+msgid "KP_Subtract"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:849
+msgid "Pointer_Button1"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:849
+msgid "Pointer_Button2"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:849
+msgid "Pointer_Button3"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:850
+msgid "Backspace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:850
+msgid "Delete"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:850
+msgid "Enter"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:850
+msgid "Return"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:850
+msgid "Space"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:851
+msgid "greater"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:851
+msgid "less"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:851
+msgid "parenleft"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:851
+msgid "parenright"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:851
+msgid "percent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:852
+msgid "Period"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:852
+msgid "Question"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:852
+msgid "Slash"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:852
+msgid "numbersign"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:852
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:855
+msgid "underscore"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:853
+msgid "at"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:853
+msgid "backquote"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:853
+msgid "dollar"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:853
+msgid "exclam"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:853
+msgid "tilde"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:854
+msgid "ampersand"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:854
+msgid "asciicircum"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:854
+msgid "asterisk"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:854
+msgid "minus"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:855
+msgid "braceleft"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:855
+msgid "braceright"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:855
+msgid "equal"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:855
+msgid "plus"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:856
+msgid "bracketleft"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:856
+msgid "bracketright"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:856
+msgid "colon"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:856
+msgid "semicolon"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:857
+msgid "apostrophe"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:857
+msgid "backslash"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:857
+msgid "bar"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:857
+msgid "quotedbl"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:858
+msgid "Browse"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:858
+msgid "Replace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:858
+msgid "Visual"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:900
+msgid "Could not read key map file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/keyboard.py:901
+msgid "The key map file '%s' could not be found or is not readable."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:73
+msgid "No Trash Found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:74
+msgid ""
+"No trash implementation was found.  You may need to initialize your trash by "
+"using it once from a file browser application. Alternatively, you may enable "
+"the fall-back trash system.  This places trash files in ~/.Trash and may not "
+"integrate with your desktop trash."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:85
+msgid "Use Fallback"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:86
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2136
+msgid "Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:137
+msgid "%s: Failed; err=%i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:140
+msgid "Could not Move to Recycling Bin"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:141
+msgid ""
+"Some of the selected items could not be moved to the recycling bin.  Please "
+"check their permissions and try again:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:144
+msgid "Could not Move to Trash"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:145
+msgid ""
+"Some of the selected items could not be moved to the trash.  Please check "
+"their permissions and try again:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:163
+msgid "Moving to Recycling Bin"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:164
+msgid "Moving files to the recycling bin.  Please wait."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:166
+msgid "Moving to Trash"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:167
+msgid "Moving files to the trash.  Please wait."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:172
+msgid "Please wait"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:206
+msgid ""
+"Command Failed, err=%s, status=%s: %s\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:292
+msgid "Failed to move to trash"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/trash.py:304
+msgid "Failed to write info file %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/wgtk_gtk.py:394
+msgid "Message Box"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:806
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:901
+msgid "Browse..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:938
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1293
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:1068
+msgid "Select directory to use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:942
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1297
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:1071
+msgid "Select file to use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1301
+msgid "Select file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1444
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:2718
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:3082
+msgid "_Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1648
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1840
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:1766
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:1883
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:1978
+msgid "Change..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1709
+msgid "Select Font"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1891
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:2151
+msgid "Select Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1931
+msgid "Black"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1932
+msgid "White"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1933
+msgid "Red"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1934
+msgid "Blue"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1935
+msgid "Green"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1936
+msgid "Purple"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:1937
+msgid "Yellow"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:2026
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2301
+msgid "Default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:2059
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2304
+msgid "Custom (%s)..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:2061
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2306
+msgid "Custom..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_gtk.py:2756
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:3125
+msgid "<Unknown>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:1569
+msgid "Op_tions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2084
+msgid "Wing Icons"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2088
+msgid "Stock Icons"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2095
+msgid "Select Icon File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2101
+msgid "Choose File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2135
+msgid "Use Selected Icon"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guiutils/widgets_qt4.py:2138
+msgid "Choose Icon"
+msgstr ""

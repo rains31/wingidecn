@@ -1,0 +1,510 @@
+# Module src_wingutils translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:24GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:137
+msgid "Value should be None"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:155
+msgid "Boolean value must be 0 or 1"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:160
+msgid "<boolean: 0 or 1>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:180
+msgid "Value has type %s, should be one of:\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:211
+msgid "Value is type %s, should be "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:219
+msgid "[one of: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:256
+msgid "Value out of range, should be one of:\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:293
+msgid "Value is type %s, should be %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:296
+msgid "Value out of valid range %s -> %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:299
+msgid "[from %s to %s]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:318
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:374
+msgid "Value is type %s, should be tuple"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:323
+msgid ""
+"Bad tuple item %i:\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:328
+msgid "[tuple of: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:347
+msgid "Value is type %s, should be set"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:351
+msgid "Bad set item %s (should be %s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:356
+msgid "[set of: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:376
+msgid "Value has length %i, should be %i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:380
+msgid ""
+"Bad tuple slot %i:\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:389
+msgid "[tuple length %i of: %s]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:413
+msgid "Value is type %s, should be list"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:417
+msgid ""
+"Bad list item %s:\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:421
+msgid "[list of: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:446
+msgid "Value is %s, should be dict"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:450
+msgid ""
+"Bad dictionary key %s:\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:453
+msgid ""
+"Bad dictionary value %s:\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:457
+msgid ", values: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:457
+msgid "[dict; keys: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:477
+msgid "[None or "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:492
+msgid "[any value]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:508
+msgid "Value is a %s, should be a CResourceLocation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:511
+msgid "[Any resource location]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:528
+msgid "Value is a %s, should be a list of strings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:531
+msgid "Value contains non-string item in position %i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:535
+msgid "[list of str]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:560
+msgid "[file filters]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:575
+msgid "Value has type %s, should be string containing a #.#.#.# IP4 address\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:579
+msgid "Value should be a #.#.#.# IP4 address"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:585
+msgid "Value should be a #.#.#.# IP4 address but contains non-numeric parts"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:611
+msgid "Icon file does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:613
+msgid "Icon file is a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:617
+msgid "Icon spec has type %s, should be string, unicode, or location"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:620
+msgid ""
+"Icon spec string must start with wingide- for Wing IDE icon or SP_ for Qt "
+"stock icon"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:676
+msgid "Value is not a CResourceLocation: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/datatype.py:696
+msgid "Cannot convert text into a CResourceLocation: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:62
+msgid "English"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:63
+msgid "US, Canada, and Others"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:64
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:72
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:76
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:91
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:102
+msgid "Hebrew"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:65
+msgid "US, Australia, New Zealand, S. Africa"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:66
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:69
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:85
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:88
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:95
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:107
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:114
+msgid "Western European"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:67
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:80
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:82
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:89
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:101
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:111
+msgid "Greek"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:68
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:93
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:98
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:105
+msgid "Baltic Languages"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:70
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:86
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:96
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:113
+msgid "Central and Eastern European"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:71
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:87
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:99
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:110
+msgid "Cyrillic Languages"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:73
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:84
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:90
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:103
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:115
+msgid "Turkish"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:74
+msgid "Portuguese"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:75
+msgid "Icelandic"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:77
+msgid "Canadian English/French"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:78
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:92
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:100
+msgid "Arabic"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:79
+msgid "Danish, Norwegian"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:81
+msgid "Thai"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:83
+msgid "Urdu"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:94
+msgid "Vietnamese"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:97
+msgid "Esperanto and Maltese"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:104
+msgid "Nordic Languages"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:106
+msgid "Celtic Languages"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:108
+msgid "Russian"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:109
+msgid "Ukrainian"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:116
+msgid "Unicode (UTF-16)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:117
+msgid "Unicode (UTF-16, big endian)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:118
+msgid "Unicode (UTF-16, little endian)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:119
+msgid "Unicode (UTF-7)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:120
+msgid "Unicode (UTF-8)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:123
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:124
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:125
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:126
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:127
+msgid "Chinese (PRC)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:128
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:129
+msgid "Chinese (ROC)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:130
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:131
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:132
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:133
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:134
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:135
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:136
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:137
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:138
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:139
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:140
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:141
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:142
+msgid "Japanese"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:143
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:144
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:145
+msgid "Korean"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:148
+msgid "Current code page (ansi/mbcs)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/encoding_utils.py:187
+msgid "Also known as: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/fileattribmgr.py:32
+msgid ""
+"The mime type set for a file, when the user has overridden the default value "
+"for the file type."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/fileattribmgr.py:42
+msgid ""
+"The encoding to use for this file, overriding the file system and default "
+"encoding.  The encoding cannot be changed if there is an encoding comment "
+"present in the file; in that case this attribute is ignored and the encoding "
+"comment should be changed instead."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/filefilter.py:53
+msgid "Wild Card on File Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/filefilter.py:54
+msgid "Mime Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/filefilter.py:55
+msgid "Wild Card on Directory Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/filefilter.py:416
+#: /Users/sdeibel/src/ide/src/wingutils/filefilter.py:421
+#: /Users/sdeibel/src/ide/src/wingutils/filefilter.py:428
+msgid "Invalid or empty filter %s spec pos=%i: '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/filefilter.py:423
+msgid "Bad mime type in filter %s spec pos=%i: '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/filefilter.py:432
+msgid "Unknown filter %s spec type pos=%i: '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/mime.py:119
+msgid "Wing Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/mime.py:120
+msgid "Python Interface"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/mime.py:645
+#: /Users/sdeibel/src/ide/src/wingutils/mime.py:647
+#: /Users/sdeibel/src/ide/src/wingutils/mime.py:722
+msgid "%s File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/savable.py:1753
+msgid "Unknown"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/textio.py:244
+#: /Users/sdeibel/src/ide/src/wingutils/textio.py:247
+msgid "Invalid line %d"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/textio.py:251
+msgid "Invalid name on line %d"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/textio.py:267
+msgid "Invalid value on line %d"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/textio.py:469
+msgid "Could not write to read-only file %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/textio.py:885
+msgid "Unknown value name %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/textio.py:1370
+msgid "Error in %s, line %d"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/textio.py:1373
+msgid "Internal data error:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/textio.py:1375
+msgid "  Bad value is:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/textutils.py:939
+msgid "Unable to convert to unicode.  Tried encodings: %s."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/usererror.py:122
+msgid "Error::"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/usererror.py:125
+msgid "Fatal Error::"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/usererror.py:170
+msgid "NOTE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/usererror.py:172
+msgid "WARNING"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/usererror.py:174
+msgid "ERROR"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingutils/usererror.py:176
+msgid "FATAL"
+msgstr ""

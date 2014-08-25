@@ -1,0 +1,1850 @@
+# Module src_edit_commands translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:23GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:71
+msgid ""
+"Commands that only apply to editors when they have the keyboard focus.\n"
+"  These commands are also available for the Python Shell, Debug Probe, and\n"
+"  Debug I/O tools, which subclass the source editor, although some of the\n"
+"  commands are modified or disabled as appropriate in those contexts."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:94
+msgid " Cut selected text "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:108
+msgid " Copy selected text "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:120
+msgid " Clear selected text "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:132
+msgid " Paste text from clipboard "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:139
+msgid "Set the register to use for subsequent cut/copy/paste operations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:145
+msgid ""
+"Cut or copy a specified number of characters or lines, or the current\n"
+"    selection. Set cut=1 to remove the range of text from the editor after\n"
+"    moving to register (otherwise it is just copied). Unit should be one of\n"
+"    'char' or 'line' or 'sel' for current selection."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:155
+msgid "Move the text spanned by the next cursor motion to a register"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:161
+msgid ""
+" Paste text from register as before or after the current position. If\n"
+"    the register contains only lines, then the lines are pasted before or\n"
+"    after current line (rather than at cursor).  If the register contains \n"
+"    fragments of lines, the text is pasted over the current selection or\n"
+"    either before or after the cursor.  Set pos = 1 to paste after, or\n"
+"    -1 to paste before. Set indent=1 to indent the pasted text to match\n"
+"    current line. Set cursor=-1 to place cursor before lines or cursor=1 to\n"
+"    place it after lines after paste completes."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:172
+msgid " Undo last action "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:183
+msgid " Redo last action "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:194
+msgid ""
+" Kill rest of line from cursor to end of line, and place\n"
+"    it into the clipboard with any other contiguously removed\n"
+"    lines.  End-of-line is removed only if there is nothing\n"
+"    between the cursor and the end of the line. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:201
+msgid ""
+" Yank contents of kill buffer created with kill-line into\n"
+"    the edit buffer "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:212
+msgid ""
+" Initiate incremental mini-search forward from the cursor position,\n"
+"    optionally entering the given search string "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:220
+msgid ""
+" Initiate incremental regular expression mini-search forward from the\n"
+"    cursor position, optionally entering the given search string "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:227
+msgid ""
+" Initiate incremental mini-search backward from the cursor position,\n"
+"    optionally entering the given search string "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:234
+msgid ""
+" Initiate incremental regular expression mini-search backward from the\n"
+"    cursor position, optionally entering the given search string "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:241
+msgid ""
+"Repeat the most recent isearch, using same string and regex/text.\n"
+"    Reverse direction when reverse is True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:250
+msgid ""
+" Initiate incremental mini-search forward from the cursor position,\n"
+"    using current selection as the search string.  Set persist=False to\n"
+"    do the search but end the interactive search session immediately."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:259
+msgid ""
+" Initiate incremental mini-search backward from the cursor position,\n"
+"    using current selection as the search string.  Set persist=False to\n"
+"    do the search but end the interactive search session immediately."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:271
+msgid ""
+"Search for the given character. Searches to right if dir > 0 and to\n"
+"    left if dir < 0. Optionally place cursor pos characters to left or "
+"right\n"
+"    of the target (e.g., use -1 to place one to left). If repeat > 1, the "
+"Nth\n"
+"    match is found. Set single_line=1 to search only within the current\n"
+"    line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:285
+msgid "Search direction (>0 to right, <0 to left)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:286
+msgid "Direction: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:287
+msgid ""
+"Target cursor position relative to search target, negative to move to left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:288
+msgid "Target Pos: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:289
+#: /Users/sdeibel/src/ide/src/edit/commands.py:308
+msgid "Number of matches to traverse"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:290
+#: /Users/sdeibel/src/ide/src/edit/commands.py:309
+msgid "Repeat: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:291
+msgid "Search only with current line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:292
+msgid "Single Line: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:297
+msgid ""
+"Repeat the last search_char operation, optionally in the opposite\n"
+"    direction."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:306
+msgid "Change to opposite direction of search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:307
+msgid "Opposite: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:317
+msgid "Repeat the last editor command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:321
+msgid "Show the auto-completer for current cursor position"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:332
+msgid ""
+" Match brace at current cursor position, selecting all text between\n"
+"    the two and hilighting the braces "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:340
+msgid " Place a tab character at the current cursor position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:346
+msgid " Outdent line at current position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:357
+msgid ""
+"Implement the tab key, the action of which is configurable by preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:361
+msgid ""
+"Implement smart handling of tab key.  The behavior varies by context\n"
+"    as follows:\n"
+"      * In Non-Python code, always indents to the next indent stop\n"
+"      * On a non-blank line when cursor is at end or before a comment, "
+"insert tab\n"
+"      * On a where indent does not match the computed indent level, \n"
+"        move to the matching indent level\n"
+"      * Otherwise decrease indent one level (thus a non-blank line toggles \n"
+"        between matching position and one block higher)\n"
+"    "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:374
+msgid ""
+"Indent the current line or selected region to match indentation of \n"
+"    preceding non-blank line.  Set toggle=True to indent instead of one\n"
+"    level higher if already at the matching position."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:382
+msgid ""
+" Indent to next indent stop from the current position.  Acts like indent "
+"command\n"
+"    if selection covers multiple lines. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:388
+msgid ""
+" Move to beginning of current line. When toggle is True, moves to the\n"
+"    end of the leading white space if already at the beginning of the line\n"
+"    (and vice versa)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:394
+msgid ""
+" Move to beginning of current line, adjusting the selection range to\n"
+"    the new position. When toggle is True, moves to the end of the leading\n"
+"    white space if already at the beginning of the line (and vice versa)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:400
+msgid ""
+" Move to end of the leading white space, if any, on the current line.\n"
+"    If toggle is True, moves to the beginning of the line if already at the\n"
+"    end of the leading white space (and vice versa)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:406
+msgid ""
+" Move to end of the leading white space, if any, on the current line,\n"
+"    adjusting the selection range to the new position.  If toggle is True,\n"
+"    moves to the beginning of the line if already at the end of the leading\n"
+"    white space (and vice versa)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:413
+msgid " Move to beginning of current wrapped line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:417
+msgid " Move to beginning of current wrapped line, extending selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:421
+msgid " Move to first non-blank character at beginning of current wrapped line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:425
+msgid ""
+" Move to first non-blank character at beginning of current wrapped line,\n"
+"    extending selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:430
+msgid " Move to end of current line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:434
+msgid ""
+" Move to end of current line, adjusting the selection range \n"
+"    to new position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:439
+msgid " Move to end of current wrapped line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:443
+msgid " Move to end of current wrapped line, extending selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:447
+msgid " Move to middle of current wrapped line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:451
+msgid " Move to middle of current wrapped line, extending selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:455
+msgid ""
+" Move to screen next line, optionally repositioning character within\n"
+"    line: 'same' to leave in same horizontal position, 'start' at start, "
+"'end'\n"
+"    at end, or 'fnb' for first non-blank char."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:461
+msgid ""
+" Move to next screen line, adjusting the selection range to new\n"
+"    position, optionally repositioning character within line: same' to "
+"leave\n"
+"    in same horizontal position, 'start' at start, 'end' at end, 'fnb' for\n"
+"    first non-blank char, or 'xcode' to simulate XCode style Shift-Alt line\n"
+"    selection."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:469
+msgid ""
+" Move to next screen line, adjusting the rectangular selection range to new\n"
+"    position, optionally repositioning character within line: same' to "
+"leave\n"
+"    in same horizontal position, 'start' at start, 'end' at end, or 'fnb' "
+"for\n"
+"    first non-blank char."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:476
+msgid ""
+" Move to previous screen line, optionally repositioning character\n"
+"    within line: same' to leave in same horizontal position, 'start' at "
+"start,\n"
+"    'end' at end, or 'fnb' for first non-blank char."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:482
+msgid ""
+" Move to previous screen line, adjusting the selection range to new\n"
+"    position, optionally repositioning character within line: same' to "
+"leave\n"
+"    in same horizontal position, 'start' at start, 'end' at end, 'fnb' for\n"
+"    first non-blank char, or 'xcode' to simulate XCode style Shift-Alt line\n"
+"    selection."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:490
+msgid ""
+" Move to previous screen line, adjusting the rectangular selection range to "
+"new\n"
+"    position, optionally repositioning character within line: same' to "
+"leave\n"
+"    in same horizontal position, 'start' at start, 'end' at end, or 'fnb' "
+"for\n"
+"    first non-blank char."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:497
+msgid ""
+" Move to next line in file, repositioning character within line:\n"
+"    'start' at start, 'end' at end, or 'fnb' for first non-blank char."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:502
+msgid ""
+" Move to previous line in file, repositioning character within line:\n"
+"    'start' at start, 'end' at end, or 'fnb' for first non-blank char."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:507
+msgid ""
+"Move to the next blank line in the file, if any.  If threshold>0 then a\n"
+"    line is considered blank if it contains less than that many characters\n"
+"    after leading and trailing whitespace are removed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:513
+msgid ""
+"Move to the previous blank line in the file, if any.  If threshold>0 then a\n"
+"    line is considered blank if it contains less than that many characters\n"
+"    after leading and trailing whitespace are removed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:519
+msgid " Move cursor forward one character "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:523
+msgid ""
+" Move cursor forward one character, adjusting the selection \n"
+"    range to new position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:528
+msgid ""
+" Move cursor forward one character, adjusting the rectangular selection \n"
+"    range to new position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:533
+msgid " Move cursor backward one character "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:537
+msgid ""
+" Move cursor backward one character, adjusting the selection \n"
+"    range to new position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:542
+msgid ""
+" Move cursor backward one character, adjusting the rectangular selection \n"
+"    range to new position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:547
+msgid ""
+"Move cursor forward one word. Optionally, provide a string that\n"
+"    contains the delimiters to define which characters are part of a word.\n"
+"    Gravity may be \"start\" or \"end\" to indicate whether cursor is "
+"placed\n"
+"    at start or end of the word."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:554
+msgid ""
+"Move cursor forward one word, adjusting the selection range to new\n"
+"    position. Optionally, provide a string that contains the delimiters to\n"
+"    define which characters are part of a word. Gravity may be \"start\" or\n"
+"    \"end\" to indicate whether cursor is placed at start or end of the word."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:561
+msgid ""
+" Move cursor backward one word. Optionally, provide a string that\n"
+"    contains the delimiters to define which characters are part of a word.\n"
+"    Gravity may be \"start\" or \"end\" to indicate whether cursor is placed "
+"at\n"
+"    start or end of the word."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:568
+msgid ""
+" Move cursor backward one word, adjusting the selection range to new\n"
+"    position. Optionally, provide a string that contains the delimiters to\n"
+"    define which characters are part of a word. Gravity may be \"start\" or\n"
+"    \"end\" to indicate whether cursor is placed at start or end of the word."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:575
+msgid "Move cursor forward one paragraph (to next all-whitespace line)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:579
+msgid ""
+"Move cursor forward one paragraph (to next all-whitespace line),\n"
+"    adjusting the selection range to new position."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:584
+msgid "Move cursor backward one paragraph (to next all-whitespace line)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:588
+msgid ""
+"Move cursor backward one paragraph (to next all-whitespace line),\n"
+"    adjusting the selection range to new position."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:593
+msgid " Move cursor forward one page "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:597
+msgid ""
+" Move cursor forward one page, adjusting the selection \n"
+"    range to new position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:602
+msgid " Move cursor backward one page "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:606
+msgid ""
+" Move cursor backward one page, adjusting the selection \n"
+"    range to new position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:611
+msgid " Move cursor to start of document "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:615
+msgid ""
+" Move cursor to start of document, adjusting the selection \n"
+"    range to new position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:620
+msgid " Move cursor to end of document "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:624
+msgid ""
+" Move cursor to end of document, adjusting the selection \n"
+"    range to new position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:629
+msgid ""
+" Set start of text marking for selection at current cursor\n"
+"    position.  Subsequently, all cursor move operations will automatically\n"
+"    extend the text selection until stop-mark-command is issued.  Unit\n"
+"    defines what is selected: can be one of char, line, or block (rectangle)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:636
+msgid ""
+" Stop text marking for selection at current cursor position,\n"
+"    leaving the selection set as is.  Subsequent cursor move operations\n"
+"    will deselect the range and set selection to cursor position.  \n"
+"    Deselect immediately when deselect is True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:643
+msgid " Clear any pending move command action, as for VI mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:647
+msgid ""
+"When currently marking text, this exchanges the current position\n"
+"    and mark ends of the current selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:652
+msgid " Delete one character in front of the cursor "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:656
+msgid ""
+" Delete one character in front of the cursor unless at end of line,\n"
+"    in which case delete backward.  Do nothing if the line is empty.  This \n"
+"    is VI style 'x' in browser mode."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:662
+msgid ""
+" Delete one char in front of the cursor and enter insert mode (when\n"
+"    working in modal key bindings)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:668
+msgid " Delete one word in front of the cursor "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:672
+msgid ""
+" Delete one word in front of the cursor and enter insert mode (when\n"
+"    working in modal key bindings)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:678
+msgid ""
+" Delete one character behind the cursor, or the current selection\n"
+"    if not empty. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:683
+msgid " Delete one word behind of the cursor "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:687
+msgid ""
+"Delete the current line or lines when the selection spans multiple\n"
+"    lines or given repeat is > 1"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:692
+msgid ""
+"Delete the current line or lines when the selection spans multiple\n"
+"    lines or given repeat is > 1.  Enters insert mode (when working with\n"
+"    modal key bindings)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:699
+msgid "Delete everything between the cursor and start of line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:703
+msgid "Delete everything between the cursor and end of line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:707
+msgid ""
+"Delete everything between the cursor and end of line and enter insert\n"
+"    move (when working in a modal editor key binding)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:713
+msgid ""
+"Delete given range of lines, copying them into given register (or\n"
+"    currently selected default register if register is None"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:718
+msgid "Delete the text covered by the next cursor move command."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:722
+msgid ""
+"Delete the text covered by the next cursor move command and then\n"
+"    enter insert mode (when working in a modal editor key binding)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:728
+msgid ""
+"Move the given range of lines to the given target line.  Moves to current\n"
+"    line if target_line is '.'."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:733
+msgid ""
+"Copy the given range of lines to the given target line.  Copies to current\n"
+"    line if target_line is '.'."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:738
+msgid ""
+"Swap the line at start of current selection with the line that follows it,\n"
+"    or the preceding line if previous is True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:772
+msgid ""
+"Duplicate the current line or lines. Places the duplicate on the line\n"
+"    following the selection if pos is 'below' or before the selection if it "
+"is\n"
+"    'above'."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:804
+msgid "Duplicate the current line or lines above the selection."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:808
+msgid ""
+"Filter the lines covered by the next cursor move command\n"
+"    through an external command and replace the lines with the result"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:813
+msgid ""
+"Filter the current selection through an external command and replace\n"
+"    the lines with the result"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:818
+msgid ""
+"Filter a range of lines in the editor through an external command\n"
+"    and replace the lines with the result.  Filters the whole file by\n"
+"    default.  Filters nothing and opens up a scratch buffer with the\n"
+"    output of the command if start_line and end_line are both -1."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:825
+msgid ""
+"Enclose the selection or the rest of the current line when there is no\n"
+"    selection with the given start and end strings.  The caret is moved to "
+"the\n"
+"    end of the enclosed text."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:831
+msgid ""
+"Change case of the current selection, or character ahead of the cursor if\n"
+"    there is no selection, to upper case"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:836
+msgid ""
+"Change case of the current selection, or character ahead of the cursor if\n"
+"    there is no selection, to lower case"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:841
+msgid ""
+"Change case of the current selection, or character ahead of the cursor if\n"
+"    there is no selection, to title case (first letter of each word "
+"capitalized)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:846
+msgid ""
+"Change case of the current selection, or character ahead of the cursor if\n"
+"    there is no selection, so each letter is the opposite of its current case"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:851
+msgid "Change case of text spanned by next cursor movement to upper case"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:855
+msgid "Change case of text spanned by next cursor movement to lower case"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:859
+msgid ""
+"Change case of text spanned by next cursor movement to title case\n"
+"    (first letter of each word capitalized)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:864
+msgid ""
+"Change case of text spanned by next cursor movement so each letter is\n"
+"    the opposite of its current case"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:869
+msgid " Select all text in the editor "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:873
+msgid " Select the current line or lines "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:877
+msgid "Open the current line by inserting a newline after the caret"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:881
+msgid " Place a new line at the current cursor position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:885
+msgid " Place a new line before the current line "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:889
+msgid " Place a new line after the current line "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:893
+msgid ""
+"Move the current line or lines up one line, optionally\n"
+"    indenting to match the new position"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:898
+msgid ""
+"Move the current line or lines up down line, optionally\n"
+"    indenting to match the new position"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:903
+msgid " Place a form feed character at the current cursor position "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:907
+msgid " Scroll to current cursor position, if not already visible "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:911
+msgid ""
+"Scroll to the top of the text in the editor.  Set move_caret to control\n"
+"    whether the the caret is moved."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:916
+msgid ""
+"Scroll to the end of the text in the editor.  Set move_caret to control\n"
+"    whether the caret is moved."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:921
+msgid " Scroll so cursor is centered on display "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:925
+msgid " Scroll so cursor is centered at top of display "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:929
+msgid " Scroll so cursor is centered at bottom of display "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:933
+msgid ""
+" Scroll text up a page w/o moving cursor's relative position on screen.\n"
+"    Repeat is number of pages or if >0 and <1.0 then percent of screen.  Set "
+"move_cursor\n"
+"    to False to leave cursor in current position within the source, "
+"otherwise it is\n"
+"    moved so the cursor remains on same screen line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:940
+msgid ""
+" Scroll text down a page w/o moving cursor's relative position on screen.\n"
+"    Repeat is number of pages or if >0 and <1.0 then percent of screen.  Set "
+"move_cursor\n"
+"    to False to leave cursor in current position within the source, "
+"otherwise it is\n"
+"    moved so the cursor remains on same screen line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:947
+msgid ""
+" Scroll text up a line w/o moving cursor's relative position on screen.\n"
+"    Repeat is number of lines or if >0 and <1.0 then percent of screen.  Set "
+"move_cursor\n"
+"    to False to leave cursor in current position within the source, "
+"otherwise it is\n"
+"    moved so the cursor remains on same screen line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:954
+msgid ""
+" Scroll text down a line w/o moving cursor's relative position on screen.\n"
+"    Repeat is number of lines or if >0 and <1.0 then percent of screen.  Set "
+"move_cursor\n"
+"    to False to leave cursor in current position within the source, "
+"otherwise it is\n"
+"    moved so the cursor remains on same screen line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:961
+msgid ""
+" Scroll text left a column w/o moving cursor's relative position on screen.\n"
+"    Repeat is number of columns or if >0 and <1.0 then percent of screen."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:966
+msgid ""
+" Scroll text right a column w/o moving cursor's relative position on "
+"screen.\n"
+"    Repeat is number of columns or if >0 and <1.0 then percent of screen."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:971
+msgid " Move cursor to center of display (without scrolling) "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:975
+msgid ""
+" Move cursor to top of display (without scrolling), optionally\n"
+"    at an offset of given number of lines below top"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:980
+msgid ""
+" Move cursor to bottom of display (without scrolling), optionally\n"
+"    at an offset of given number of lines before bottom"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:985
+msgid " Turn on display of the current text selection "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:989
+msgid " Turn off display of the current text selection "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:993
+msgid " Cancel current editor command "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:997
+msgid " Complete the current active autocompletion. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1005
+msgid " Cancel any active autocompletion. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1013
+msgid " Activate the 1st symbol menu for the editor. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1019
+msgid " Activate the 2nd symbol menu for the editor. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1025
+msgid " Activate the 3rd symbol menu for the editor. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1031
+msgid " Activate the 4th symbol menu for the editor. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1037
+msgid " Activate the 5th symbol menu for the editor. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1043
+msgid "Turn on profiling for the current source editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1052
+msgid "Stop profiling and print stats to stdout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1061
+msgid "Copy the current lines(s) to clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1066
+msgid " Cut the current line(s) to clipboard. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1071
+msgid ""
+" Cut the current selection or current line if there is no\n"
+"    selection.  The text is placed on the clipboard. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1077
+msgid ""
+" Copy the current selection or current line if there is no\n"
+"    selection.  The text is placed on the clipboard. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1083
+msgid " Rescan file for code analysis. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1097
+msgid " Strip trailing whitespace from each line. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1105
+msgid ""
+" Ensure the support object is created and set a history anchor unless \n"
+"    set_history_anchor arg is false. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1119
+msgid ""
+" Select more code on either the current line or larger multi-line\n"
+"    blocks. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1131
+msgid " Select less code; undoes the last select-more command "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1141
+msgid " Select the statement the cursor is in. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1149
+msgid ""
+" Select the next statement.  Will ignore indented statements\n"
+"    under the current statements unless ignore_indented is False.\n"
+"    Specify a count of more than 1 to go forward multiple statements. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1159
+msgid ""
+" Select the previous statement.  Will ignore indented statements\n"
+"    under the current statements unless ignore_indented is False.\n"
+"    Specify a count of more than 1 to go back multiple statements. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1169
+msgid " Select the block the cursor is in. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1177
+msgid ""
+" Select the next block.  Will ignore indented blocks\n"
+"    under the current block unless ignore_indented is False.\n"
+"    Specify a count of more than 1 to go forward multiple blocks. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1187
+msgid ""
+" Select the previous block.  Will ignore indented blocks\n"
+"    under the current block unless ignore_indented is False.\n"
+"    Specify a count of more than 1 to go backward multiple blocks. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1197
+msgid " Select the scope the cursor is in. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1206
+msgid ""
+" Select the next scope.  Specify a count of more than 1 to go\n"
+"    forward multiple scopes.  If sibling_only is true, move only to other\n"
+"    scopes of the same parent. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1216
+msgid ""
+" Select the previous scope.  Specify a count of more than 1 to go\n"
+"    backward multiple scopes.  If sibling_only is true, move only to other\n"
+"    scopes of the same parent. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1226
+msgid " Goes to the method that is overridden by the current method "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1257
+msgid ""
+"Editor commands that act on the current (most recently active) source \n"
+"  editor, whether or not it currently has the keyboard focus."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1314
+msgid "Raise editor window if necessary in this windowing mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1324
+msgid ""
+" Initiate incremental mini-search query/replace from the cursor \n"
+"    position. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1332
+msgid "The search string"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1335
+msgid "Search:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1336
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1357
+msgid "The replacement string"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1339
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1360
+msgid "Replace:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1345
+msgid ""
+" Initiate incremental mini-search query/replace from the cursor \n"
+"    position.  The search string is treated as a regular expression."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1353
+msgid "The search regular expression"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1356
+msgid "Regex:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1365
+msgid ""
+" Initiate incremental mini-search query/replace within the given selection.\n"
+"    This is similar to query_replace but allows some additional options::\n"
+"    \n"
+"      confirm -- True to confirm each replace\n"
+"      range_limit -- None to replace between current selection start and end "
+"of document,\n"
+"        1 to limit operation to current selection or to current line if "
+"selection is empty,\n"
+"        (start, end) to limit operation to within given selection range, or "
+"\"first|last\"\n"
+"        to limit operating withing given range of lines (1=first).\n"
+"      match_limit -- None to replace any number of matches, or limit of "
+"number of replaces.\n"
+"        When set to \"l\" plus a number, limits to that number of matches "
+"per line,\n"
+"        rather than as a whole.\n"
+"      regex -- Treat search string as a regular expression\n"
+"      \n"
+"    "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1390
+msgid ""
+"Repeat the last query replace or range replace operation on the current "
+"line.\n"
+"    The first match is replaced without confirmation."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1396
+msgid ""
+" Replace all occurrences of a string from the cursor position to \n"
+"    end of file. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1406
+msgid ""
+" Replace all occurrences of a string from the cursor position to \n"
+"    end of file.  The search string is treated as a regular expression."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1414
+msgid ""
+"Replace num characters with given character.  Set line_mode to multiline to\n"
+"    allow replacing across lines, extend to replace on current line and then "
+"extend\n"
+"    the line length, and restrict to replace only if enough characters exist "
+"on\n"
+"    current line after cursor position."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1428
+msgid ""
+" Zoom in, increasing the text display size temporarily by one font size "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1432
+msgid ""
+" Zoom out, increasing the text display size temporarily by one font size "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1436
+msgid "Reset font zoom factor back to zero"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1440
+msgid " Toggle status of overtyping mode "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1444
+msgid " Turn on all special marks for displaying white space and end-of-line  "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1454
+msgid " Turn off all special marks for displaying white space and end-of-line "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1463
+msgid " Turn on special marks for displaying white space "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1472
+msgid " Turn off special marks for displaying white space "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1481
+msgid " Turn on special marks for displaying end-of-line chars "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1490
+msgid " Turn off special marks for displaying end-of-line chars "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1499
+msgid " Turn on special marks for displaying indent level "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1508
+msgid " Turn off special marks for displaying indent level "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1517
+msgid ""
+"Set editor to be readonly.  This cannot be done if the editor contains\n"
+"    any unsaved edits."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1527
+msgid ""
+"Set editor to be writable.  This can be used to override the read-only\n"
+"    state used initially for editors displaying files that are read-only on "
+"disk."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1537
+msgid " Save the current text file to disk "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1543
+msgid " Close the current text file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1556
+msgid " Return arg info sequence for insert-file command. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1562
+msgid "The file to insert"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1567
+msgid "Insert file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1575
+msgid ""
+" Insert a file at current cursor position, prompting user\n"
+"    for file selection "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1580
+msgid ""
+"Insert the output for the given command at current cursor position.\n"
+"    Some special characters in the command line (if not escaped with \\) "
+"will\n"
+"    be replaced as follows::\n"
+"    \n"
+"      % -- Current file's full path name\n"
+"      # -- Previous file's full path name\n"
+"      \n"
+"    "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1591
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1644
+msgid " Return arg info sequence for goto-line command. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1596
+msgid "The line number"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1600
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1615
+msgid "Go To Line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1608
+msgid " Position cursor at start of given line number "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1618
+msgid " Scroll to and select the given line number"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1629
+msgid ""
+"Position cursor at start of given line number (1=first, -1 = last).\n"
+"    This differs from goto-line in that it never prompts for a line number "
+"but\n"
+"    instead uses the previously entered numeric modifier or defaults to "
+"going\n"
+"    to line one. The cursor can be positioned at 'start', 'end', or 'fnb' "
+"for\n"
+"    first non-blank character."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1639
+msgid "Same as goto_nth_line but defaults to end of file if no lineno is given"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1647
+msgid "The percent in file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1649
+msgid "Goto percent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1655
+msgid ""
+"Position cursor at start of line at given percent in file.  This\n"
+"    uses the previously entered numeric modifier or defaults to going\n"
+"    to line one.  The cursor can be positioned at 'start', 'end', or\n"
+"    'fnb' for first non-blank character, or in VI mode it will do \n"
+"    brace matching operation to reflect how VI overrides this command."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1664
+msgid " Return arg info sequence for goto-column command. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1667
+msgid "The column to move to"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1669
+msgid "Goto column"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1676
+msgid "Move cursor to given column"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1682
+msgid ""
+" Start definition of a keyboard macro.  If register=None then the user\n"
+"    is prompted to enter a letter a-z under which to file the macro.  "
+"Otherwise,\n"
+"    register 'a' is used by default."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1697
+msgid " Stop definition of a keyboard macro "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1705
+msgid ""
+" Execute most recently recorded keyboard macro.  If register is None then "
+"the\n"
+"    user is asked to enter a letter a-z for the register where the macro is "
+"filed.\n"
+"    Otherwise, register 'a' is used by default."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1720
+msgid ""
+"Indent the selected region one level of indentation.  Set sel to None\n"
+"    to use preference to determine selection behavior, or \"never-select\" "
+"to\n"
+"    unselect after indent, \"always-select\" to always select after indent, "
+"or\n"
+"    \"retain-select\" to retain current selection after indent."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1729
+msgid ""
+"Outdent the selected region one level of indentation.  Set sel to None\n"
+"    to use preference to determine selection behavior, or \"never-select\" "
+"to\n"
+"    unselect after indent, \"always-select\" to always select after indent, "
+"or\n"
+"    \"retain-select\" to retain current selection after indent."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1738
+msgid ""
+"Indent selected number of lines from cursor position.  Set lines to None\n"
+"    to indent all the lines in current selection.  Set levels to indent "
+"more\n"
+"    than one level at a time."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1746
+msgid ""
+"Outdent selected number of lines from cursor position.  Set lines to None\n"
+"    to indent all the lines in current selection.  Set levels to outdent "
+"more\n"
+"    than one level at a time."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1754
+msgid "Indent lines spanned by next cursor move"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1760
+msgid "Outdent lines spanned by next cursor move"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1766
+msgid ""
+"Indent lines spanned by next cursor move to match, based on the preceding "
+"line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1772
+msgid ""
+"Comment out the selected region. The style of commenting can be\n"
+"    controlled with the style argument: 'indented' uses the default comment\n"
+"    style indented at end of leading white space and 'block' uses a block\n"
+"    comment in column zero. If not given, the style configured with the "
+"Editor\n"
+"    / Block Comment Style preference is used.  Each call adds a level of\n"
+"    commenting."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1792
+msgid ""
+"Uncomment out the selected region if commented out.  If one_level is \n"
+"    True then each call removes only one level of commenting."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1802
+msgid ""
+"Toggle commenting out of the selected lines. The style of commenting\n"
+"    can be controlled with the style argument: 'indented' uses the default\n"
+"    comment style indented at end of leading white space and 'block' uses a\n"
+"    block comment in column zero. If not given, the style configured with "
+"the\n"
+"    Editor / Block Comment Style preference is used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1821
+msgid ""
+"Comment out the selected lines. This command is not available if they\n"
+"    lines are already commented out. The style of commenting can be "
+"controlled\n"
+"    with the style argument: 'indented' uses the default comment style\n"
+"    indented at end of leading white space and 'block' uses a block comment "
+"in\n"
+"    column zero. If not given, the style configured with the Editor / Block\n"
+"    Comment Style preference is used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1835
+msgid ""
+"Remove commenting from the selected lines, if any.  This command is\n"
+"    not available if the lines are not commented out."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1845
+msgid "Run the contents of the editor within the Python Shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1850
+msgid ""
+"Evaluate the current selection from the editor within the Python Shell\n"
+"    tool, optionally restarting the shell first. When whole_lines is set, "
+"the\n"
+"    selection is rounded to whole lines before evaluation. When unspecified\n"
+"    (set to None), the setting from the Shell's Option menu is used\n"
+"    instead."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1879
+msgid ""
+"Evaluate the current selection from the editor within the Debug Probe\n"
+"    tool. When whole_lines is set, the selection is rounded to whole lines\n"
+"    before evaluation. When unspecified (set to None), the setting from the\n"
+"    Shell's Option menu is used instead."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1900
+msgid ""
+" Attempt to auto-justify the paragraph around the current start of\n"
+"    selection "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1908
+msgid ""
+"Allow user to visit point of definition of a source symbol in the \n"
+"    current editor context by typing a fragment of the name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1919
+msgid "_Goto Definition"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1920
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1922
+msgid "Select Source Symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1943
+msgid ""
+"Join together all lines in given selection (replace newlines with\n"
+"    the given delimiter (single space by default)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1949
+msgid ""
+"Join together specified number of lines after current line (replace\n"
+"    newlines with the given delimiter (single space by default)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1955
+msgid ""
+"Toggle the global auto-editing switch.  When enabled, the editor\n"
+"    performs the auto-edits that have been selected in the Editor >\n"
+"    Auto-Editing preferences group."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1966
+msgid " Display the indentation manager for this editor file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1972
+msgid " Convert all lines with leading spaces to mixed tabs and spaces. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1981
+msgid " Convert all lines containing leading tabs to spaces only. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1990
+msgid " Convert all indentation to use tab characters only and no spaces "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:1999
+msgid ""
+" Force the indent style of the editor to mixed use of tabs and spaces, \n"
+"    regardless of the file contents "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2008
+msgid ""
+" Force the indent style of the editor to use spaces only, regardless of file "
+"contents "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2016
+msgid ""
+" Force the indent style of the editor to use tabs only, regardless of file "
+"contents "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2024
+msgid ""
+" Force the indent style of the editor to match the indent style found in the "
+"majority\n"
+"    of the file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2033
+msgid ""
+" Check whether indents consistently use spaces or tabs throughout the file. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2044
+msgid " Toggle the current fold point "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2052
+msgid " Collapse the current fold point "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2060
+msgid " Expand the current fold point "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2068
+msgid " Toggle the clicked fold point "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2078
+msgid " Collapse the current fold point one more level "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2086
+msgid " Collapse the clicked fold point one more level "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2096
+msgid " Expand the current fold point one more level "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2104
+msgid " Expand the clicked fold point one more level "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2115
+msgid " Collapse the current fold point completely "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2123
+msgid " Collapse the clicked fold point completely "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2133
+msgid " Expand the current fold point completely "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2141
+msgid " Expand the clicked fold point completely "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2151
+msgid " Collapse all fold points in the current file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2159
+msgid " Expand all fold points in the current file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2170
+msgid "Print active editor document"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2177
+msgid " Show printing page setup dialog "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2193
+msgid " Force syntax highlighting for Python source"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2196
+msgid " Force syntax highlighting for Cython source"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2199
+msgid " Force syntax highlighting for C/C++ source"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2202
+msgid " Force syntax highlighting for Java source "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2205
+msgid " Force syntax highlighting for make files "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2208
+msgid " Force syntax highlighting for DOS batch files "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2211
+msgid " Force syntax highlighting for Visual Basic "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2214
+msgid " Force syntax highlighting for HTML"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2217
+msgid " Force syntax highlighting for properties files "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2220
+msgid " Force syntax highlighting for error list format "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2223
+msgid " Force syntax highlighting for MS IDL"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2226
+msgid " Force syntax highlighting for SQL "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2229
+msgid " Force syntax highlighting for XML files "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2232
+msgid " Force syntax highlighting for XCode files "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2235
+msgid " Force syntax highlighting for LaTeX "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2238
+msgid " Force syntax highlighting for Lua "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2241
+msgid " Force syntax highlighting for XP IDL "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2244
+msgid " Force syntax highlighting for Javascript "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2247
+msgid " Force syntax highlighting for RC file format "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2250
+msgid " Force syntax highlighting for PL/SQL files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2253
+msgid " Force syntax highlighting for PHP source "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2256
+msgid " Force syntax highlighting for Perl source "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2259
+msgid " Force syntax highlighting for diff/cdiff files "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2262
+msgid " Force syntax highlighting for Pascal source "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2265
+msgid " Force syntax highlighting for Apache configuration file format "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2268
+msgid " Force syntax highlighting for Avenue GIS language "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2271
+msgid " Force syntax highlighting Ada source "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2274
+msgid " Force syntax highlighting for Eiffel source "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2277
+msgid " Force syntax highlighting for Lisp source "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2280
+msgid " Force syntax highlighting for Ruby source "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2283
+msgid " Force syntax highlighting for bash scripts "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2286
+msgid " Force syntax highlighting for Bullant "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2289
+msgid " Force syntax highlighting for TCL "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2292
+msgid " Force syntax highlighting for CSS2 "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2295
+msgid " Force syntax highlighting for QSS (Qt Style sheets) "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2298
+msgid " Force syntax highlighting for SCSS formatted SASS"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2301
+msgid " Force syntax highlighting for Fortran "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2304
+msgid " Force syntax highlighting for Matlab "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2307
+msgid " Force syntax highlighting for Scriptol "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2310
+msgid ""
+" Force syntax highlighting for POV ray tracer scene description language "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2313
+msgid " Force syntax highlighting for EScript "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2316
+msgid " Force syntax highlighting for LOUT typesetting language "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2319
+msgid " Force syntax highlighting for MMIX assembly language "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2322
+msgid " Force syntax highlighting for NSIS "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2325
+msgid " Force syntax highlighting for Postscript "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2328
+msgid " Force syntax highlighting for YAML "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2331
+msgid " Force syntax highlighting for VXML "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2334
+msgid " Force syntax highlighting for Masm assembly language "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2337
+msgid " Force syntax highlighting for Baan "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2340
+msgid " Force syntax highlighting for NNCrontab files "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2343
+msgid " Force syntax highlighting for Mako template file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2346
+msgid " Force syntax highlighting for Django template file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2349
+msgid " Force syntax highlighting for R source file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2352
+msgid " Force syntax highlighting for Coffee Script source file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2356
+msgid " Use no syntax highlighting "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2359
+msgid " Use syntax highlighting appropriate to the file type "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2365
+msgid " Toggles line wrapping preference for all editors "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2371
+msgid " Set anchor in the visit history to go back to "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2377
+msgid "Commands available when working either in the shell or editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2384
+msgid "Constructor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2393
+msgid ""
+" Goto the definition of the source symbol that was last clicked on,\n"
+"    optionally showing the definition in another split if one is available\n"
+"    and other_split is True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2410
+msgid ""
+" Goto the definition of the selected source symbol, optionally showing the\n"
+"    definition in another split if one is available and other_split is True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/commands.py:2426
+msgid "Get shell with focus or otherwise active editor"
+msgstr ""

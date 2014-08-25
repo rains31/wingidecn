@@ -1,0 +1,2174 @@
+# Module src_proj translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:24GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:77
+msgid ""
+"Wing uses the Python configuration specified in the Environment tab of File "
+"Properties for your main\n"
+"debug file, if any is defined, or in Project Properties if there is no main "
+"debug file.  Source\n"
+"analysis results will vary when run against different versions of Python or "
+"with different PYTHONPATH.\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:88
+msgid "Interpreter:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:99
+msgid "Effective Python Path:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:122
+msgid "Change Settings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:124
+msgid "Close"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:163
+msgid "Python Environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:198
+msgid "<untitled>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:206
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:210
+msgid "<not found>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:220
+msgid ""
+"\n"
+"These settings are being determined by the configured environment for the "
+"main debug file\n"
+"%s.  Use the button below to alter settings for that file.\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/anastats.py:223
+msgid ""
+"\n"
+"Since no main debug file is defined, these settings are being determined by "
+"the environment\n"
+"configured for project %s.  Use the button below to alter the project "
+"properties.\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:31
+msgid "The list of files in the project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:33
+msgid "The list of directories in the project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:37
+msgid "The type of project file: shared or unshared"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:61
+msgid ""
+"The PYTHONPATH used by the code in your project.  The default is the value "
+"of sys.path in your selected Python interpreter (which includes any "
+"inherited PYTHONPATH environment variable).  The path separator is \"%s\".  "
+"This value is used by the debugger and source analyser to provide better "
+"auto-completion and source navigation options.  You can use environment "
+"variable names as part of the directory names in the form $(ENVNAME).  Use "
+"$(WING:PROJECT_DIR) for the project directory."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:63
+msgid ""
+"The Python executable or virtualenv Python used with the code in your "
+"project.  This is used by the debugger and source analyser to provide "
+"correct auto-completion and code navigation options.  The default is the "
+"interpreter run by \"python\" on the command line, or as found on the path "
+"(or registry on Windows)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:71
+msgid ""
+"Arguments to pass to the Python interpreter when debugging.  The default -u "
+"provides for unbuffered output; prompts for keyboard input may not appear "
+"without this option."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:83
+msgid ""
+"Initial directory in which the debug process starts. The default is to use "
+"the directory of the debug file. This is also used for initial directory for "
+"Python Shell, for resolving partial Python Path entries, and some other "
+"features.  For these, the default is to use the directory of the main debug "
+"file is used, or the directory of the project when no main debug file is "
+"defined. Use $(WING:PROJECT_DIR) to set the initial directory to the "
+"project's directory."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:94
+msgid "Command to execute before running the debug process."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:103
+msgid ""
+"The environment to use by default when debugging or executing this file.  "
+"Either use the project-defined environment with given run args or select a "
+"launch configuration."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:126
+msgid ""
+"Environment variables to set before running the debug process or other sub-"
+"processes started from Wing IDE.  Some tools, such as the Snippets tool also "
+"use the environment specified here.  Entries are in \"name=value\" format, "
+"one per line.  Use \"name=\" (without a value) to unset and remove an "
+"inherited environment value."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:129
+msgid ""
+"The base directory for the project.  This overrides the project file "
+"location as the directory on which to base relative paths shown in the "
+"Project view and elsewhere.  It is also used as the directory in which the "
+"Python Shell subprocess is launched and for the starting directory when the "
+"Default Directory Policy preference is set to Current Project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:138
+msgid ""
+"The main entry point for debugging, either a Python file or a named entry "
+"point.  When not specified, debugging starts in the current file in the "
+"environment specified in its File Properties under Debug/Execute."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:142
+msgid ""
+"The primary debug file, if any.  When set, this is where debugging always "
+"starts.  Otherwise debugging starts in the current file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:171
+msgid ""
+"A list of modifications to the default set of attributes that are stored in "
+"the project files's shared layer (*.wpr).  Each item is +package.attrib-name "
+"to add a shared attrib or -package.attrib-name to move an attrib to the per-"
+"user file (*.wpu) so it is not shared with other users."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:180
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:209
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:238
+msgid "Use Preferences Setting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:181
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1992
+msgid "Line Feed \\n (Posix/Unix/OS X)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:182
+msgid "Carriage Return \\r (Mac OS <=9)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:183
+msgid "Carriage Return and Line Feed \\r\\n (Windows)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:188
+msgid ""
+"Preferred line ending style to use with this project.  This overrides the "
+"default line ending set in preferences."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:195
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:224
+msgid "Ignore Conflicts"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:196
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:225
+msgid "Warn About Conflicts"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:197
+msgid "Auto-convert on Open"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:202
+msgid ""
+"Policy for treating files that are opened if the line endings in the file do "
+"not match the preferred line ending style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:210
+msgid "Spaces Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:211
+msgid "Tabs Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:212
+msgid "Mixed Tabs and Spaces"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:217
+msgid ""
+"Preferred indentation style to use with this project.  This overrides the "
+"default indentation style set in preferences."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:230
+msgid ""
+"Policy for treating files that are opened if the indent style in the file "
+"does not match the preferred indent style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:243
+msgid ""
+"Controls whether to automatically strip trailing white space in the editor.  "
+"May be enabled for all files or only files that are part of the project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:253
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2392
+msgid "Use Preference Setting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:255
+msgid ""
+"The default encoding to use for text files opened in the source editor and "
+"other tools, when an encoding for that file cannot be determined by reading "
+"the file.  Other encodings may also be tried.  This also sets the encoding "
+"to use for newly created files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:265
+msgid "Enables Zope2/Plone support"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:270
+msgid ""
+"Enables checking for and offering to auto-add files when a new Zope Home is "
+"set"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:275
+msgid ""
+"Zope2 instance directory (or Zope installation for Zope 2.6.x and earlier).  "
+"When altered, Wing will check and offer to install WingDBG, the debugger "
+"support product."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:280
+msgid ""
+"Zope2 host (if remote).  This is used to find the Debugger / Local/Remote / "
+"Location Map value to use on file names read from the zope.conf file.  It "
+"should be left blank if your Zope instance is on the same machine as Wing."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:285
+msgid ""
+"Enable debugging of Django template files, so setting breakpoints, stepping, "
+"and viewing data will work in template files as well as Python code."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:290
+msgid ""
+"Enable special event loop handling for matplotlib so that plots update "
+"interactively while working in the Python Shell and Debug Probe."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:295
+msgid "A container in which scripts can store information in the project file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/attribs.py:301
+msgid ""
+"Determines the TCP/IP port on which the IDE will listen for the connections "
+"from externally launched debug processes. This needs to be unique for each "
+"IDE instance running on a host. The externally launched debug process needs "
+"to be told the value specified here using kWingHostPort inside wingdbstub.py "
+"or by WINGDB_HOSTPORT environment variable before importing wingdbstub in "
+"the debug process."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:80
+msgid "Click to open recent projects"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:87
+msgid "_Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:96
+msgid "Follow Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:97
+msgid "Follow Current Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:99
+msgid "View As Tree"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:100
+msgid "View As Flattened Tree"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:103
+msgid ""
+"When checked, the project selection is visited in a non-sticky editor that "
+"auto-closes when hidden.  Double clicking always opens a sticky file for "
+"editing."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:106
+msgid ""
+"When checked, project tree expansion is automatically changed to show the "
+"file in the current editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:132
+msgid "Sort By Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:133
+msgid "Sort By Mime Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:134
+msgid "Sort By Extension"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:144
+msgid "List Files Before Directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:195
+msgid "Project: %s%s [%i files / %i dirs]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:216
+msgid "Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:222
+msgid "Project Manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:382
+msgid "Project: <none>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:384
+msgid "Project: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:422
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:434
+msgid "Project panel state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:451
+msgid "Directory P_roperties..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:459
+msgid "File P_roperties..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:476
+msgid "_Copy Filenames"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:483
+msgid "Show in Explorer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:485
+msgid "Show in Finder"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:487
+msgid "Show Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:489
+msgid "Open in External _Viewer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:490
+msgid "_Search in Selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:494
+msgid "_Name Selected File Set..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:499
+msgid "_Debug Selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:502
+msgid "E_xecute Selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:505
+msgid "Set As Main Debug Fi_le"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:507
+msgid "Clear Main Debug Fi_le"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:527
+msgid "Re_move/Exclude From Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:529
+msgid "Re_move From Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:531
+msgid "_Add Existing File..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:532
+msgid "Add Existing D_irectory..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:534
+msgid "Res_can Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:541
+msgid "Dele_te"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:543
+msgid "Move To _Trash"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:550
+msgid "Renam_e..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:552
+msgid "_Create New File..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:553
+msgid "Create Ne_w Directory..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:554
+msgid "Create Ne_w Package..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:559
+msgid "Show Project _Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:562
+msgid "Configure Menu..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:588
+msgid "Project File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:609
+msgid "New name for the directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:610
+msgid "New Directory Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:612
+msgid "New name for the file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:613
+msgid "New File Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:859
+msgid "Recycle Selected Files and Directories?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:860
+msgid ""
+"Are you sure you want to move the selected files, directories, and all "
+"contents of the directories to the recycling bin?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:861
+msgid "_Recycle Selected Files and Directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:863
+msgid "Move Selected Files and Directories to Trash?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:864
+msgid ""
+"Are you sure you want to move the selected files, directories, and all "
+"contents of the directories to the trash?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:865
+msgid "_Move Selected Files and Directories to Trash"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:868
+msgid "Recycle Selected Files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:869
+msgid "Are you sure you want to move the selected files to the recycling bin?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:870
+msgid "_Recycle Selected Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:872
+msgid "Move Selected Files to Trash?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:873
+msgid "Are you sure you want to move the selected files to the trash?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:874
+msgid "_Move Selected Files to Trash"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:877
+msgid "Recycle Selected Directories?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:878
+msgid ""
+"Are you sure you want to move the selected directories and all files within "
+"them to the recycling bin?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:879
+msgid "_Recycle Selected Directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:881
+msgid "Move Selected Directories to Trash?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:882
+msgid ""
+"Are you sure you want to move the selected directories and all files within "
+"them to the trash?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:883
+msgid "_Move Selected Directories to Trash"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_panel.py:889
+#: /Users/sdeibel/src/ide/src/proj/manager.py:1336
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1859
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1958
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2228
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_shared.py:69
+msgid ""
+"Serious error writing the user branch of project file %s:  File may be "
+"corrupted.  Please report this problem to support@wingware.com"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_shared.py:75
+#: /Users/sdeibel/src/ide/src/proj/project.py:1680
+msgid "Failed to write parts of the project file: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:647
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:1230
+msgid "Move Selected Files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:648
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:1231
+msgid "Are you sure you want to move the following items to %s ?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:651
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:1233
+msgid "Copy Selected Files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:652
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:1234
+msgid "Are you sure you want to copy the following items to %s ?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:658
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:1239
+#: /Users/sdeibel/src/ide/src/proj/manager.py:382
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:431
+msgid "OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:659
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:1240
+#: /Users/sdeibel/src/ide/src/proj/manager.py:323
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:432
+msgid "Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:664
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:1245
+msgid "_Don't show this dialog again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:727
+msgid ". (project home directory)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/cap_treepanel.py:1140
+msgid "File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:95
+msgid "Choose file to create"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:98
+msgid "Select file to add to project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:186
+msgid "Select Directory to Remove"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:211
+msgid "Invalid selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:212
+msgid "Sorry, %s is not a directory."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:279
+msgid "Cannot Move Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:281
+msgid "Cannot Copy Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:282
+msgid "%s::The directory %s already exists.  Please remove or rename it first."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:299
+msgid "Replace existing files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:300
+msgid ""
+"The following files already exist.  Do you want to replace the selected "
+"files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:322
+msgid "Replace the Selected Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:374
+msgid "Could not Move"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:375
+msgid ""
+"Some of the selected items could not be moved on disk.  Please check their "
+"permissions and try again."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:378
+msgid "Could not Copy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:379
+msgid ""
+"Some of the selected items could not be copied on disk.  Please check their "
+"permissions and try again."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:668
+msgid "Open Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:669
+msgid "Select project to open"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:695
+msgid "Converting project..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:706
+msgid "Project Conversion Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:707
+msgid ""
+"Would you like to convert this project to use the new auto-updating "
+"directory style available in Wing IDE 3.0?  Doing so may include more files "
+"than were shown in your Wing 2.x project display.\n"
+"\n"
+"Alternatively, you may convert the project as a static list of files.\n"
+"\n"
+"You will be able to modify the project contents after conversion in either "
+"case. The converted project will be opened as a new untitled project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:718
+msgid "Use Auto-Updating Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:719
+msgid "Use Static Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:728
+msgid "Creating project instance..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:732
+msgid "Reading project..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:738
+#: /Users/sdeibel/src/ide/src/proj/manager.py:751
+msgid "Failed to load project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:739
+msgid ""
+"Could not open project file '%s': it is a shared (two-file) project  for use "
+"with revision control and cannot be read by Wing IDE Personal."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:741
+#: /Users/sdeibel/src/ide/src/proj/manager.py:755
+#: /Users/sdeibel/src/ide/src/proj/project.py:1368
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2975
+msgid "_OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:752
+msgid ""
+"Could not open project file '%s': it may be unreadable or  in an invalid "
+"file format.  Try opening it from the File menu to  inspect the contents of "
+"the file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:770
+msgid "Close prior project..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:773
+msgid "Project opened"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:791
+msgid "Failed to save portions of visual state:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:844
+msgid "Creating GUI..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:848
+msgid "Update command GUI..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:879
+msgid ""
+"Converted version %s project::This Wing version %s project file has been "
+"converted to Wing %s.x auto-updating project file format. You may want to "
+"trim what Wing has added to the project. Then save it to a new file name, "
+"since Wing %s.x project files cannot be opened with older versions of Wing."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:885
+msgid ""
+"Converted version %s project::This Wing version %s project file has been "
+"converted to Wing %s.x project file format with a static list of files.  To "
+"add auto-updating directories, use Add Directory in the Project menu.  "
+"Please save the project to a new file name, since Wing %s.x project files "
+"cannot be opened with older versions of Wing."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:891
+msgid ""
+"Converted version %s project::This Wing version %s project file has been "
+"converted to Wing %s.x project file format.  Please save it to a new file "
+"name, since Wing %s.x project files cannot be opened with older versions of "
+"Wing."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:1335
+msgid "_Open Selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:1338
+msgid "Select Project File to Open"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:1457
+msgid "Enter fragments separated by spaces:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/manager.py:1541
+msgid "Match on _Full Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:35
+msgid "Generic Python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:36
+msgid "Generic with virtualenv"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:38
+msgid "Matplotlib"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:40
+msgid "Django"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:41
+msgid "Google App Engine"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:42
+msgid "mod_python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:43
+msgid "mod_wsgi"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:44
+msgid "Plone"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:45
+msgid "Pyramid"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:46
+msgid "Turbogears"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:47
+msgid "Web2py"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:49
+msgid "PyGTK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:50
+msgid "PyGObject"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:51
+msgid "PyQt"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:52
+msgid "WxPython"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:54
+msgid "Blender"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:55
+msgid "Autodesk Maya"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:56
+msgid "NUKE/NUKEX"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:57
+msgid "Source Filmmaker"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:59
+msgid "Hex-Rays IDA"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:60
+msgid "Paste/Pylons"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:61
+msgid "PyGame"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:62
+msgid "Twisted"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:63
+msgid "Webware"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:64
+msgid "Zope2 (without Plone)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:82
+msgid ""
+"The type of project you wish to create.  Some project types prompt for "
+"different initial values."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:91
+msgid ""
+"The primary source directory to add to the project.  Other directories can "
+"be added later in the Project tool."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:97
+msgid "This can be changed later in Project Properties."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:100
+msgid "The Python executable to use with this project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:102
+msgid "The python.exe to use with this project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:103
+msgid "The virtualenv Python to use with this project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:115
+msgid "The PYTHONPATH to use for this project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:149
+msgid "Python Executable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:184
+msgid "Project Created"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:185
+msgid ""
+"A new untitled project has been created.  You can now:<ul><li>Drag files and "
+"directories onto the Project tool<li>Configure Project Properties from the "
+"Project menu<li>Save the project to disk</ul>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:206
+msgid "Project Properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:207
+msgid "Save Now"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:208
+msgid "Save Later"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:225
+msgid "Virtualenv Python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:260
+msgid "Source Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:283
+msgid "Scanning Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:287
+msgid "Scanning the disk for project files.  Please wait."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:361
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1776
+msgid "Zope2 Instance Home"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:363
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1778
+msgid "Zope2 Host (if remote)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:421
+msgid ""
+"Choose project type.  These values can be changed later with Project "
+"Properties in the Project menu:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:435
+msgid "New Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:445
+msgid "Show this dialog when creating projects"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/newproject.py:478
+msgid "_New Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:19
+msgid ""
+"Controls whether any files open in an editor are also closed when a project "
+"file is closed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:27
+msgid ""
+"Controls whether or not the IDE will follow the current project manager "
+"selection by opening the corresponding source file in a non-sticky (auto-"
+"closing) editor.  In either case, the project manager will always open a "
+"file in sticky mode when an item is double clicked or the Goto Source "
+"context menu item is used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:38
+msgid ""
+"Controls whether or not the IDE will follow the current editor by expanding "
+"the project tree to show the file open in the editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:46
+msgid ""
+"Controls whether or not the IDE will confirm file copy/move operations "
+"initiated by dragging items around on the Project view."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:54
+msgid ""
+"Match fragments to full path of the file name, rather than just the file "
+"name.  Full path matching still occurs when the path separation character is "
+"included in the search pattern."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:62
+msgid "Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:63
+msgid "Navigation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:64
+msgid "Debug/Test"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:65
+msgid "Revision Control"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:66
+msgid "Project Management"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:67
+msgid "File Management"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:68
+msgid "Script-Defined Items"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:72
+msgid ""
+"Controls which groups of menu items will be shown in the Project tool's "
+"context menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:79
+msgid "Extra menu items to add to the Project tool context menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:81
+msgid "Command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:81
+msgid "Item Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/prefs.py:86
+msgid ""
+"Whether to show New Project dialog when creating projects.  When this is "
+"disabled, a blank project is created and can be configured and saved from "
+"the Project menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/projcvt.py:464
+#: /Users/sdeibel/src/ide/src/proj/properties.py:89
+msgid "Build Command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/projcvt.py:504
+#: /Users/sdeibel/src/ide/src/proj/properties.py:510
+msgid "Launch Config"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1087
+msgid "New Project #%d.wpr"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1348
+msgid ""
+"\n"
+"\n"
+"Project locked by: hostname=%s, user=%s, process_id=%s."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1350
+msgid ""
+"\n"
+"\n"
+"Note: Could not read lock file.  Reason: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1352
+msgid "Project Opened Read-Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1353
+msgid ""
+"This project is already open in another instance of Wing so has been opened "
+"read-only.  Use Save Project As to save any changes to another project "
+"file.  Overriding the lock is also possible but may lose project data "
+"written by the other instance of Wing.%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1362
+msgid ""
+"Failed to Override Lock::The lock could not be overridden.  Please check "
+"whether the lock file %s is read-only."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1369
+msgid "O_verride Lock"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1518
+msgid "Could not read per-user project data in '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1523
+msgid ""
+"Could not open per-user project data in '%s': it may be unreadable or  in an "
+"invalid file format.  Try opening it from the File menu to  inspect the "
+"contents of the file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1651
+#: /Users/sdeibel/src/ide/src/proj/project.py:1670
+msgid "General write error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:1674
+msgid ""
+"Unexpected failure to save project file %s: Please submit a bug report from "
+"the Help menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:2045
+msgid "Cannot add Unsaved Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/project.py:2046
+msgid ""
+"Sorry, you cannot add an unsaved file.  Please save the file before adding "
+"it to the project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:62
+msgid "Run Arguments"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:68
+#: /Users/sdeibel/src/ide/src/proj/properties.py:408
+msgid "Enter any run arguments here"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:79
+msgid "Show this dialog before each run"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:80
+#: /Users/sdeibel/src/ide/src/proj/properties.py:90
+msgid "Environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:81
+msgid "Project Home Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:82
+msgid "Python _Executable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:83
+msgid "Python _Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:85
+msgid "Main Entry Point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:87
+msgid "Main Debug File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:88
+msgid "Initial Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:92
+msgid "Python Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:108
+#: /Users/sdeibel/src/ide/src/proj/properties.py:131
+msgid "Use inherited environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:109
+msgid ""
+"Use the environment values inherited from the system & user settings and "
+"configure python dialog without any changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:112
+#: /Users/sdeibel/src/ide/src/proj/properties.py:135
+msgid "Add to inherited environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:113
+#: /Users/sdeibel/src/ide/src/proj/properties.py:136
+msgid ""
+"Add the values listed below to the environment values inherited from the "
+"system and user settings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:122
+msgid "Use project values"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:123
+msgid ""
+"Use the environment values set by the project.  Use the Project Properties "
+"page to modify these values"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:126
+msgid "Add to project values"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:127
+msgid "Add the values listed below to the values set by the project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:132
+msgid ""
+"Use the environment values inherited from the system and user settings "
+"without any changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:149
+msgid "View/edit project environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:226
+msgid "Unspecified Build Command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:227
+#: /Users/sdeibel/src/ide/src/proj/properties.py:274
+msgid "Configure..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:228
+#: /Users/sdeibel/src/ide/src/proj/properties.py:275
+msgid "Edit command and run environment for build"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:257
+msgid "Unspecified"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:261
+msgid "Unknown Command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:271
+msgid "Create New..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:272
+msgid "Create new command for build"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:371
+msgid "Use Project Settings and the Following Run Args:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:372
+msgid "Use the environment and Python settings from Project Properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:374
+msgid "Use Selected Launch Configuration:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:375
+msgid ""
+"Select a custom launch configuration for debugging or executing this file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:386
+msgid "View/edit project properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:398
+msgid "Edit the selected Launch Configuration"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:398
+#: /Users/sdeibel/src/ide/src/proj/properties.py:557
+msgid "_Edit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:399
+msgid "Create and use a new Launch Configuration"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:399
+#: /Users/sdeibel/src/ide/src/proj/properties.py:558
+msgid "_New"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:400
+msgid ""
+"Show the Launch Configuration manager to add, edit, or delete launch "
+"configurations."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:400
+#: /Users/sdeibel/src/ide/src/proj/properties.py:559
+msgid "_Manage"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:402
+msgid "Unspecified Launch Config"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:480
+msgid "Create Launch Configuration"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:483
+msgid "Name of the new launch configuration"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:486
+#: /Users/sdeibel/src/ide/src/proj/properties.py:599
+msgid "Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:557
+msgid "Edit the selected Named Entry Point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:558
+msgid "Create and use a new Named Entry Point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:559
+msgid ""
+"Show the Named Entry Point manager to add, edit, or delete named entry "
+"points."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:593
+msgid "Create Named Entry Point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:596
+msgid "Name of the new entry point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:618
+msgid "Entry Point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:671
+msgid "No File Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:672
+msgid "Please select a file before configuring the environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:679
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1564
+msgid "Start Debug in Current Editor File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:680
+msgid "Debug starts in the current file in the editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:682
+msgid "Use Selected Entry Point:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:683
+msgid "Always stat debugging with the selected named entry point."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:685
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1565
+msgid "Start Debug in Selected File:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:686
+msgid ""
+"Always start debugging with the selected file, using the environment "
+"configured in its File Properties."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:697
+msgid "View/edit runtime environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:794
+msgid "Use default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:815
+msgid "View/edit preference setting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:834
+#: /Users/sdeibel/src/ide/src/proj/properties.py:858
+msgid "Custom"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:839
+msgid "Use project setting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:847
+msgid "View/edit project property"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1238
+msgid "Initial directory '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1240
+msgid "Initial directory '%s' is not a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1242
+msgid ""
+"Initial directory '%s' is a partial path -- This must be a full path to "
+"avoid problems locating source files for analysis and debugging.  Use ${WING:"
+"PROJECTDIR} to create paths relative to the project, or reference any "
+"environment variable with ${VAR}."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1261
+msgid "Cannot use a Named Entry Point in this version of Wing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1264
+msgid "Named Entry Point '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1267
+msgid "Main Debug File '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1269
+msgid "Main Debug File '%s' is a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1279
+msgid "Python executable '%s' is not on your PATH."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1281
+msgid "Python executable '%s' is not a file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1286
+msgid "Python executable '%s' is a Python file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1292
+msgid "Could not launch or inspect Python executable '%s'."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1298
+msgid "Python executable cannot be found so must be specified here"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1300
+msgid "Python executable '%s' is not a file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1312
+msgid "Project Home Directory '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1314
+msgid "Project Home '%s' is not a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1328
+msgid ""
+"PYTHONPATH entry '%s' is a partial path -- We strongly recommend using full "
+"paths here to avoid problems locating source files for analysis and "
+"debugging.  "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1331
+msgid ""
+"If you must use a partial path, be sure to set Initial Directory under the "
+"Debug tab or define a Main Debug File so that the starting directory for all "
+"files in your project is unambiguous."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1336
+msgid "PYTHONPATH entry '%s' is also a partial path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1349
+msgid "PYTHONPATH entry '%s' does not exist or cannot be found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1351
+msgid "PYTHONPATH entry '%s' is not a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1363
+msgid "Environment must be in var=value form, one per line:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1365
+msgid "Env entry %s is invalid"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1387
+msgid "The selected launch configuration no longer exists."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1413
+msgid "Zope2 instance directory must be specified when Zope support is enabled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1416
+msgid "Zope2 instance directory '%s' does not exist or is not a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1429
+msgid ""
+"Zope2 installation directory could not be read from ZOPEINST/etc/zope.conf "
+"or does not exist -- using '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1433
+msgid "Zope2 instance directory '%s' missing expected 'Products' subdirectory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1446
+msgid ""
+"Zope2 home directory '%s' (obtained from etc/zope.conf in Zope Instance) "
+"does not exist or is not a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1450
+msgid ""
+"Zope2 home directory '%s' (obtained from etc/zope.conf in the Zope Instance) "
+"appears invalid -- missing expected directories and files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1458
+msgid ""
+"Zope2 host '%s' does not yet an entry in the Debugger / External/Remote / "
+"Location Map preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1466
+msgid "Single User (One File)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1467
+msgid "Shared (Two Files)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1472
+msgid ""
+"Type of project:  Single user projects store all values in one *.wpr file, "
+"and shared projects stores the sharable configuration in *.wpr and user-"
+"specific values in *.wpu.  In shared projects, the *.wpr file can be checked "
+"into revision control for sharing with other developers.  Note that shared "
+"projects cannot be read byWing IDE Personal."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1543
+msgid "Python Configuration"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1545
+msgid "Project Properties: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1579
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2361
+msgid "None"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1585
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2378
+msgid "Unbuffered (-u)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1589
+msgid "Debug Server Port"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1598
+msgid "Automatic Perspectives"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1624
+msgid "Analyze main debug file for sys.path changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1630
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2499
+msgid "_Debug/Execute"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1632
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2509
+msgid "_Debug"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1638
+msgid "E_nvironment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1642
+msgid "Opt_ions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1646
+msgid "E_xtensions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1712
+msgid "Project Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1718
+msgid "Default Encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1720
+msgid "View/edit Default Encoding Preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1724
+msgid "Location of Project File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1725
+msgid "Specified Directory:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1726
+msgid "Preferred Line Ending"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1728
+msgid "View/edit Line Ending preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1731
+msgid "Line Ending Policy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1733
+msgid "Preferred Indent Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1735
+msgid "View/edit Indent Style preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1738
+msgid "Indent Style Policy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1740
+msgid "Strip Trailing White Space"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1742
+msgid "View/edit Strip Trailing White Space preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1764
+msgid "Enable Django Template Debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1765
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1769
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1773
+msgid "Help"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1766
+msgid "Show Django setup How-To in the help viewer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1768
+msgid "Matplotlib Event Loop Support"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1770
+msgid "Show Matplotlib How-To in the help viewer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1772
+msgid "Enable Zope2/Plone Support"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1774
+msgid "Show Zope setup How-To in the help viewer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1854
+msgid "Add Zope Files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1855
+msgid ""
+"Would you like to automatically add Zope source files to your project?  "
+"Select the directories to include:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1858
+msgid "_Add Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1861
+msgid "Do_n't show this notice again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1926
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1935
+msgid "Could not install WingDBG"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1927
+msgid ""
+"Could not install WingDBG because an exception occurred.  Please check that "
+"%s is writable and %s exists"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1936
+msgid ""
+"Could not install WingDBG.  Please check that %s is writable and %s exists"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1952
+msgid "Install Zope Debugging Support?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1953
+msgid ""
+"Wing could not find the WingDBG product in the selected Zope installation.  "
+"Debugging will not work without it.  Would you like to install WingDBG in %s?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1957
+msgid "_Install WingDBG"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1993
+msgid "Carriage Return \\r (Mac OS <= 9)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1994
+msgid "Carriage Return + Line Feed \\r\\n (Windows)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:1999
+msgid ""
+"The type of end-of-line characters to use in this file.  Changing this value "
+"will cause the file's existing line endings to be translated in the editor.  "
+"Save the editor to change the file on disk."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2017
+msgid ""
+"The file type to use for this file.  This affects how Wing sees the file for "
+"source analysis and how it is syntax highlighted."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2024
+msgid ""
+"Sets whether or not this file is read-only on disk.  Be cautious with this "
+"option if you are using a revision control system that relies on file "
+"permissions for locking."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2174
+msgid "Could not convert encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2175
+msgid ""
+"Encoding of this file cannot be set here because the file contains a comment "
+"specifying '%s' encoding.  Please edit the comment instead."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2202
+msgid "Reload file with new encoding?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2204
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2208
+msgid "\"set by preference\""
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2211
+msgid ""
+"You have changed the encoding of this file from %s to %s.  Would you like to "
+"discard changes and reload the file now using the new encoding, or just save "
+"the current editor's content using the new encoding the next time it is "
+"saved?  You should reload if the file was not opened correctly with the old "
+"encoding."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2224
+msgid "Abandon Changes?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2225
+msgid ""
+"Do you really want to abandon your changes and reread this file from disk?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2227
+msgid "_Abandon Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2237
+msgid "Reload Now"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2238
+msgid "Do Not Reload"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2239
+msgid "Cancel Encoding Change"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2273
+msgid "File Properties: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2405
+msgid "Set by Encoding Comment (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2419
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2423
+msgid "Plain Text"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2424
+msgid "By File Name (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2429
+msgid "File Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2431
+msgid "Encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2433
+msgid "View/edit Default Text Encoding preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2437
+msgid "Line Ending Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2439
+msgid "Indent Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2441
+msgid "Convert Indents"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2442
+msgid "Display the indentation conversion tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2446
+msgid "Read-only on Disk"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2455
+msgid "Show White Space"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2457
+msgid "View/edit Show Whitespace preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2460
+msgid "Show EOL"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2462
+msgid "View/edit Show EOL preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2465
+msgid "Show Indent Guides"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2467
+msgid "View/edit Show Indent Guides preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2470
+msgid "Ignore Indent Errors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2472
+msgid "Ignore EOL Errors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2474
+msgid "Ensure Ending EOL"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2476
+msgid "View/edit Ensure Ending EOL When Saving preference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2488
+msgid "_File Attributes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2493
+msgid "_Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2504
+msgid "_Environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2585
+msgid "Debug: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2611
+msgid "Name of directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2613
+msgid "Check this to scan all sub-directories recursively."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2616
+msgid ""
+"The filter that specifies which of the directory's files should be included "
+"in the project.  This should be an fnmatch/glob style pattern (such as '*' "
+"or '*.py') or the name of a Filter configured in preferences.  Use the "
+"button to configure Filters."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2620
+msgid ""
+"The filter that specifies which of the directory's files should be included "
+"in the project.  This should be an fnmatch/glob style pattern (such as '*' "
+"or '*.py') or the name of a File Set configured in preferences.  Use the "
+"button to configure File Sets."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2627
+msgid ""
+"Whether to show files matching the Hidden and Temporary file filter.  When "
+"checked, those files are not included in the project.  When unchecked, all "
+"files in the directory are included in the project.  Use the button to alter "
+"the Hidden and Temporary file filter in preferences."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2631
+msgid ""
+"Whether to show files matching the Hidden and Temporary file set.  When "
+"checked, those files are not included in the project.  When unchecked, all "
+"files in the directory are included in the project.  Use the button to alter "
+"the Hidden and Temporary file set in preferences."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2637
+msgid ""
+"Check this to watch for changes on disk and update the project view to "
+"reflect any changes to files existing on disk.  When unchecked, the "
+"directory is only scanned once at startup or by right-clicking on the "
+"directory and selecting Rescan Directory."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2639
+msgid "The name of the directory."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2641
+msgid ""
+"Files and directories located within this directory that have been manually "
+"removed or excluded from display in the project.  Use the Clear Excludes "
+"button to remove all excludes for this directory."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2651
+msgid "Add Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2653
+msgid "Directory Properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2679
+msgid "No Excludes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2680
+msgid "Hidden and Temporary files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2689
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2697
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2705
+msgid "Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2713
+msgid "Include"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2721
+msgid "Exclude"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2728
+msgid "Recursive"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2730
+msgid "Watch for external changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2738
+msgid "Clear Excludes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2739
+msgid "Immediately clear all exclusions for this directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2950
+msgid "The following referenced environment variables were undefined: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2954
+msgid "Invalid Properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2954
+msgid ""
+"Some values are invalid:\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2958
+msgid ""
+"\n"
+"Some warnings were also encountered:\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2961
+msgid ""
+"\n"
+"Please correct the values and try again.\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2966
+msgid ""
+"\n"
+"Some property warnings were encountered:\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/proj/properties.py:2976
+msgid "Properties Warnings"
+msgstr ""

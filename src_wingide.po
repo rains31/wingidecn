@@ -1,0 +1,707 @@
+# Module src_wingide translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:24GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:38
+msgid "About Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:110
+msgid "Product"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:111
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:313
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:581
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:585
+msgid "Version"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:112
+msgid "Release Date"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:113
+msgid "Install Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:114
+msgid "Settings Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:115
+msgid "Cache Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:116
+msgid "Patches"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:117
+msgid "OS"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:118
+msgid "OS Version"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:119
+msgid "CPU"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:120
+msgid "Memory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:121
+msgid "Locale"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:122
+msgid "GUI Toolkit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:152
+msgid "License Number"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:153
+msgid "Activation Date"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:154
+msgid "Licensed Users"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:155
+msgid "Licensed Product"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:156
+msgid "Licensed OS"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:157
+msgid "Licensed Version"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:158
+msgid "License Term"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:159
+msgid "Restrictions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:160
+msgid "Customer Info"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:173
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:179
+msgid "Non-commercial use only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:177
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:187
+msgid "None"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:181
+msgid "Unpaid open source or classroom use only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:183
+msgid "Evaluation use only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:185
+msgid "Unknown license type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:191
+msgid "%s (unknown)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:197
+msgid "None entered"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:199
+msgid "(missing)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:210
+msgid "Deactivate..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:246
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:299
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:307
+msgid "Credits"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:249
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:301
+msgid "License"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/aboutbox.py:257
+msgid "Close"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:45
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:348
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:905
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1505
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1526
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1550
+msgid "_OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:71
+msgid "Skipping update check -- done too recently"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:166
+msgid "Finding Updates"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:167
+msgid "Submitting update request. Please wait:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:174
+msgid "Starting update check..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:190
+msgid "Connecting to wingware.com"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:216
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1518
+msgid "Network Error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:217
+msgid ""
+"Unable to connect to wingware.com.  Please check your network connection and "
+"try again."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:266
+msgid "Waiting for Reply"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:274
+msgid "Reading Reply"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:282
+msgid "Error Obtaining Updates"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:283
+msgid ""
+"An error was encountered parsing the updates list.  This may be caused by a "
+"web proxy server, or transient network problem."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:298
+msgid "Show Details"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:304
+msgid "Support+Upgrades Expired"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:305
+msgid "Renew Support+Upgrades"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:308
+msgid "Support+Upgrades Expiring Soon"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:309
+msgid "Extend Support+Upgrades"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:312
+msgid "No Support+Upgrades Subscription"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:313
+msgid "Add Support+Upgrades"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:324
+msgid "New Release Available"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:327
+msgid ""
+"<strong>New Release!</strong>  A newer release, version %s of %s, is now "
+"available. To obtain it, please download from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:337
+msgid "Note: %s  %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:350
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:654
+msgid "Automatically check for updates"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:360
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1405
+msgid "Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:365
+msgid "Automatically show this reminder"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:377
+msgid "No Updates Available"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:378
+msgid "There are no new updates available.  Your copy of %s %s is up to date."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:381
+msgid "OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:384
+msgid "Note: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:401
+msgid "Preparing Interface"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:516
+msgid "_Install"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:517
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:822
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1506
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:520
+msgid "Wing IDE Updates are Available"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:539
+msgid "New Updates!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:539
+msgid "Select updates you wish to install:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:581
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:585
+msgid "Install"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:581
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:585
+msgid "Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:608
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:617
+msgid "Description"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:626
+msgid ""
+"In addition to the above updates, a new release (version %s of %s) is now "
+"available.  To obtain the new version, please download it from wingware.com."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:632
+msgid "Download"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:642
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:651
+msgid "New Release!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:825
+msgid "Installing Updates"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:851
+msgid "Downloading and installing patches - preparing the user interface"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:885
+msgid "_Restart Now"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:889
+msgid "_Continue Working"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:891
+msgid "Installation Complete"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:892
+msgid "%i patches have been installed successfully.  Please restart Wing now."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:895
+msgid ""
+"\n"
+"\n"
+"Some Warnings Occurred:\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:906
+msgid "Installation Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:930
+msgid "Patch %i of %i: %s, %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:931
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:937
+msgid "Downloading patch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:942
+msgid "Downloading patch (%iKB)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:950
+msgid "Installing patch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:977
+msgid "Could not install patches in %s or %s -- patching failed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/patchmgr.py:987
+msgid "Failed to install %s in %s -- patching failed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:232
+msgid "Initializing script manager..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:433
+msgid "Could not store foreground lock timeout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:434
+msgid ""
+"Could not store the foreground lock timeout used on Windows 98/ME and 2K/XP "
+"to control whether background applications can raise windows to the very "
+"front.  The value has been set to allow Wing's debugger to raise windows to "
+"the very front in all cases, but if you are running multiple copies of Wing, "
+"this value may be reset prematurely before this instance of Wing exits."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:476
+msgid ""
+"WARNING: Could not restore the original foreground lock timeout used on "
+"Windows 98/ME and 2K/XP to control whether background applications can raise "
+"windows to the very front.  This means that other applications may be able "
+"to raise windows unexpectedly until you log out or reboot."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:608
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:616
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:625
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:630
+msgid "Cannot find Python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:609
+msgid ""
+"A supported version of Python could not be found.  If you have a recent "
+"Python, be sure you also have a recent version of Wing IDE.  If you do not "
+"have Python on your system, you will need to install it before most of "
+"Wing's features will function properly.  If Python is already installed, use "
+"Project Properties in the Project menu to select the Python Executable to "
+"use."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:617
+msgid ""
+"A supported version of Python could not be found.  If you have a recent "
+"Python, be sure you also have a recent version of Wing IDE.  If you do not "
+"have Python on your system, you will need to install it before most of "
+"Wing's features will function properly.  If Python is already installed, use "
+"Configure Python in the Edit menu to select the Python Executable to use."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:626
+msgid ""
+"Python could not be found or is not installed on this computer. You need to "
+"install Python before you can debug or obtain correct source code analysis "
+"results.  If Python is already installed, use Project Properties to set the "
+"Python Executable to use."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:631
+msgid ""
+"Python could not be found or is not installed on this computer. You need to "
+"install Python before you can debug or obtain correct source code analysis "
+"results.  If Python is already installed, use Configure Python in the Edit "
+"menu to set the Python Executable to use."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:644
+msgid "Starting application instance manager..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:679
+msgid "Checking autosaves..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:716
+msgid "Cannot execute unsaved file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:719
+msgid "Cannot execute %s because it does not exist."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:720
+msgid "Cannot execute"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:965
+msgid "Could not display %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:966
+msgid "Error = %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:967
+msgid "Failed to display document viewer or web browser"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:968
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1104
+msgid "Could not display"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1056
+msgid "Bad viewer command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1058
+msgid "Timeout waiting for process exit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1060
+msgid "Could not start process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1062
+msgid "Process failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1066
+msgid "Could not find in path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1087
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1089
+msgid "Python webbrowser.open() failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1101
+msgid ""
+"Could not launch document viewer for %s.  Tried these:\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1103
+msgid "%s (Error=%ld): %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1139
+msgid "Could not read autosave file: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1156
+msgid "Could restore project auto-save file: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1177
+msgid "Recover Unsaved Changes?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1178
+msgid ""
+"Wing has found changes that were not saved during your last session.  Please "
+"select the files you wish to recover:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1195
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1212
+msgid "Discard Unsaved Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1196
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1213
+msgid "Re-select Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1198
+msgid "Discard Unsaved Changes?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1199
+msgid "Are you sure you want to discard all unsaved changes?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1215
+msgid "Discard Some Unsaved Changes?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1216
+msgid ""
+"Are you sure you want to discard the unsaved changes in the files you did "
+"not select?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1226
+msgid "Restore Selected Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1227
+msgid "Do not Restore"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1258
+msgid "Opening specified project..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1262
+msgid ""
+"Warning: More than one project specified on command line. Only the last one "
+"was opened."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1272
+msgid "Opening recent project..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1280
+msgid "Preparing workspace..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1282
+msgid "Opening default project..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1293
+msgid "Displaying windows..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1297
+msgid "Opening files..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1378
+msgid "No License::Failed to deactivate:  No license is active."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1393
+msgid ""
+"Failed to Deactivate::Failed to deactivate the license %s.  Please check "
+"permissions on file %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1396
+msgid ""
+"Failed to Deactivate::Failed to deactivate the license %s:  Unknown error."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1400
+msgid "Deactivate License and Quit?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1401
+msgid ""
+"Are you sure you want to deactivate and remove license %s and quit Wing?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1404
+msgid "Deactivate and Quit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1509
+msgid "Proxy Server Configuration"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1519
+msgid ""
+"Unable to connect to wingware.com.  Please check your network connection and "
+"try again.\n"
+"\n"
+"You may need to manually configure proxy settings if you are using an http "
+"proxy and Wing is not picking up the settings automatically."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1524
+msgid "Configure Proxy..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1537
+msgid "Pythoncom Shell Extensions Detected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1538
+msgid ""
+"One or more Windows shell extensions that are implemented with pythoncom "
+"have been detected.  These can cause Wing to crash when one of the file "
+"dialog boxes are opened.  Please disable or remove the extensions before "
+"running Wing.  See the troubleshooting Microsoft Windows issues section of "
+"the manual for more information"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1553
+msgid "_Don't show this notice again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1605
+msgid "Please quit Wing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/wingapp.py:1605
+msgid ""
+"Please quit Wing before logging out or shutting down your system.  This "
+"ensures that all your changes will be saved to disk."
+msgstr ""

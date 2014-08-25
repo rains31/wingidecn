@@ -1,0 +1,1085 @@
+# Module src_pref translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:23GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:63
+msgid "Display Language"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:64
+msgid "Display Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:65
+msgid "Color Palette"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:69
+msgid "Use System Qt"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:75
+msgid "Windowing Policy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:78
+msgid "Show Editor Tabs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:82
+msgid "Enable Tooltips"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:86
+msgid "Show Toolbar"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:87
+msgid "Toolbar Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:88
+msgid "Toolbar Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:92
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:213
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:397
+msgid "Groups Shown"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:93
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:214
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:398
+msgid "Custom Items"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:94
+msgid "Primary Icon Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:95
+msgid "Secondary Icon Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:96
+msgid "Tertiary Icon Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:97
+msgid "Quaternary Icon Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:98
+msgid "Quinary Icon Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:99
+msgid "Senary Icon Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:106
+msgid "Auto-save Perspectives"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:107
+msgid "Shared Perspective File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:111
+msgid "Display Font/Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:112
+msgid "Editor Font/Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:116
+msgid "Personality"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:117
+msgid "Tab Key Action"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:118
+msgid "Smart Tab End of Line Indents"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:122
+msgid "Alt Key"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:125
+msgid "Use Alt for Accelerators"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:129
+msgid "Custom Key Bindings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:130
+msgid "Typing Group Timeout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:133
+msgid "VI Mode Ctrl-C/X/V"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:137
+msgid "Show Splash Screen"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:141
+msgid "Quit Application When Last Window Closes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:144
+msgid "Auto-Focus Tools"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:145
+msgid "Case Sensitive Sorting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:146
+msgid "Auto-Show Bug Report Dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:147
+msgid "Auto-check for Product Updates"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:152
+msgid "Show Support+Upgrades Reminders"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:155
+msgid "Always Use Full Path in Tooltips"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:159
+msgid "Max Error Log Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:160
+msgid "Shared File Sets Repository"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:161
+msgid "Key Map File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:167
+msgid "Auto-Save Files Before Debug or Execute"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:170
+msgid "Default Directory Policy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:171
+msgid "Title Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:172
+msgid "Default Encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:173
+msgid "New File EOL"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:174
+msgid "New File Extension"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:178
+msgid "Max Recent Items"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:182
+msgid "Maximum File Size (MB)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:186
+msgid "Extra File Types"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:187
+msgid "File Filters"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:191
+msgid "External Check Freq"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:192
+msgid "Reload when Unchanged"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:193
+msgid "Reload when Changed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:198
+msgid "File Display Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:199
+msgid "Url Display Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:203
+msgid "Auto-reopen Last Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:204
+msgid "Close Files with Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:205
+msgid "Show New Project Dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:208
+msgid "Open Projects as Text"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:209
+msgid "Confirm Drag Copy/Move"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:218
+msgid "Error Indicators"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:219
+msgid "Show Line Numbers"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:220
+msgid "Show Whitespace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:221
+msgid "Show EOL"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:225
+msgid "Split Reuse Policy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:229
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:250
+msgid "Background Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:232
+msgid "Strip Trailing White Space"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:233
+msgid "Block Comment Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:234
+msgid "Scroll Past End"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:235
+msgid "Ensure File Ends With EOL When Saving"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:236
+msgid "Enable Font Size Zooming"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:240
+msgid "On Empty Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:241
+msgid "Middle Mouse Paste"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:245
+msgid "Adjust Indent After Paste"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:251
+msgid "Syntax Formatting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:252
+msgid "Highlight Builtins"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:258
+msgid "Auto-Editing Enabled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:259
+msgid "Auto-Close Characters"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:260
+msgid "Auto-Enter Invocation Args"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:261
+msgid "Apply Quotes to Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:262
+msgid "Apply Comment Key to Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:263
+msgid "Apply (), [], and {} to Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:264
+msgid "Apply Colon to Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:265
+msgid "Auto-Enter Spaces"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:266
+msgid "    Auto-Space After Keywords"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:267
+msgid "    Enforce PEP8 Style Spacing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:268
+msgid "    Spaces in Argument Lists"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:269
+msgid "Manage Blocks on Repeated Colon Key Presses"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:270
+msgid "Continue Comment or String on New Line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:271
+msgid "Correct Out-of-Order Typing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:280
+msgid "Selection Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:281
+msgid "Caret Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:282
+msgid "Caret Width"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:283
+msgid "Caret Flash Rate (ms)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:284
+msgid "Caret Line Highlight"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:290
+msgid "Use Indent Analysis"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:291
+msgid "Default Tab Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:294
+msgid "Default Indent Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:298
+msgid "Default Indent Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:299
+msgid "Auto Indent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:302
+msgid "Show Indent Guides"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:306
+msgid "Show Python Indent Warning Dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:307
+msgid "Show Override Warning Dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:311
+msgid "Wrap Long Lines"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:312
+msgid "Edge Markers"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:313
+msgid "Reformatting Wrap Column"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:317
+msgid "Highlight Occurrences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:318
+msgid "Match Case"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:319
+msgid "Occurrences Indicator Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:320
+msgid "Occurrences Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:324
+msgid "Bookmark Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:325
+msgid "Bookmark Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:329
+msgid "Enable Folding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:330
+msgid "Line Mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:331
+msgid "Indicator Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:332
+msgid "Fold Trailing White Space"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:338
+msgid "Auto-show Completer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:339
+msgid "Auto-completer Height"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:340
+msgid "Auto-complete Delay (sec)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:341
+msgid "Auto-complete Timeout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:342
+msgid "Completion Keys"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:343
+msgid "Completion Mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:344
+msgid "Case Insensitive Matching"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:345
+msgid "Include Snippets in Completer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:346
+msgid "Python Turbo Mode (Experimental)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:347
+msgid "Non-Python Completion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:348
+msgid "Non-Python Word Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:353
+msgid "Orientation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:354
+msgid "Lock Scrolling"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:355
+msgid "Ignore White Space"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:356
+msgid "Empty Session Warning"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:357
+msgid "Diff Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:358
+msgid "Merged Diff Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:362
+msgid "Print Header Format"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:363
+msgid "Print Footer Format"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:364
+msgid "Print Header Font"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:365
+msgid "Print Footer Font"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:366
+msgid "Use Default Foreground Colors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:373
+msgid "Analyze in Background"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:374
+msgid "Introspect Live Runtime"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:375
+msgid "Typing Suspend Timeout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:376
+msgid "Max Cache Size (MB)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:377
+msgid "Max Memory Buffers"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:381
+msgid "Interface File Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:382
+msgid "Scrape Extension Modules"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:383
+msgid "Scraping Helper Snippets"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:387
+msgid "Python Docs URL Prefix"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:391
+msgid "Use SQLite Dot-file Locking"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:394
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:545
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:561
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:593
+msgid "Advanced"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:402
+msgid "Brace Highlighting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:403
+msgid "Maximum Non-Sticky Editors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:404
+msgid "Selection Policy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:405
+msgid "Mini-search Case Sensitivity"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:406
+msgid "Symbol Menu Max Length"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:411
+msgid "Integer Display Mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:414
+msgid "Hover Over Symbols"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:415
+msgid "Hover Over Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:416
+msgid "Run Marker Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:417
+msgid "Run Marker Alpha"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:418
+msgid "Line Threshold"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:422
+msgid "Default Watch Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:426
+msgid "Ignore Unsynchronized Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:430
+msgid "Report Exceptions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:431
+msgid "Report Logged Exceptions In When Printed Mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:432
+msgid "Never Report"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:433
+msgid "Always Report"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:438
+msgid "Debug I/O Encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:439
+msgid "Shell Encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:440
+msgid "Pretty Print in Shells"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:444
+msgid "OS Commands Encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:448
+msgid "Use External Console"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:449
+msgid "External Console Waits on Exit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:453
+msgid "External Consoles"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:457
+msgid "Omit Types"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:458
+msgid "Omit Names"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:459
+msgid "Do Not Expand"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:460
+msgid "Huge List Threshold"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:461
+msgid "Huge String Threshold"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:465
+msgid "Accept Debug Connections"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:466
+msgid "Allowed Hosts"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:467
+msgid "Server Host"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:468
+msgid "Server Port"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:469
+msgid "Location Map"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:470
+msgid "Kill Externally Launched"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:471
+msgid "Common Attach Hosts"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:478
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:484
+msgid "Debug Internals Log File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:479
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:486
+msgid "Python Shell Debug Log"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:485
+msgid "Extremely Verbose Internal Log"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:487
+msgid "Extremely Verbose Python Shell Debug Log"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:490
+msgid "Network Timeout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:491
+msgid "Resolve Properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:492
+msgid "Allow Dynamic Introspection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:493
+msgid "Call Python ____repr____ Methods"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:494
+msgid "Show Data Warnings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:497
+msgid "Use sys.stdin Wrapper"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:498
+msgid "Show Editor on Exceptions in Shells"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:499
+msgid "Shells Ignore Editor Modes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:500
+msgid "Execute Pasted Lines in Shells Immediately"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:501
+msgid "Auto-show Run Args Dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:504
+msgid "Force Win32 Window Raising"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:508
+msgid "HTTP Proxy Server"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:512
+msgid "Search Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:513
+msgid "Auto-Reload Scripts on Save"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:518
+msgid "Selection/Caret"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:519
+msgid "Indentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:520
+msgid "Line Wrapping"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:521
+msgid "Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:524
+msgid "Syntax Coloring"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:526
+msgid "Occurrences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:529
+msgid "Bookmarks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:531
+msgid "Folding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:533
+msgid "Auto-completion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:535
+msgid "Auto-editing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:537
+msgid "Diff/Merge"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:540
+msgid "Printing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:544
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:603
+msgid "Context Menu"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:549
+msgid "Layout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:550
+msgid "Toolbar"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:551
+msgid "Fonts"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:552
+msgid "Keyboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:556
+msgid "Perspectives"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:560
+msgid "Other"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:567
+msgid "File Types"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:568
+msgid "Reloading"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:572
+msgid "External Display"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:577
+msgid "Exceptions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:578
+msgid "I/O"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:581
+msgid "Data Filters"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:585
+msgid "External/Remote"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:589
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:594
+msgid "Diagnostics"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:599
+msgid "User Interface"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:606
+msgid "Projects"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:609
+msgid "Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:610
+msgid "Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:611
+msgid "Debugger"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:614
+msgid "Source Analysis"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:618
+msgid "Enable built-in version control"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:619
+msgid "Save files without prompting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:620
+msgid "Track changes made in project tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:621
+msgid "Automatically refresh status"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:622
+msgid "Enable diagnostic logging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:627
+msgid "Version Control"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:632
+msgid "IDE Extension Scripting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefconstants.py:635
+msgid "Network"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:141
+msgid "Read preferences from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:145
+msgid "Could not read preferences file %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:194
+msgid ""
+"Serious error writing preferences file %s:  File may be corrupted.  Please "
+"report this problem to support@wingware.com"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:200
+msgid ""
+"Failed to write portions of preferences file to %s:  Some preferences have "
+"been lost."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:203
+msgid "Please report this problem to support@wingware.com"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:344
+msgid "Cate_gory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:367
+msgid "Ca&tegory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:406
+msgid "_Factory Defaults"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:408
+msgid "_OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:409
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:410
+msgid "_Apply"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:415
+msgid "Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:570
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:572
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:579
+msgid "General"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:652
+msgid "Really Clear Preferences?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:653
+msgid ""
+"This command will clear your preferences file and restore the factory "
+"defaults.  Are you sure you want to do this?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:655
+msgid "_Yes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/pref/prefmanager.py:656
+msgid "_No"
+msgstr ""

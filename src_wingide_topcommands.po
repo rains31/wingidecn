@@ -1,0 +1,1064 @@
+# Module src_wingide_topcommands translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:24GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2
+msgid ""
+" topcommands.py -- Top-level application commands\n"
+"\n"
+"Copyright (c) 1999-2012, Archaeopteryx Software, Inc.  All rights reserved.\n"
+"\n"
+"Written by Stephan R.A. Deibel and John P. Ehresman\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:63
+msgid " Implements model ctrl-tab document switching. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:66
+msgid ""
+" Create, set up signal handlers, but don't move forward or back.  multi\n"
+"    is the multi editor to cycle through. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:90
+msgid " Key press handler; must run before command map lookup "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:122
+msgid " Move to different location. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:157
+msgid "These are the high level application control commands."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:164
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2243
+msgid " Constructor; fGuiMgr is invariant. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:182
+msgid " Quit the application. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:187
+msgid " Restart the application "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:194
+msgid " Show the application-wide about box "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:206
+msgid " Open a file from disk "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:213
+msgid "File open failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:214
+msgid "%s is a directory and cannot be opened."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:237
+msgid ""
+" Open a file from disk, prompting with file selection dialog if\n"
+"    necessary "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:250
+msgid "Open File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:251
+msgid "Select file to open"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:265
+msgid "The file to select"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:270
+msgid "Select file to open:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:275
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:282
+msgid " Open a file from disk using keyboard-driven selection of the file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:288
+msgid " Create a new file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:294
+msgid ""
+" Create a new scratch buffer with given title and mime type.\n"
+"    The buffer is never marked as changed but can be saved w/ save-as."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:301
+msgid ""
+"Create a new document window with same documents and panels as in\n"
+"    the current document window (if any; otherwise empty with default panels)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:319
+msgid "Create a new panel window of given type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:324
+msgid "Hide/remove all tools and restore to original default state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:329
+msgid "Close the current window and all documents and panels in it"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:344
+msgid ""
+" Save all unsaved items, prompting for names for any new items that don't \n"
+"    have a filename already."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:352
+msgid " Check whether anything needs saving "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:364
+msgid ""
+"Close active document.  Abandon any changes when ignore_changes is\n"
+"    True.  Close empty windows when close_window is true and quit if all\n"
+"    document windows closed when can_quit is true."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:397
+msgid ""
+"Close all documents in the current window, or in all windows if in\n"
+"    one-window-per-editor windowing policy.  Leave currently visible\n"
+"    documents (or active window in one-window-per-editor-mode) if "
+"omit_current \n"
+"    is True.  Abandons changes rather than saving them when ignore_changes "
+"is True.\n"
+"    Close empty window and quit if all document windows closed when "
+"close_window is True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:452
+msgid "Save active document.  Also close it if close is True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:472
+msgid "Save active document to a new file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:486
+msgid "The location to write the file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:491
+msgid "Write file:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:492
+msgid "First line to write or None for all"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:496
+msgid "Last line to write or None for all"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:500
+msgid "Set to False to keep the editor pointed at the old file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:509
+msgid ""
+"Write current file to a new location, optionally omitting all but\n"
+"    the lines in the given range.  The editor is changed to point\n"
+"    to the new location when follow is True.  Note that the editor contents\n"
+"    will be truncated to the given start/end lines when follow is True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:520
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:652
+msgid "Conflicting Filenames"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:521
+msgid ""
+"The file %s is open in another editor.  Please specify another file name to "
+"save to."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:523
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:655
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1865
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1899
+msgid "_OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:564
+msgid ""
+"Write current document to given location and close it.  Saves to current\n"
+"    file name if the given filename is None."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:578
+msgid ""
+"Write current document to given location only if it contains any changes and "
+"close it.\n"
+"    Writes to current file name if given filename is None."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:597
+msgid "The new filename for the file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:602
+msgid "Rename file:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:607
+msgid " Rename current file, moving the file on disk if it exists. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:626
+msgid "Name of the new file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:632
+msgid "New file:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:640
+msgid ""
+"Create a new blank file on disk, open it in an editor, and add it \n"
+"    to the current project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:653
+msgid ""
+"The file %s is open in another editor.  Please choose another file name."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:672
+msgid "Name of the new directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:679
+msgid "New directory:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:687
+msgid "Create a new directory on disk and add it to the current project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:707
+msgid "Name of the new package"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:713
+msgid "New package:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:721
+msgid ""
+"Create a new Python package directory on disk, add it to the current "
+"project,\n"
+"    and open the new __init__.py in the editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:731
+msgid ""
+"Abandon any changes in the current document and reload it from disk.\n"
+"    Prompts for user to confirm the operation unless either there are no\n"
+"    local changes being abandoned or confirm is set to False."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:741
+msgid "Abandon Changes?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:742
+msgid ""
+"Do you really want to abandon your changes and reread this file from disk?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:744
+msgid "_Abandon Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:745
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:754
+msgid " Return arg info sequence for switch-document command. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:768
+msgid "Document to switch to"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:774
+msgid "Switch to document:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:779
+msgid ""
+" Switches to named document.  Name may either be the complete name\n"
+"    or the last path component of a path name. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:809
+msgid ""
+"Open document from the project via the Open From Project dialog.\n"
+"    The given fragment is used as the initial fragment filter and if it\n"
+"    is None, the selected text or the symbol under the cursor is used.\n"
+"    If skip_if_unique is true, the file is opened without the dialog being\n"
+"    displayed if only one filename matches the fragment. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:824
+msgid ""
+" Start moving between documents in the order they were visited.  Starts\n"
+"    modal key interaction that ends when a key other than tab is seen or "
+"ctrl\n"
+"    is released. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:876
+msgid ""
+"Move to the next document alphabetically in the list of documents\n"
+"    open in the current window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:922
+msgid ""
+"Move to the previous document alphabetically in the list of documents\n"
+"    open in the current window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:955
+msgid ""
+"Move to the nth document alphabetically in the list of documents\n"
+"    open in the current window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:976
+msgid ""
+"Switches to previous document most recently visited in the current window\n"
+"    or window set if in one-window-per-editor windowing mode."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:988
+msgid "Switch to the next window alphabetically by title"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1005
+msgid "Switch to the previous window alphabetically by title"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1020
+msgid ""
+"Get list of (title, window) sorted alphabetically by title and\n"
+"    current window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1032
+msgid ""
+"Get the active multieditor in the given window (most recent window if\n"
+"    wnd==None)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1052
+msgid ""
+"Get the list of (wnd, multi, loc, panel_instance) for all editors in\n"
+"    the given windows (None is current window / window set). The returned "
+"list \n"
+"    is in order of visit time with any as yet unvisited documents appended "
+"at end."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1145
+msgid "Name of the command to execute"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1148
+msgid "Command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1153
+msgid " Execute given command by name, collecting any args as needed "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1158
+msgid "Cannot parse command name: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1165
+msgid "Command not found: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1181
+msgid ""
+"Force reload of all scripts, from all configured script directories.\n"
+"    This is usually only needed when adding a new script file.  Existing\n"
+"    scripts are automatically reloaded when they change on disk."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1190
+msgid " Display interactive tip manager "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1196
+msgid " Show the HTML version of the Wing IDE users manual "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1201
+msgid ""
+" Show the PDF version of the Wing IDE users manual for either\n"
+"    US Letter or A4, depending on user's print locale "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1207
+msgid " Show the Python users manual "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1213
+msgid " Show the Wingware home page "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1216
+msgid " Show the Wingware store for purchasing a license "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1219
+msgid " Show the Wingware wiki for sharing scripts, tips, and tricks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1222
+msgid " Show the Wing IDE support site home page "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1225
+msgid " Show the Python Success Stories page"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1228
+msgid " Show the python.org site home page "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1231
+msgid " Show the python.org site search page "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1234
+msgid " Show the Python for Beginners web page "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1237
+msgid " Show the Python donations web page "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1242
+msgid ""
+"Show most recently visited panel instance of given type. If no such\n"
+"    panel exists, add one to the primary window and show it. Returns the "
+"panel\n"
+"    view object or None if not shown.  Focus is shifted to panel if "
+"grab_focus\n"
+"    is specified and is true; if grab_focus is not specified, it defaults "
+"to\n"
+"    the value of flash.\n"
+"    \n"
+"    The valid panel types are:\n"
+"    \n"
+"    project (*)\n"
+"    browser (**)\n"
+"    batch-search (*)\n"
+"    interactive-search\n"
+"    source-assistant (**)\n"
+"    debug-data\n"
+"    debug-stack\n"
+"    debug-io\n"
+"    debug-exceptions\n"
+"    debug-breakpoints (**)\n"
+"    debug-probe (**)\n"
+"    debug-watch (**)\n"
+"    debug-modules (**)\n"
+"    python-shell\n"
+"    messages (*)\n"
+"    help\n"
+"    indent (**)\n"
+"    bookmarks (**)\n"
+"    testing (**)\n"
+"    open-files (*)\n"
+"    os-command (**)\n"
+"    snippets (**)\n"
+"    diff (**)\n"
+"    uses (**)\n"
+"    refactoring (**)\n"
+"    versioncontrol.svn (**)\n"
+"    versioncontrol.hg (**)\n"
+"    versioncontrol.git (**)\n"
+"    versioncontrol.bzr (**)\n"
+"    versioncontrol.cvs (**)\n"
+"    versioncontrol.perforce (**)\n"
+"    \n"
+"    (*) Wing Personal and Pro only\n"
+"    (**) Wing Pro only\n"
+"    \n"
+"    "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1298
+msgid "Panel Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1426
+msgid ""
+" Edit the preferences file using the preferences GUI, optionally\n"
+"    opening to the section that contains the given preference by name "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1433
+msgid " Show the plugins GUI for enabling and disabling plugins "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1439
+msgid "Show the File Sets preference editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1448
+msgid " Edit the preferences as a text file "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1458
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1464
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1470
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1476
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1482
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1488
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1494
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1500
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1506
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1512
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1518
+msgid ""
+" Enter a sequence of digits indicating number of times to repeat\n"
+"    the subsequent command or keystroke. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1525
+msgid "VI style repeat/numeric modifier for following command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1531
+msgid "Show the line numbers in editors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1543
+msgid "Hide line numbers in editors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1549
+msgid "Process query-end-session message on win32"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1553
+msgid ""
+" Execute the file at the given location or use the active view\n"
+"    if loc is None. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1579
+msgid ""
+"Execute the given command line in the OS Commands tool using default run \n"
+"    directory and environment as defined in project properties, or the "
+"values\n"
+"    set in an existing command with the same command line in the OS Commands "
+"tool."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1599
+msgid ""
+"Execute one of the stored commands in the OS Commands tool, selecting it by "
+"its\n"
+"    title"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1614
+msgid "Title"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1616
+msgid "Title:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1619
+msgid ""
+"Execute one of the stored commands in the OS Commands tool, selecting it by "
+"its\n"
+"    internal ID"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1630
+msgid ""
+"Show the selected file in the Explorer, Finder, or other OS-provided\n"
+"    file manager.  Shows the given file, if any, or the current file "
+"selected\n"
+"    in the GUI."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1645
+msgid "Show the given documentation section"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1650
+msgid "Show the tutorial"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1654
+msgid "Show the quick start guide"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1658
+msgid "Show the How-Tos index"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1662
+msgid "Show the Wing Tips window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1666
+msgid ""
+"Show the given document in PDF format.  One of 'manual', 'intro',\n"
+"    or 'howtos'."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1684
+msgid "Show the given document section in HTML format."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1706
+msgid ""
+"Search using given text and the toolbar search area.  The search\n"
+"    is always forward from the current cursor or selection position"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1759
+msgid "Search successful (wrapped)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1764
+msgid "No search match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1771
+msgid "Search successful"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1786
+msgid "Move to next match of text already entered in the toolbar search area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1795
+msgid ""
+"Move to previous match of text already entered in the toolbar search area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1804
+msgid " Move focus to toolbar search entry. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1823
+msgid "Show the feedback submission dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1828
+msgid "Show the bug reporting dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1833
+msgid ""
+"Check for updates to Wing IDE and offer to install any that are\n"
+"    available"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1839
+msgid ""
+"Prompt user and copy the tutorial directory from the Wing IDE \n"
+"    installation to the directory selected by the user"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1848
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1862
+msgid "Could not copy tutorial"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1849
+msgid "No valid directory was selected."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1860
+msgid "tutorial"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1863
+msgid ""
+"A non-empty directory %s already exists.  Please remove it  or select "
+"another location."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1897
+msgid "Tutorial copied"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1898
+msgid "Tutorial was copied to %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1904
+msgid "Choose Target Folder"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1905
+msgid "Please select a target folder to which to copy the tutorial files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1913
+msgid "Show the contents of all non-empty text registers in a temporary editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1920
+msgid "Utility to get current editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1929
+msgid ""
+"Set a bookmark at current location on the editor.  Mark is the\n"
+"    project-wide textual name of the bookmark."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1946
+msgid "The project-wide name of the bookmark to set or replace."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1948
+msgid "Name:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1958
+msgid ""
+"Set or remove a bookmark at current location on the editor. When set,\n"
+"    the name of the bookmark is set to an auto-generated default."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1966
+msgid ""
+"Set or remove a bookmark at the position in the editor where the most\n"
+"    recent mouse click occurred. When set, the name of the bookmark is set "
+"to\n"
+"    an auto-generated default."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1975
+msgid "Remove the given named bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1984
+msgid ""
+"Set a bookmark at current line, using a default bookmark name for that "
+"context.\n"
+"    This command is only available if there is not already a bookmark on the "
+"line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:1998
+msgid ""
+"Remove bookmark at current line, if any. This command is only available if "
+"there is a\n"
+"    bookmark on the line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2012
+msgid "Goto named bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2026
+msgid "Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2028
+msgid "Bookmark:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2033
+msgid ""
+"Go to the next bookmark, or the first one if no bookmark is selected.\n"
+"    Stays within the file in the current editor when current_file_only is\n"
+"    True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2041
+msgid ""
+"Go to the previous bookmark in the bookmark list, or the last one\n"
+"    if no bookmark is selected.  Stays within the file in the current\n"
+"    editor when current_file_only is True."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2049
+msgid "Show a list of all currently defined bookmarks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2055
+msgid " Returns list of menu items for selecting among defined bookmarks "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2067
+msgid "No bookmarks defined"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2073
+msgid ""
+"Set a bookmark at current location on the editor using the next\n"
+"    key press as the name of the bookmark."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2082
+msgid ""
+"Goto bookmark using single character name defined by\n"
+"    the next pressed key"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2095
+msgid "Remove one or more bookmarks (pass in space separated list of names)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2101
+msgid ""
+" Start internal profiling.  Profile information is collected for Wing IDE's\n"
+"    internals until internal_profile_stop is executed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2137
+msgid ""
+" Stop internal profiling after earlier internal_profile_start command.\n"
+"    The profile can be found in the error-log file or submitted to Wingware "
+"as\n"
+"    part of the error log included with a bug report from the Help menu. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2152
+msgid "Restore the given named perspective."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2155
+msgid "Invalid Perspective::The perspective '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2162
+msgid "Display the perspectives manager dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2169
+msgid "Enable auto-perspectives"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2181
+msgid "Disable auto-perspectives"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2195
+msgid "Load the given named file set"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2198
+msgid "Invalid File Set::The named file set '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2205
+msgid "Display the file set manager dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2211
+msgid "Create a new named file set with the currently open files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2221
+msgid "Create a new named file set with the currently selected files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2229
+msgid "Enter a new license code, replacing any existing license activation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2236
+msgid "Commands to dynamically generate menu items for the top level menus."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2254
+msgid " Returns list of menu item definitions for all windows. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2308
+msgid ""
+"Return extra Help menu items to include if running on a trial license\n"
+"    or no license"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2319
+msgid "Buy Now"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2320
+msgid "Enter License..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2332
+msgid ""
+" Returns list of menu item definitions for all documents in active\n"
+"    window. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2358
+msgid "Wing IDE Help"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2385
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2399
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2417
+msgid " Debug loc; used to implement recent menu. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2390
+msgid " Generates list of menu items for recent files menu. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2410
+msgid " Generates list of menu items for recent projects menu. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2436
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2481
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2526
+msgid " Generates list of menu items for recent debug menu. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2452
+msgid " Generates list of menu items for named debug entry points. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2464
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2503
+msgid "Manage Named Entry Points..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2469
+msgid " Execute loc; used to implement recent menu. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2493
+msgid " Generates list of menu items to execute named entry points. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2509
+msgid " Invoke script; used to implement recent menu. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2514
+msgid " Returns label to use for script. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2534
+msgid ""
+" Create list of tool menu items.  If new_window is True, commands attached\n"
+"    to items will create new tool window. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2578
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2583
+msgid " Returns list of menu items for the tools menu. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2588
+msgid ""
+" Create the dock-specific tools menu items or empty list if not in single\n"
+"    window mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2595
+msgid "Show _Horizontal Tool Area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2596
+msgid "Hide _Horizontal Tool Area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2597
+msgid "Show _Vertical Tool Area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2598
+msgid "Hide _Vertical Tool Area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2599
+msgid "Ma_ximize Editor Area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2600
+msgid "Un-ma_ximize Editor Area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2601
+msgid "Show Toolbar"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2602
+msgid "Hide Toolbar"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2607
+msgid ""
+" Create list of perspective menu items that call the given action with \n"
+"    the perspective name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2643
+msgid " Returns list of menu items for setting current perspective "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2649
+msgid " Returns list of menu items for deleting perspectives "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2658
+msgid " Returns list of menu items for selecting keyboard personality "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2685
+msgid " Generates list of menu items for all named file sets. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/wingide/topcommands.py:2691
+msgid "Beep once"
+msgstr ""

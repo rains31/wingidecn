@@ -1,0 +1,3097 @@
+# Module src_edit translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2003-07-10 12:23GMT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/edit/attribmenus.py:288
+msgid "(top)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribmenus.py:290
+msgid "Not all symbols displayed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribmenus.py:292
+msgid "(bottom)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:41
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:54
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:67
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:104
+msgid "Use Preference Setting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:42
+msgid "Always Show White Space"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:47
+msgid ""
+"Whether to show white space on this file:  Either refer to the preference, "
+"or override the preference to force showing white white space for this file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:55
+msgid "Always Show EOL Characters"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:60
+msgid ""
+"Whether to show EOL characters on this file:  Either refer to the "
+"preference, or override the preference to force showing end of line "
+"characters for this file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:68
+msgid "Always Show Indent Guides"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:73
+msgid ""
+"Whether to show indent guides on this file:  Either refer to the preference, "
+"or override the preference to force showing indent guides for this file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:80
+msgid "Match Existing Indents"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:81
+msgid "Use Spaces Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:82
+msgid "Use Tabs Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:83
+msgid "Use Mixed Tabs and Spaces"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:88
+msgid ""
+"Defines the indent style to use on new indents in this file. When set, this "
+"ignores the type of any existing indentation. This property is disabled for "
+"Python files.  Use the indentation tool to convert or repair inconsistent "
+"indents."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:98
+msgid "Defines named bookmarks set within the current project."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:105
+msgid "Always Ensure File Ends With an EOL"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:106
+msgid "Never Ensure File Ends With an EOL"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:111
+msgid ""
+"Whether to ensure file ends with an EOL character when it is save:  Either "
+"refer to the preference, or override the preference to always ensure file "
+"ends with an EOL or never ensure file ends with an EOL "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:120
+msgid "The defined commands in the OS Commands toolbox"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/attribs.py:125
+msgid "Seed value for command ids"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autocomplete.py:1344
+msgid "(symbol)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autocomplete.py:1355
+msgid "(snippet)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autocomplete.py:2967
+msgid "_Sort Alphabetically"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autocomplete.py:2969
+msgid "Sort items alphabetically rather than in the order found in the file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autocomplete.py:2971
+msgid "Include _Args in Search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autocomplete.py:2973
+msgid "Include the text of function arguments in the text on which to search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autoeditor.py:1274
+msgid "Press : again to indent following block instead"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autoeditor.py:1307
+msgid "Press : again to select another possible indent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autoeditor.py:1321
+msgid "Press : again to indent following line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_autoeditor.py:2053
+msgid "Entering Invocation: Tab key moves between arguments"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:537
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:784
+msgid "Bookmarks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:542
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:632
+msgid "Bookmark Manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:654
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:660
+msgid "Scope"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:654
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:660
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:699
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:68
+msgid "File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:654
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:660
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1020
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1038
+msgid "Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:654
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:660
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9100
+msgid "Line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:711
+msgid "undefined"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:716
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:717
+msgid "n/a"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:756
+msgid "Remove All Bookmarks?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:757
+msgid ""
+"Are you sure you want to remove all bookmarks?  This operation cannot be "
+"undone."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:760
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:776
+msgid "Remove All Bookmarks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:761
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1191
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1370
+msgid "Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:773
+msgid "Goto Selected Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:775
+msgid "Remove Selected Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_bookmarks.py:778
+msgid "Show Bookmarking Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:109
+msgid "Indent Style Mismatch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:110
+msgid ""
+"You may convert indentation with the Indentation tool, use indentation that "
+"matches the file, or ignore this and continue with your selected indent "
+"style."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:113
+msgid ""
+"Warning:  The indent style you have chosen does not match the existing "
+"content of the file.  This will introduce inconsistent indentation into the "
+"file.  %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:126
+msgid "_Ignore and Use Spaces Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:128
+msgid "_Ignore and Use Tabs Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:130
+msgid "Con_vert Indentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:133
+msgid "_Match File (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:135
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2049
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1450
+#: /Users/sdeibel/src/ide/src/edit/printer.py:96
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:137
+msgid "_Don't show this notice again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:162
+msgid "Cannot convert because a macro is being recorded"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:167
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:219
+msgid "Cannot convert because the editor text is read-only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:181
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:204
+msgid "This file can be converted.  Select the desired indent size above."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:182
+msgid ""
+"Wing will indent using spaces according to the selected indent size and will "
+"replace any %s space(s) found in an indent with one tab.\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:185
+msgid ""
+"\n"
+"Tab size of 8 is required in this case because the Python interpreter "
+"expects tabs in mixed indentation to be equivalent to eight spaces.\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:195
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:214
+msgid "Cannot convert indents because a macro is being recorded"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:205
+msgid "Wing will convert all indentation in the file to use only spaces."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:223
+msgid "Wing can convert this file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:224
+msgid "Wing will place one tab per indentation level found in the file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:577
+msgid "_Convert..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:578
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8117
+msgid "Do_n't Convert"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:579
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8118
+msgid "_Don't ask about this file again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:590
+msgid "Suspicious Indentation in File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:592
+msgid ""
+"The file %s contains indentation with %s.  It may appear incorrectly in some "
+"editors and may contain unexpected errors in block structure. Total indents "
+"= %s.  The Indentation tool can be used to convert the file to another style "
+"of indent."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:601
+msgid "Ne_ver ask for any file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:632
+msgid "Indentation Policy Violation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:634
+msgid ""
+"The file %s contains indentation with %s and you have configured your "
+"project to require %s indents.  Total indents = %s.  If you wish, you can "
+"convert this file with the indentation manager."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:664
+msgid "tabs and spaces"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:666
+msgid "spaces only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:668
+msgid "tabs only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:670
+msgid "no indents"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:676
+msgid " (with indent errors)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:678
+msgid " (with indent warnings)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:762
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1040
+msgid "Indentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:767
+msgid "Source Code Indent Analysis and Conversion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:795
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8116
+msgid "_Convert"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:822
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:882
+msgid "None.\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:823
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:883
+msgid ""
+"Availability:\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:825
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:885
+msgid ""
+"Action:\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:917
+msgid "Convert"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1017
+msgid "File:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1025
+msgid "Status:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1039
+msgid "Counts:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1053
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1066
+msgid "(from existing contents)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1059
+msgid "T_ab size:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1072
+msgid "_Indent size:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1077
+msgid "Conversions:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1086
+msgid "_Spaces Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1088
+msgid "_Tabs Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1090
+msgid "_Mixed Tabs & Spaces"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1166
+msgid "(user-entered value)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1168
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1172
+msgid "(from file contents)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1170
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1174
+msgid "(from preferences)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_indentmgr.py:1197
+msgid "<i>No active source editor</i>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:44
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:49
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:94
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:293
+msgid "Open Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:109
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:119
+msgid "Open files state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:262
+msgid "Goto File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:264
+msgid "Save"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:265
+msgid "Close Selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:266
+msgid "Close Others"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:278
+msgid "Select All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:279
+msgid "Select None"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:281
+msgid "Name Selected File Set..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:282
+msgid "Open File Set"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:283
+msgid "Manage File Sets..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_openfiles.py:287
+msgid "File Properties..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:214
+msgid "Build Command: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:306
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:285
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:292
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:655
+msgid "Use Default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:317
+msgid "Title"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:318
+msgid "Enter a title for the command if a non-default title is desired."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:323
+msgid "Use pseudo-tty"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:324
+msgid ""
+"Enable this if the executed command or file expects to be run within a tty; "
+"it executes the process within a pseudo TTY environment."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:330
+msgid "Line mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:331
+msgid ""
+"Enable this to process input line edits locally, so that the line is "
+"executed only after Enter is pressed; disable it to work in unbuffered "
+"character mode, which sends each typed character to the sub-process as it "
+"comes in.  Note:  Disabling this may not work for some processes; only a "
+"_very_ limited subset of tty emulation is supported.  Using command line "
+"flags to disable color and other features in the sub-process may help."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:342
+msgid "Auto-save files before execution"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:343
+msgid ""
+"Enable this to auto-save all open files before starting execution of the "
+"command."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:349
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:816
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1020
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1038
+msgid "Key Binding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:350
+msgid "Press the desired key sequence to bind to this command."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:355
+msgid "Raise OS Commands when executed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:356
+msgid ""
+"Set this to automatically show the OS Commands tool when the command is "
+"executed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:362
+msgid "I/O Encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:363
+msgid ""
+"Use this to specify the encoding of text sent to and from the sub-process."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:441
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:698
+msgid "Command Line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:442
+msgid ""
+"The command line to execute.  Use $(ENV) to insert values from the "
+"environment or from the following special variables:  $(WING:FILENAME) for "
+"full path of current file, $(WING:LINENO) for current line number, $(WING:"
+"SCOPE) for x.y.z-formatted list of current Python scope, $(WING:PROJECT) for "
+"full path of current project, $(WING:PROJECT_DIR) for the directory that "
+"contains the current project, $(WING:SELECTION) for the text selected on the "
+"current editor, and $(WING:PYTHON) forthe full path to the Python being used "
+"by the current project.  %s can be used as a short hand for $(WING:"
+"FILENAME).  These values will be empty if undefined or there is no current "
+"file. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:480
+msgid ""
+"The starting directory for the sub-process.  If unspecified, the directory "
+"for commands will be the location of the project's main debug file or the "
+"project file.  For executing a file, the default directory is the location "
+"of the file. $(ENV) formatted variables may be used to insert values from "
+"the environment and special variables."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:487
+msgid ""
+"The PYTHONPATH to set when running this command.  The path separator is \"%s"
+"\". If unspecified, the PYTHONPATH Wing inherits at startup is used.  $(ENV) "
+"formatted variables may be used to insert values from the environment and "
+"special variables."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:492
+msgid ""
+"Environment variables to set before running this command.  Entries are in "
+"\"name=value\" format, one per line.  Use \"name=\" (without a value) to "
+"unset and remove an inherited environment value.  If unspecified, the "
+"environment Wing inherits at startup is used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:703
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:85
+msgid "Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:704
+msgid ""
+"Select a type of command (either command line or a file) and enter the "
+"command line or filename. In command lines, use $(ENV) to insert values from "
+"the environment or from the following special variables:  $(WING:FILENAME) "
+"for full path of current file, $(WING:LINENO) for current line number, "
+"$(WING:SCOPE) for x.y.z-formatted list of current scope, $(WING:PROJECT) for "
+"full path of current project, $(WING:PROJECT_DIR) for the directory that "
+"contains the current project, and $(WING:SELECTION) for the text selected on "
+"the current editor.  %s can be used as a short hand for $(WING:FILENAME).  "
+"These values will be empty if undefined or there is not current file. For "
+"files, Wing tries to automatically determine how to execute that file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:743
+msgid "Named Entry Point: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:791
+msgid "Entry Point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:792
+msgid "The named entry point to launch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:900
+msgid "No File Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:901
+msgid "Please select a file before configuring the environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:914
+msgid "Configure runtime environment for executing this file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:925
+msgid "Python File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:926
+msgid ""
+"The Python file to run within the default launch configuration specified in "
+"its File Properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:940
+msgid "OS Command Properties: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:974
+msgid "Test Execution: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:981
+msgid "Test Execute"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1031
+msgid "Definition"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1039
+msgid "Environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1129
+msgid "Initial directory '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1131
+msgid "Initial directory '%s' is not a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1137
+msgid "No Python file was selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1142
+msgid "The file '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1144
+msgid "The file '%s' is a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1149
+msgid "The file '%s' is not a Python file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1177
+msgid "PYTHONPATH entry '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1179
+msgid "PYTHONPATH entry '%s' is not a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1195
+msgid "Environment must be in var=value form, one per line:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1197
+msgid "Env entry %s is invalid"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1205
+msgid "The command line is empty"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1571
+msgid "Save Session"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1572
+msgid "Choose file to which to save the session:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1953
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:1969
+msgid "OS Commands state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2037
+msgid "Delete Build Command?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2038
+msgid ""
+"This command is used as a build command in this project.  If you delete it, "
+"the build command will also be deleted.  Are you sure you want to delete it?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2042
+msgid "Delete Command?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2048
+msgid "_Delete Command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2061
+msgid "_Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2069
+msgid "Execute current command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2076
+msgid "Terminate current command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2087
+msgid "Create new command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2094
+msgid "Edit current command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2101
+msgid "Delete current command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2130
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2135
+msgid "Toolbox"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2257
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2720
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2832
+msgid "_Terminate %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2258
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2721
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2833
+msgid "_Restart %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2260
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2723
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2835
+msgid "_Execute %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2268
+msgid "E_xecute %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2273
+msgid "_New: Command Line..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2274
+msgid "_New: Python File..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2276
+msgid "_New: Named Entry Point..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2278
+msgid "_New Toolbox Command..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2280
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2733
+msgid "E_dit %s..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2281
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2734
+msgid "Re_move %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2284
+msgid "_Hide Toolbox"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2286
+msgid "_Show Toolbox"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2288
+msgid "_Clear Console"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2290
+msgid "A_uto-clear Consoles"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2291
+msgid ""
+"Automatically clear past history from a console when a process is started/"
+"restarted"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2292
+msgid "Python Prompt after Execution"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2293
+msgid ""
+"When executing Python files, remain at the Python prompt after the file has "
+"finished executing, rather than terminating Python.  This is the same as the "
+"-i command line option for Python."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2296
+msgid "Wrap Long Lines"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2297
+msgid "Wrap long output lines to fit in available display area."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2299
+msgid "Show OS Commands Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2479
+msgid "Process terminated with an exit code of %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2502
+msgid "Process failed to start"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2664
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2727
+msgid "New: Command Line..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2665
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2728
+msgid "New: Python File..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2672
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2729
+msgid "New: Named Entry Point..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2731
+msgid "_New..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2837
+msgid "C_opy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2838
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8455
+#: /Users/sdeibel/src/ide/src/edit/editor.py:11437
+msgid "_Paste"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2839
+msgid "C_lear Console"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2843
+msgid "Send Ctrl-_C (SIGINT)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2844
+msgid "Send Ctrl-_D (EOF)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2845
+msgid "Send Ctrl-_Z (SIGSTOP)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2850
+msgid "_Save a Copy..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2884
+msgid "OS Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_oscommands.py:2890
+msgid "Operating System Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:67
+msgid "Symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:69
+msgid "Invoking"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:70
+msgid "Python Keyword"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:71
+msgid "Completion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:72
+msgid "Defining"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:75
+msgid "Not Python code"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:76
+msgid "No selected file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:77
+msgid "No selected value"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:78
+msgid "No symbol at cursor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:79
+msgid "Introspection disabled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:80
+msgid "Invalid source code"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:81
+msgid "Cannot determine type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:84
+msgid "Likely type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:86
+msgid "Runtime type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:297
+msgid "<i>Returns:</i> %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:299
+msgid " <i>or</i> %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:315
+msgid "Go to %s, line %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:427
+msgid "Source Assistant"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:432
+msgid "Source Symbol Point of Definition Information"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:1648
+msgid "✔ PEP287"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:1650
+msgid "✖ PEP287"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:1657
+msgid "Rewrapped"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:1659
+msgid "Plain Text"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2077
+msgid "Copy Text to Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2078
+msgid "Copy HTML to Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2084
+msgid "Use PEP 287 for docstrings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2091
+msgid "Show PEP 287 parse errors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2098
+msgid "Rewrap plain text docstrings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2105
+msgid "Always show docstrings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2112
+msgid "Show docstring type and validity"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2125
+msgid "Smaller Font"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2126
+msgid "Larger Font"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_sassist.py:2131
+msgid "Show Source Assistant Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:542
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1666
+msgid "No Active Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:543
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1667
+msgid "Could not paste the selected snippet because there is no active editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:686
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1604
+msgid "Snippets"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:691
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:942
+msgid "Snippet Manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:698
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:759
+msgid "Snippet Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:721
+msgid "Mime Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:761
+msgid "File Extension"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:960
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:972
+msgid "Snippet manager state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1020
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1038
+msgid "Context"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1067
+msgid "Mime type: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1186
+msgid "Remove all snippets of type %s?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1187
+msgid ""
+"The directory %s contains some snippets.  Are you sure you want to move all "
+"of these snippets to the trash?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1190
+msgid "Remove Snippets"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1201
+msgid ""
+"File Type Exists::The file type '%s' already exists.  Please rename or "
+"remove it first."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1363
+msgid "Snippet already exists"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1364
+msgid ""
+"The snippet '%s' already exists in %s.  Do you want to open the existing "
+"file?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1369
+msgid "Open Existing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1446
+msgid "Remove Disk File?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1447
+msgid "Are you sure you want to move the snippet '%s' in %s to the trash?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1449
+msgid "_Remove File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1479
+msgid ""
+"Existing Snippet::A snippet named '%s' already exists in context %s.  Please "
+"remove or rename it first."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1568
+msgid "Paste '%s' Into Current Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1569
+msgid "Paste '%s' Into New File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1573
+msgid "Add New Snippet..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1577
+msgid "Edit Snippet '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1578
+msgid "Rename Snippet '%s'..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1579
+msgid "Duplicate Snippet '%s'..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1580
+msgid "Remove Snippet '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1584
+msgid "Change Snippet '%s' Context"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1585
+msgid "Copy Snippet '%s' to Context"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1589
+msgid "Assign Key Binding to '%s'..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1590
+msgid "Clear Key Binding for '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1596
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1634
+msgid "Reload All Snippets"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1598
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1636
+msgid "Show Snippets Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1625
+msgid "Add File Type..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1629
+msgid "Remove File Type '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1630
+msgid "Rename File Type '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/cap_snippets.py:1642
+msgid "Snippet File Types"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:113
+msgid "Source Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:125
+#: /Users/sdeibel/src/ide/src/edit/editor.py:127
+msgid " (r/o)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:394
+msgid "_Toggle Fold"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:395
+msgid "_Collapse More"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:396
+msgid "E_xpand More"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:397
+msgid "Colla_pse Completely"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:398
+msgid "Expand C_ompletely"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:400
+msgid "Collapse A_ll Folds"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:401
+msgid "Expand _All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:403
+msgid "Fold Python _Methods"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:404
+msgid "Fold Python _Classes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:405
+msgid "Fold Python Classes and _Defs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:1750
+msgid "Failed to save portions of visual state for editor %s:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:2083
+msgid "Exited data entry mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:2215
+msgid "Entering Snippet: Tab key moves between fields"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:2585
+msgid "Editors state for %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:2653
+msgid "Editor %s selection range"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:2666
+msgid "Editor %s scroll position"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:2694
+msgid "Editor state for %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:4053
+msgid ""
+"Failed to wrap text::Wrapping more than 10 lines of Python source that is "
+"not a comment or a doc string is currently not supported"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:4571
+msgid "Could not find definition of '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:4612
+msgid "Could not open definition of '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:5754
+#: /Users/sdeibel/src/ide/src/edit/editor.py:5774
+msgid "Search wrapped"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:6453
+msgid "Auto-indented for context; use undo to restore indentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:6467
+msgid "Auto-indented to caret; use undo to restore indentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:7461
+msgid "appending to register '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:7463
+msgid "register '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:7467
+msgid "Restarted macro record (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:7469
+msgid "Started macro record (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:7485
+msgid "Stopped macro record (register '%s')"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:7503
+msgid "Macro aborted::Macro register '%s' is undefined"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:7508
+msgid "Macro aborted::Macro aborted due to error in action "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:7510
+msgid "Executed keyboard macro (register '%s')"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8005
+msgid "Cannot Convert"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8006
+msgid "Could not convert line endings because this file is read-only."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8101
+msgid "Auto-converted EOLs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8102
+msgid ""
+"The line-endings in %s were auto-converted from %s to %s, the project's "
+"configured preferred line ending.  Use Project Properties to alter this "
+"value or change the conversion/warning policy."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8125
+msgid "Line-ending Policy Violation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8126
+msgid ""
+"The file %s contains %s style line-endings but you have configured this "
+"project to prefer %s style line-endings.  Do you wish to convert the file "
+"now?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8453
+#: /Users/sdeibel/src/ide/src/edit/editor.py:11435
+msgid "C_ut"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8454
+#: /Users/sdeibel/src/ide/src/edit/editor.py:11436
+msgid "_Copy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8467
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8472
+msgid "_Goto definition"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8468
+msgid "_Goto Definition in Other Split"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8475
+msgid "Find Points of Use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8480
+msgid "Re_factor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8483
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8518
+msgid "Toggle Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8485
+msgid "Reanaly_ze File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8493
+msgid "Run Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8494
+msgid "Debug Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8497
+msgid "Debug This File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8498
+msgid "Debug To Here"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8501
+msgid "Move Program Counter Here"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8503
+msgid "_Evaluate Selection in Python Shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8505
+msgid "Evaluate Selection in Debug Probe"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8507
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8598
+msgid "Add _Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8508
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8599
+msgid "Remove _Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8511
+msgid "Enable Brea_kpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8512
+msgid "Disable Brea_kpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8526
+msgid "Watch Selection in Debugger"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8528
+msgid "Watch '%s' in Debugger"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8535
+msgid "Comment Out R_egion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8536
+msgid "Uncomment out Re_gion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8543
+msgid "_Indent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8544
+msgid "Dede_nt"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8545
+msgid "_Match Indent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8563
+msgid "Configure Menu..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8566
+msgid "P_roperties..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8606
+msgid "Edit _Conditional Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8607
+msgid "Set _Conditional Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8609
+msgid "Set _Temporary Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8612
+msgid "_Enable Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8613
+msgid "_Disable Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8618
+msgid "Disable _All Breakpoints"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8622
+msgid "Enable _All Breakpoints"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8625
+msgid "_Ignore Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8630
+msgid "_Remove All Breakpoints"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8976
+msgid "Brace match: no match found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:8994
+msgid "Match at line %i: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9057
+msgid " (r/o on disk)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9059
+msgid "(r/o)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9073
+msgid "INSERT"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9077
+msgid "REPLACE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9084
+msgid "VISUAL LINE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9086
+msgid "SELECT LINE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9089
+msgid "VISUAL BLOCK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9091
+msgid "SELECT BLOCK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9094
+msgid "VISUAL"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9096
+msgid "SELECT"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9102
+msgid "[Line Select] "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9104
+msgid "[Block Select] "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9106
+msgid "[Char Select] "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9110
+msgid "Field #%i | "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9112
+msgid "Block Entry | "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9141
+msgid " Col "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:9143
+msgid " Cols "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10047
+msgid "Failed to save portions of visual state for %s:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10076
+msgid "Restoring state after abandoning changes failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10130
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10151
+#: /Users/sdeibel/src/ide/src/edit/printer.py:325
+msgid "_OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10131
+msgid "Tab Size Forced to Eight"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10133
+msgid ""
+"Tab size in %s is being forced to eight because it contains a mix of tab and "
+"space indentation.  This reflects the way that the Python interpreter will "
+"see the file when it is executed.\n"
+"\n"
+"Your current tab size preference is set to %i spaces.  To use this tab size, "
+"convert the file to tab-only indents with the Indentation tool."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10141
+msgid "Don't show this notice again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10152
+msgid "Tab Size Restored"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10153
+msgid "Tab size has been restored to %i spaces, as set in preferences."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10315
+msgid "Cannot decode file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10316
+msgid ""
+"The selected file's encoding could not be determined -- insert file "
+"operation failed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10321
+msgid "Cannot insert binary file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10322
+msgid "The selected file contains binary data -- insert file operation failed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10379
+msgid "Cannot decode command output"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10380
+msgid ""
+"The command output's encoding could not be determined -- insert command "
+"operation failed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10385
+msgid "Cannot insert binary data"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10386
+msgid "The command output binary data -- insert command operation failed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10427
+msgid "Failed to Execute Command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10428
+msgid ""
+"The command %s failed err=%s, status=%s -- insert command operation failed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10442
+msgid "Command Timed Out"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10443
+msgid "The command %s timed out -- insert command operation failed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10481
+msgid "Invalid line range (start after end)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10484
+msgid "Target cannot be within the range"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10487
+msgid "Start line is outside of the file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10490
+msgid "End line is outside of the file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10493
+msgid "Target line is outside of the file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10679
+msgid "Disk file is newer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10696
+msgid ""
+"This file is newer on disk.  Do you want to edit anyway, cancel your edit, "
+"or abandon your changes and re-read from disk? "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10699
+msgid "Con_figure Reloading"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10701
+msgid "_Edit Anyway"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10702
+msgid "_Cancel Edit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/editor.py:10703
+msgid "_Reread from Disk"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/indentutils.py:64
+msgid "Default for Personality"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/indentutils.py:65
+msgid "Indent to Match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/indentutils.py:66
+msgid "Move to Next Tab Stop"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/indentutils.py:67
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:472
+msgid "Indent Region"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/indentutils.py:68
+msgid "Insert Tab Character"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/indentutils.py:69
+msgid "Smart Tab (varies by context)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/indentutils.py:79
+msgid "_Non-python files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/indentutils.py:79
+msgid "_Python files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/manager.py:831
+msgid "VI Mode Registers"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:507
+msgid "Failed "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:510
+msgid "Wrapped "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:515
+msgid "Search:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:520
+msgid "Regex Search:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:522
+msgid "Back Search:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:527
+msgid "Back Regex Search:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:779
+msgid "Replace string:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:781
+msgid "Query replace:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:833
+msgid "Replace %s with:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:848
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:931
+msgid "Replaced %i occurrences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/minisearch.py:991
+msgid "Replace? (y or n):"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:35
+msgid "Default file extension for newly created files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:38
+msgid "Line Feed \\n (Posix/Unix/OS X)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:39
+msgid "Carriage Return \\r (Mac OS <= 9)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:40
+msgid "Carriage Return and Line Feed \\r\\n (Windows)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:48
+msgid ""
+"Default end-of-line to use.  Wing matches existing line endings in non-blank "
+"files and uses this preference only when a file contains no end-of-line "
+"characters."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:57
+msgid ""
+"Selects the overall editor personality, optionally to emulate another "
+"commonly used editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:59
+msgid "Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:61
+msgid "Selects editor personality"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:62
+msgid "Normal"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:64
+msgid "Brief"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:65
+msgid "VI/VIM"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:66
+msgid "Eclipse"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:67
+msgid "Emacs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:69
+msgid "Visual Studio"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:73
+msgid "OS X"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:82
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:199
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:310
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:973
+msgid "Always"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:83
+msgid "In Python Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:84
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:201
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:309
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:975
+msgid "Never"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:88
+msgid ""
+"Select when to use indent analysis (examination of current file contents) in "
+"order to determine tab size and indent size.  Either always in all files, "
+"only in Python files, or never."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:101
+msgid ""
+"Defines the action of the Tab key, one of:  \"Default for Personality\" to "
+"emulate the selected Keyboard Personality.  \"Indent To Match\" to indent "
+"the current line or selected line(s) to match the context, \"Move to Next "
+"Tab Stop\" to enter indentation characters so the caret reaches the next tab "
+"stop, \"Indent Region\" to increase the indentation of the selected line(s) "
+"by one level, or \"Insert Tab Character\" to insert a Tab character "
+"(chr(9)). For Python files, \"Smart Tab\" is an option that varies the tab "
+"key action according to the location of the caret within the line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:110
+msgid ""
+"Defines the action of the Tab key when it is bound to the tab-key command.  "
+"Possible actions are:  \"Default for Personality\" to emulate the chosen "
+"Keyboard Personality.  Indent To Match\" to indent the current line or "
+"selected line(s) to match the computed indent level for this context, \"Move "
+"to Next Tab Stop\" to enter indentation characters so the caret reaches the "
+"next tab stop, \"Indent Region\" to increase the indentation of the selected "
+"line(s) one level, or \"Insert Tab Character\" to insert a Tab character "
+"(chr(9)). For Python files, \"Smart Tab\" is an option that varies the tab "
+"key action according to the location of the caret within the line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:127
+msgid "None/Disabled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:128
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:163
+msgid "Spaces Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:129
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:163
+msgid "Tabs Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:130
+msgid "Tabs and Spaces"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:131
+msgid "Match File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:135
+msgid ""
+"Select type of indentation that Smart Tab will place at the end of a line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:141
+msgid ""
+"Set size of tabs, in spaces, used in new files.  Note that in Python files "
+"that contain mixed space and tab indentation, tab size is always forced to 8 "
+"spaces.  Use the Indentation Manager to alter indentation in existing files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:147
+msgid "Set size of tabs in the editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:153
+msgid ""
+"Sets size of an indent, in spaces, used in new files.  This is overridden in "
+"non-empty files, according to the actual contents of the file.  In files "
+"with tab-only indentation, this value may be modified so it is a multiple of "
+"the configured tab size.  Use the Indentation Manager to alter indentation "
+"in existing files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:159
+msgid ""
+"Set the style of indentation used in new files.  This is overridden in non-"
+"empty files, according to the actual contents of the file.  Use the "
+"Indentation Manager to alter indentation in existing files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:164
+msgid "Mixed Tabs and Spaces"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:167
+msgid ""
+"Set to show a warning dialog when opening a Python file that contains "
+"potentially problematic indentation:  Either inconsistent and possibly "
+"confusing indentation, a mix of indent styles in a single file, or mixed tab "
+"and space indentation (which is not recommended for Python)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:174
+msgid "Show Warnings and Errors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:175
+msgid "Show Errors only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:176
+msgid "Show No Indicators"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:179
+msgid ""
+"Controls whether Wing will show error and/or warning indicators on the "
+"editor as red and yellow underlines.  When shown, hovering the mouse over "
+"the indicator shows the error or warning detail in a tooltip."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:187
+msgid "Set to true to show whitespace with visible characters by default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:191
+msgid "Set to true to show indent guides by default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:195
+msgid "Set to true to show end-of-line with visible characters by default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:200
+msgid "On new blank lines"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:204
+msgid "Controls when Wing automatically indents when return or enter is typed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:210
+msgid ""
+"Controls whether Wing automatically adjusts indents after multi-line text is "
+"pasted.  When enabled, a single undo will remove any alterations in "
+"indentation."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:217
+msgid ""
+"(Posix only) Set the font name used to print Python files.  One of Courier, "
+"Helvetica, or Times-Roman."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:223
+msgid "(Posix only) Set the font size used to print Python files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:227
+msgid ""
+"(Posix only) Set the paper size for printing.  One of Letter, Legal, A3, A4, "
+"A5, B4, or B5"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:233
+msgid ""
+"(Posix only) Sets the command that is issued to print non-Python text "
+"files.  Format is text with embedded %s to indicate where the printed file's "
+"name should be inserted"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:241
+msgid ""
+"(Posix only) Sets the command used to spool output produced by Wing's "
+"printing facility.  Format is text with embedded %s to indicate where the "
+"printed output file's name should be inserted.  Set to None to use internal "
+"defaults.  If the default is not working for you and your system does not "
+"accept PDF files for printing, try \"pdf2ps %s - | kprinter --stdin\".  To "
+"rule out problems with buggy versions of kprinter, try \"pdf2ps %s - | lpr\" "
+"or simply \"lpr %s\" instead."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:250
+msgid "Use internal settings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:251
+msgid "Use this command line:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:255
+msgid ""
+"(Posix only) Set to true to print Python files faster but without syntax "
+"highlighting. Otherwise, the internal Python pretty printing facility is "
+"used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:262
+msgid ""
+"Set the header format to use for printing.  This can be any text with any of "
+"the following special fields mixed in: %basename% - base file name; %prepend-"
+"fullpath% - full path file name; %prepend-relative% - relative path with "
+"from project file; %append-relative% - file name with relative path "
+"appended; %append-fullpath% - file name with full path appended; %file-time% "
+"- file modification time; %file-date% - file modification date; %current-time"
+"% - current time; %current-date% - current date; %page% - current page being "
+"printed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:276
+msgid ""
+"Set the footer format to use for printing.  The values allowed are the same "
+"as those for print-header-format."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:278
+msgid "Page %page%, last modified %file-date% %file-time%"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:282
+msgid "Font to use in print header."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:285
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:292
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:656
+msgid "Use Selected Font/Size:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:289
+msgid "Font to use in print footer."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:296
+msgid ""
+"Number of seconds between last key press and when analysis is re-enabled if "
+"analysis is to be suspended while typing occurs.  If <= 0, analysis is not "
+"suspended."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:303
+msgid ""
+"Controls whether or not the completer is shown automatically during typing.  "
+"When disabled, it can still be shown on demand with the Show Completer item "
+"in the Source menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:316
+msgid ""
+"Controls whether or not the completer is always shown automatically during "
+"typing, never auto-shown, or shown only after a certain number of characters "
+"are in the completion fragment.  When auto-show is disabled, the auto-"
+"completer can still be shown on demand with the Show Completer item in the "
+"Source menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:325
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:405
+msgid "After characters:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:331
+msgid ""
+"Delay in seconds from last key press to wait before the auto-completer is "
+"shown. If 0.0, the auto-completer is shown immediately."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:336
+msgid ""
+"Timeout in seconds from last key press after which the auto-completer is "
+"automatically hidden. If 0.0, the auto-completer does not time out."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:341
+msgid ""
+"When enabled, the Python auto-completer enters the completion automatically "
+"whenever a key other than a valid symbol name key is pressed.  When "
+"disabled, only the configured completion keys enter the completion into the "
+"editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:347
+msgid "Tab"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:348
+msgid "Enter"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:349
+msgid "Space"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:350
+msgid "F1"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:351
+msgid "F3"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:352
+msgid "F10"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:353
+msgid "F12"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:354
+msgid "Period"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:355
+msgid "Left paren"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:356
+msgid "Left bracket"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:357
+msgid "Colon"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:361
+msgid ""
+"Controls which keys will enter selected completion value into the editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:366
+msgid "Insert at Cursor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:367
+msgid "Replace Only Matching Symbols"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:368
+msgid "Replace Any Existing Symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:372
+msgid ""
+"Selects how completion is done in the editor:  Either insert the completion "
+"at the cursor, replace any symbols that match the leading part of the "
+"completion (and insert in other cases), or replace any existing symbol with "
+"the new symbol."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:380
+msgid ""
+"Controls whether matching in the completer is case sensitive or not.  The "
+"correct case is always used when a completion is chosen."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:385
+msgid "The maximum number of lines to show in the auto-completer at once."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:391
+msgid "Disable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:392
+msgid "Enable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:396
+msgid ""
+"Controls whether or not use the completer in non-Python files, where it uses "
+"a simple word list generated from the existing contents of the file.  If "
+"enabled, the number of characters required before the completer is shown may "
+"be specified here.This value overrides any character threshold set above."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:411
+msgid ""
+"Sets the minimum size of words to add to the completion list for non-Python "
+"files.  This affects only words found in the file, and not words included "
+"because they are keywords for that file type."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:420
+msgid ""
+"Column at which text should be wrapped by commands that automatically "
+"rearrange text"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:429
+msgid "Shows or hides line numbers on the editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:433
+msgid "Whether to enable folding source code."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:437
+msgid ""
+"Selects the mime types for which folding should be allowed when folding in "
+"general is enabled. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:446
+msgid "Above Expanded"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:447
+msgid "Below Expanded"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:448
+msgid "Above Collapsed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:449
+msgid "Below Collapsed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:450
+msgid "None"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:454
+msgid ""
+"Whether and how to show a line at a collapsed fold point.  Controls the "
+"position of the line and whether it is shown for collapsed or expanded fold "
+"points."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:461
+msgid "Selects the type of indicators to draw at fold points."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:462
+msgid "Arrows"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:462
+msgid "Plus/Minus"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:462
+msgid "Rounded Tree"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:463
+msgid "Square Tree"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:466
+msgid ""
+"Controls whether or not trailing white space after a block of code is folded "
+"up along with the block, for a more compact folded display."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:473
+msgid "Outdent Region"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:474
+msgid "Indent To Match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:475
+msgid "Comment out Region"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:476
+msgid "Uncomment out Region"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:479
+msgid "Always Select"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:480
+msgid "Retain Select"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:481
+msgid "Never Select"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:486
+msgid ""
+"This controls whether to retain selection in the editor after certain "
+"operations. The editor may always select the text that was operated on, only "
+"retain existing selections, or never select after the operation completes."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:498
+msgid "Editor Action"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:498
+msgid "Policy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:503
+msgid ""
+"Enabled to automatically highlight the matching braces next to the cursor or "
+"as they are typed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:508
+msgid ""
+"Enable or disable Wing's auto-editing capability.  When enabled, a default "
+"set of individual auto-editing operations (such as auto-closing quotes and "
+"parenthesis and auto-entering invocation arguments) will be activated.  The "
+"individual operations can then be enabled or disabled independently in "
+"preferences."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:514
+msgid ""
+"Enable or disable all auto-editing operations.  When enabled, individual "
+"operations must be selected in preferences."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:524
+msgid ""
+"Enable to auto-close quotes, parenthesis, braces, comments, and so forth."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:530
+msgid ""
+"Enable auto-entry of invocation arguments for a function or method call."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:536
+msgid "Enable placing quotes around a non-empty selection."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:542
+msgid ""
+"Enable commenting out a non-empty selection when a comment character is "
+"pressed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:548
+msgid "Enable surrounding non-empty selection when a parenthesis is pressed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:554
+msgid ""
+"Enable creating a new block with a selected range of lines when colon is "
+"pressed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:560
+msgid "Enable auto-entering spaces around operators and punctuation."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:566
+msgid "Enable auto-entering spaces after keywords."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:572
+msgid ""
+"When auto-entering spaces is enabled, enforce PEP8 style spacing by "
+"preventing redundant spaces."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:579
+msgid ""
+"When auto-entering spaces is enabled, also auto-enter spaces in argument "
+"lists."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:586
+msgid ""
+"Auto-enter newline and auto-indent after typing a colon that starts a new "
+"Python block and indent following line or block of lines when colon is "
+"pressed repeatedly.  This also starts a new Python block using a selected "
+"range of lines as the body, if colon is pressed on a non-empty selection."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:596
+msgid ""
+"Automatically continue comments or strings in the form (\"\") or () after a "
+"newline is typed within the comment or string text"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:603
+msgid ""
+"Automatically correct code when typing keys out of order. This handles cases "
+"such as x(.) -> x(). and x(:) -> x(): as well as auto-inserting . when "
+"missing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:623
+msgid "Control whether and how edge markers are shown in the editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:626
+msgid "Column"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:626
+msgid "Mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:626
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:769
+msgid "Color"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:627
+msgid "Border"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:627
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:674
+#: /Users/sdeibel/src/ide/src/edit/syntaxformatting.py:138
+msgid "Background"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:627
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:767
+msgid "Disabled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:638
+msgid "Enable to wrap long source lines on the editor display."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:651
+msgid ""
+"The base font and size to use for the source code editor, Python Shell, "
+"Debug Probe, Source Assistant, and other tools that display source code."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:655
+msgid "Match Display Font/Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:663
+msgid ""
+"Background color to use on the source editor, Python Shell, Debug Probe, "
+"Source Assistant, and other tools that display source code.  Foreground "
+"colors for text may be altered automatically to make them stand out on the "
+"selected background color."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:672
+msgid "No marker"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:673
+msgid "Underline"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:679
+msgid ""
+"Visual display style to use for bookmarks:  Either an underline, a "
+"background color change, or no visible marker."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:697
+msgid ""
+"Color to use on the source editor for differences during a diff/merge "
+"session.  The current mark is drawn in a lighter version of the same color.  "
+"The within-difference change indicators are drawn transparently with the "
+"color set in the Text Selection Color preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:718
+msgid ""
+"Color to use on the source editor for already merged differences during a "
+"diff/merge session.  The current mark is drawn in a lighter version of the "
+"same color.  The within-difference change indicators are drawn transparently "
+"with the color set in the Text Selection Color preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:739
+msgid ""
+"Color to use on the source editor to indicate the location of user-defined "
+"bookmarks."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:748
+msgid ""
+"Width of the blinking insertion caret on the editor, in pixels.  Currently "
+"limited to a value between 1 and 3."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:761
+msgid ""
+"Selects whether to highlight the line the caret is currently on. When "
+"enabled, a highlight color and alpha (transparency) can be set."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:768
+msgid "Enabled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:769
+msgid "Transparency"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:778
+msgid "Selects the color to use for the editor caret."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:786
+msgid ""
+"Sets the time in milliseconds between showing and hiding the caret when it "
+"is flashing; use 0 to disable flashing entirely"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:792
+msgid "Always Use Current Split"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:793
+msgid "Reuse Visible or Use Current Split"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:794
+msgid "Reuse Visible or Use Adjacent Split"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:795
+msgid "Always Use Adjacent Split"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:800
+msgid ""
+"Policy for reusing splits in editors when new files are opened:  Either "
+"always open in current split, reuse already visible editor falling back on "
+"current split, reuse already visible editor falling back on adjacent split, "
+"or always open in an adjacent split.  This only has an effect when more than "
+"one editor split is visible."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:815
+msgid ""
+"Paste text into the editor from the clipboard when the middle mouse button "
+"is pressed. Disabling this is mainly useful for wheel mice with a soft wheel "
+"that causes pasting of text before wheel scrolling starts."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:829
+msgid ""
+"Show indent mismatch warning dialog when user selects an indent style that "
+"is incompatible with existing file content.  This only applies to non-Python "
+"files since Wing disallows overriding the indent style in all Python files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:838
+msgid ""
+"Input method used for typing characters.  This is important primarily for "
+"non-Western European languages."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:844
+msgid "Block Comment in Column 0"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:845
+msgid "Indented Comment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:846
+msgid "Indented PEP8 Style Comment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:851
+msgid "Style of commenting to use when commenting out blocks of Python code."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:858
+msgid ""
+"Formatting options for syntax coloring in editors.  Colors are relative to a "
+"white background and will be transformed if the background color is set to a "
+"color other than white."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:869
+msgid ""
+"Use default foreground colors for all text when printing.  This is necessary "
+"when using a dark background in the GUI and printing on white paper."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:878
+msgid "OS Default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:879
+msgid "Copy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:880
+msgid "Move"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:885
+msgid ""
+"Default drag-n-drop action.  This is the default and can always be "
+"overridden by pressing shift or ctrl while dragging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:893
+msgid ""
+"Controls whether to sort Find Symbol dialog alphabetically or in natural "
+"file order"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:900
+msgid ""
+"Controls whether to include argument specs in the searchable text used in "
+"the Find Symbol dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:906
+msgid "Whether or not to include code snippets in the auto-completer."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:913
+msgid ""
+"Whether or not to group all edits made during data entry mode into a single "
+"undo action."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:921
+msgid ""
+"Automatically clear the OS Commands consoles each time the command is re-"
+"executed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:927
+msgid ""
+"Drop into Python shell after executing any Python file in the OS Commands "
+"tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:933
+msgid ""
+"Wrap long output lines in OS Commands tool to fit within available display "
+"area."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:938
+msgid "Console default (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:943
+msgid ""
+"Default encoding of sub-process input/output when run in the OS Commands "
+"panel.  This can be overridden on a per-command basis, in each command's "
+"properties."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:952
+msgid "Highlight Python builtins"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:957
+msgid "Match Keyboard Personality"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:958
+msgid "If Upper Case Char is Typed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:959
+msgid "Always Case Sensitive"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:960
+msgid "Always Case Insensitive"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:965
+msgid ""
+"Whether or not mini-search is case sensitive.  May match the current "
+"keyboard personality's default, use case sensitive search only if an upper "
+"case character is typed, always search case sensitive, or always search case "
+"insensitively."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:974
+msgid "Whole Words Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:978
+msgid ""
+"Selects when to automatically highlight other occurrences of the current "
+"selection on the editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:985
+msgid ""
+"Disable to allow occurrences highlighting also where case does not match."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:989
+msgid "Rectangle"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:990
+msgid "Filled Block"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:998
+msgid ""
+"The style of indicator to use for highlighting other occurrences of the "
+"current selection on the editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1006
+msgid "The color used to indicate the current text selection on editable text."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1013
+msgid "The maximum number of names allowed on a single symbol menu"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1018
+msgid "Set this to allow scrolling the editor past the last line."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1022
+msgid "Do Nothing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1023
+msgid "Copy Whole Line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1024
+msgid "Cut or Copy Whole Line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1028
+msgid ""
+"Controls whether or not to copy or cut the whole current line when there is "
+"no selection on the editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1036
+msgid "Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1037
+msgid "Navigation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1038
+msgid "Debug/Test"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1039
+msgid "Commenting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1041
+msgid "Revision Control"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1042
+msgid "Script-Defined Items"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1046
+msgid ""
+"Controls which groups of menu items will be shown in the editor's context "
+"menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1053
+msgid "Extra menu items to add to the editor context menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1055
+msgid "Command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1055
+msgid "Item Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1060
+msgid "Whether to add an eol at the end of the file when it is saved"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1065
+msgid ""
+"Whether to allow font size zooming in the editor, using the mouse wheel, "
+"track pad, or zoom-in and zoom-out commands."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/prefs.py:1071
+msgid ""
+"The amount by which to zoom font sizes in or out in the Source Assistant."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:91
+msgid "Print Selection?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:92
+msgid "Would you like to print only the current selection on the editor?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:94
+msgid "Print _Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:95
+msgid "Print _All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:133
+msgid " (line %i)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:135
+msgid " (lines %i-%i)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:205
+msgid "Preparing file for printing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:234
+msgid ""
+"Printing failed because enscript could not  produce the Postscript output "
+"file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:234
+#: /Users/sdeibel/src/ide/src/edit/printer.py:269
+#: /Users/sdeibel/src/ide/src/edit/printer.py:282
+#: /Users/sdeibel/src/ide/src/edit/printer.py:318
+#: /Users/sdeibel/src/ide/src/edit/printer.py:597
+#: /Users/sdeibel/src/ide/src/edit/printer.py:858
+msgid "Print Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:269
+msgid "Printing failed because py2pdf could not be found for Python version %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:282
+msgid ""
+"Printing failed because the PDF format file could not be created with py2pdf."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:318
+msgid ""
+"Printing failed because the output file could not be spooled to the printer."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:326
+msgid "Printing Complete"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:328
+msgid ""
+"Your file has been printed to the default printer.  For more printing "
+"options, please install KDE's kprinter on your system (this works even if "
+"you're using Gnome or another desktop)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:332
+msgid "Your file has been printed to the default printer."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/printer.py:598
+#: /Users/sdeibel/src/ide/src/edit/printer.py:859
+msgid ""
+"Print aborted because no characters will fit on a page.  Please check the "
+"page margins and font sizes."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/syntaxformatting.py:126
+msgid "Foreground"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/syntaxformatting.py:154
+msgid "Bold"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/syntaxformatting.py:158
+msgid "Italic"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/syntaxformatting.py:165
+msgid "EOL Filled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/utils.py:728
+msgid "Copy failed because text could not be copied to clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/edit/utils.py:749
+msgid "Cut failed because text could not be copied to clipboard"
+msgstr ""

@@ -1,0 +1,408 @@
+# Module scripts_svn translation file for language=en
+# Copyright (C) 2006 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2013-11-23 16:28+0800\n"
+"Last-Translator: 小雨 <rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:1
+msgid ""
+"This is an integration with the SVN revision control system.\n"
+"\n"
+"Copyright (c) 2005, Wingware All rights reserved.\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n"
+"IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\n"
+"CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n"
+"TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n"
+"SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:56
+msgid "Perform svn update on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:69
+msgid "SVN _Update"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:73
+#: /Users/sdeibel/src/ide/scripts/svn.py:96
+#: /Users/sdeibel/src/ide/scripts/svn.py:107
+#: /Users/sdeibel/src/ide/scripts/svn.py:129
+#: /Users/sdeibel/src/ide/scripts/svn.py:139
+#: /Users/sdeibel/src/ide/scripts/svn.py:168
+#: /Users/sdeibel/src/ide/scripts/svn.py:189
+#: /Users/sdeibel/src/ide/scripts/svn.py:253
+#: /Users/sdeibel/src/ide/scripts/svn.py:267
+#: /Users/sdeibel/src/ide/scripts/svn.py:279
+#: /Users/sdeibel/src/ide/scripts/svn.py:1011
+msgid "S_VN"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:76
+msgid "Perform svn revert on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:79
+msgid "Discard Changes in Files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:80
+msgid ""
+"Are you sure you want to discard your changes to all the selected files and "
+"revert to the current state on this branch in Subversion?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:84
+#: /Users/sdeibel/src/ide/scripts/svn.py:338
+msgid "OK"
+msgstr "确认"
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:85
+msgid "Cancel"
+msgstr "取消"
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:92
+msgid "SVN _Revert"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:99
+msgid "Perform svn diff on the given files or directories."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:104
+msgid "SVN _Diff"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:110
+msgid ""
+"Perform svn diff between the current checked out repository \n"
+"   revision of the file and the previous revision before that."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:128
+msgid "Show Last Re_vision Diffs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:132
+msgid "Perform svn log on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:136
+msgid "SVN _Log"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:142
+msgid "Perform svn status on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:156
+msgid "SVN _Status"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:160
+msgid "Perform svn blame/praise on the given files or directories."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:165
+msgid "SVN Blame_/Praise"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:171
+msgid "Perform svn list on the given files or directories."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:186
+msgid "SVN Lis_t"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:192
+msgid "Perform svn commit on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:197
+#: /Users/sdeibel/src/ide/scripts/svn.py:214
+msgid "SVN _Commit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:199
+msgid "Log message to attach to this revision"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:204
+msgid ""
+"Perform svn commit on the given files or directories\n"
+"  after prompting for log message"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:218
+msgid "Perform svn resolved on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:222
+msgid "SVN Res_olved"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:226
+msgid "Perform svn add on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:250
+msgid "SVN _Add"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:256
+msgid ""
+"Cancel pending SVN commands that are running in the background \n"
+"  but have not yet completed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:266
+msgid "Cancel Active Re_quests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:270
+msgid "Configure SVN options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:278
+msgid "_Options..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:289
+msgid ""
+"Check that an ssh-agent is present and has at least one valid looking\n"
+"  identity loaded into it."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:315
+msgid ""
+"Check to see that ssh-agent is running to avoid hanging up on\n"
+"  password prompts."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:327
+msgid "SSH Agent Not Found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:328
+msgid ""
+"Could not find ssh-agent, or there are no valid identities loaded into it.  "
+"Please make sure ssh-agent is running before starting Wing and ssh-add has "
+"been executed before attempting SVN commands on an SSH secured SVN "
+"repository.\n"
+"\n"
+"If you are using SVN with pserver or have SSH configured to use "
+"authorized_keys or an unencrypted private key, you can disable this test and "
+"your SVN operations should succeed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:337
+msgid "Disable this test"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:348
+msgid "Perform given svn operation on the given files or directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:368
+msgid "Login for %s:"
+msgstr "登录为 %s"
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:405
+msgid ""
+"Get dict of directories and files w/in the directory from\n"
+"  the given list.  If prune is True, the list is collapsed to\n"
+"  remove redundant entries (assuming recursive application of\n"
+"  a SVN command to directories) and to combine into as small a \n"
+"  tree as possible where 'SVN' directories exist so as few\n"
+"  commands as possible can be run."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:437
+msgid ""
+"Prune out all items below a directory we're acting on as a\n"
+"    whole since they are redundant (SVN action is itself recursive)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:451
+msgid ""
+"Combine all items below a directory in SVN into one big list\n"
+"    of partial paths"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:528
+msgid "Manage multiple pending SVN commands for single status display"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:576
+msgid "SVN %s Result"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:620
+msgid "No differences found"
+msgstr "未发现差异"
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:621
+msgid ""
+"The file(s) match the corresponding SVN revision(s).  The command was:\n"
+"\n"
+"svn %s\n"
+"\n"
+"Executed in: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:634
+#: /Users/sdeibel/src/ide/scripts/svn.py:655
+#: /Users/sdeibel/src/ide/scripts/svn.py:696
+msgid "Errors/Warnings (stderr):"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:664
+msgid "SVN Results"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:679
+msgid "SVN found concurrent changes -- do an update before committing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:681
+msgid "SVN Error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:683
+msgid "SVN %s failed to execute.  errno=%i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:685
+msgid "SVN %s returned unexpected exit status=%i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:693
+msgid "Executing: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:694
+msgid "In: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:700
+msgid "Results (stdout):"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:705
+msgid "Error executing command.  errno=%i:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:707
+msgid "Exit status=%i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:730
+msgid " Return the pathname for the svn directory or None if none exists. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:740
+msgid ""
+"Get all the hosts and protocols used by the .svn/entries files'\n"
+"  entry w/ name=\"\" corresponding to the given filenames"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:772
+msgid ""
+"Read the .svn/entries file corresponding w/ given file name and return\n"
+"  (version, date, kind, author, url, exists) where exists is true if the\n"
+"  .svn/entries file exists and the other values are None if not in Entries "
+"file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:919
+msgid ""
+"Set this to the subversion command line executable.  In some cases, a full "
+"path is needed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:925
+msgid ""
+"Set this to show results of SVN operations in non-sticky editors that auto-"
+"close when not visible."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:931
+msgid ""
+"Set this to check for ssh-agent with at least one loaded key before issuing "
+"commands when working with a repository that is accessed via an ssh tunnel.  "
+"This avoids hanging up the IDE at background password prompt if SSH is not "
+"configured to display a graphical prompt."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:939
+msgid "Use SVN or SSH cache"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:940
+msgid "Manual (from Wing)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:944
+msgid ""
+"Set this to manual to ask for user name and password for each repository the "
+"first time it is used.  This information is cached for the length of the "
+"session and sent to svn with the --username and --password arguments, but is "
+"not stored on disk.  In most cases using Subversion's builtin authentication "
+"cache (or ssh-agent or Pageant when working through an ssh tunnel) is "
+"preferable."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:961
+msgid "SVN options dialog"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:980
+msgid "SVN Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:997
+msgid "Create and return the form pages to use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:999
+msgid "SVN Executable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:1001
+msgid "Auto-Close Result Buffers"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:1006
+msgid "Check for SSH Agent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/svn.py:1009
+msgid "Authentication"
+msgstr "认证"

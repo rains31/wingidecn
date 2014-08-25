@@ -1,0 +1,707 @@
+# Module src_search translation file for language=en
+# Copyright (C) 2006 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2006-05-17 23:14 EDT\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:201
+msgid "_Text Search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:205
+msgid "Wi_ldcard Search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:207
+msgid "Rege_x Search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:222
+msgid "_Search: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:242
+msgid "Rep_lace: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:283
+msgid "Pa_use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:307
+#: /Users/sdeibel/src/ide/src/search/interactive.py:695
+msgid "Wrapped Search Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:314
+msgid "_Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:319
+msgid "Rege_x Flags"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:340
+msgid "Re_place"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:340
+msgid "S_earch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:340
+msgid "_Reverse"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:340
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:343
+msgid "Replace _All"
+msgstr "全部替换(_A)"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:343
+msgid "_Next"
+msgstr "下一个(_N)"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:343
+msgid "_Previous"
+msgstr "上一个(_P)"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:343
+msgid "_Replace"
+msgstr "替换(_R)"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:515
+msgid "Clear"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:517
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:521
+msgid "Cut"
+msgstr "剪切"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:518
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:522
+msgid "Copy"
+msgstr "复制"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:519
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:523
+msgid "Paste"
+msgstr "粘贴"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:524
+msgid "Clear Entry Area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:532
+msgid "Insert Newline (Ctrl-Enter)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:534
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:538
+msgid "Insert Line Feed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:535
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:539
+msgid "Insert Carriage Return"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:536
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:540
+msgid "Insert Tab (Ctrl-T)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:547
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:551
+msgid "Interpret Backslash Sequences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:563
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:565
+msgid "Expanded Entry Area"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:615
+msgid "All Files"
+msgstr "所有文件"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:678
+msgid "Create/Edit _Filters..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:680
+msgid "Create/Edit _File Sets..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:686
+msgid "Project Files"
+msgstr "项目文件"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:687
+msgid "Current File"
+msgstr "当前文件"
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:688
+msgid "All Open Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:689
+msgid "Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:690
+msgid "File Sets"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:842
+msgid "Select directory to use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:855
+msgid "Select directory to search in"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:869
+msgid "No open file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:929
+msgid "Single Open File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/_widgets.py:933
+msgid "Select Directory..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:195
+#: /Users/sdeibel/src/ide/src/search/interactive.py:124
+msgid "_Case sensitive"
+msgstr "区分大小写(_C)"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:196
+#: /Users/sdeibel/src/ide/src/search/interactive.py:129
+msgid "_Whole words"
+msgstr "整个单词(_W)"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:223
+msgid "_Text search"
+msgstr "搜索文本(_T)"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:224
+msgid "Wil_dcard search"
+msgstr "通配符搜索(_d)"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:225
+msgid "Rege_x search"
+msgstr "正则搜索(_x)"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:249
+msgid "_Look in: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:262
+msgid "F_ilter: "
+msgstr "过滤器名(_i):"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:329
+msgid "_Name Only"
+msgstr "仅名称(_N)"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:330
+msgid "_Window Title"
+msgstr "窗口标题(_W)"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:331
+msgid "_Full Path"
+msgstr "文件完整路径(_F)"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:332
+msgid "_Group"
+msgstr "群组(_G)"
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:354
+msgid "Replace Operates on Disk"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:359
+msgid "Replace Operates on Dis_k"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:366
+msgid "Result File Na&me"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:369
+msgid "Result File Na_me"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:377
+msgid "Show Search T&ype In Tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:382
+msgid "Show Search T_ype In Tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:385
+#: /Users/sdeibel/src/ide/src/search/interactive.py:182
+msgid "Show _Replace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:390
+#: /Users/sdeibel/src/ide/src/search/interactive.py:188
+msgid "Find _After Replace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:395
+msgid "Rec_ursive Directory Search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:411
+msgid "The name under which to store the list of matching files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:417
+msgid "_Omit Binary Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:418
+msgid "Auto-re_start Searches"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:419
+msgid "Open _First Match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:421
+msgid "Show Line _Numbers"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:426
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:433
+msgid "Copy Results to Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:429
+msgid "Name Result File Set"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:435
+msgid "_Case Sensitive"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:436
+msgid "_Whole Words"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:654
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:676
+msgid "Search in files state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:997
+msgid "Line %s: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1003
+msgid "%s, line %i: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1026
+msgid "File: %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1599
+#: /Users/sdeibel/src/ide/src/search/interactive.py:683
+msgid "Wrapped "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1602
+msgid "%sFile: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1635
+msgid "Search Aborted"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1713
+msgid "Directory does not exist: \"%s\""
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1720
+msgid "Directory search not supported"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1743
+msgid "Search Starting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1821
+msgid "Found %i matches in %i files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1827
+msgid "Reading directory: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1846
+msgid "Scanning: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1856
+msgid "Search Paused"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1860
+msgid "Search Continued"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1890
+#: /Users/sdeibel/src/ide/src/search/interactive.py:487
+msgid "No search string"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1923
+#: /Users/sdeibel/src/ide/src/search/interactive.py:320
+msgid "Could not replace:  No previous search match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1927
+msgid "Failed to display editor for replace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1981
+msgid ""
+"You have configured Replace All to open all altered files into Wing IDE.\n"
+"\n"
+"<strong>Note:</strong>  This may open many editors and changes can only be "
+"undone within individual editors.\n"
+"\n"
+"Are you sure you want to do this?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1986
+msgid ""
+"You have configured Replace All to operate directly on disk files (already "
+"open files will be changed only within Wing and left unsaved).\n"
+"\n"
+"<strong>Note:</strong>  Changes made on disk cannot be undone!\n"
+"\n"
+"Are you sure you want to do this?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1992
+msgid "Confirm Replace All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1993
+msgid "_Replace All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:1994
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:2135
+msgid "Filter '%s' is invalid"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:2137
+msgid "File set '%s' is invalid"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:2785
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:2792
+msgid "Warning: Replace All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:2786
+msgid ""
+"You have set Replace All to operate directly on disk files (already open "
+"files will be changed only within Wing IDE until they are saved to disk).\n"
+"\n"
+"<strong>Note:</strong> Changes made on disk cannot be undone.  To avoid data "
+"loss, we strongly recommend making backups of all your files, or using a "
+"revision control system."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:2793
+msgid ""
+"You have set Replace All to open altered files into Wing IDE.\n"
+"\n"
+"<strong>Note:</strong> Changes can be undone in individual editors and do "
+"not alter disk files until saved."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:2836
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:2844
+msgid "Search in Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_batch.py:2849
+msgid "Multiple File Search and Replace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:237
+msgid "Possible match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:238
+msgid "Unlikely match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:256
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:258
+msgid "Whole file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:269
+msgid "%s, line %s:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:634
+msgid "Searching..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:680
+msgid "Refresh"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:682
+msgid "Show Possible Uses"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:684
+msgid "Show matches where either the match or the search symbol is undefined"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:686
+msgid "Show Unlikely Uses"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:688
+msgid ""
+"Show matches where definition of the match does not match the definition of "
+"the search symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:695
+msgid "Search Project Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:697
+msgid "Search for uses in all Python files in the project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:701
+msgid "Search Original File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:703
+msgid "Search for uses in the file where the symbol was selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:710
+msgid "Points of use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:726
+msgid "Uses of module "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:728
+msgid " in "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:728
+msgid "Uses of "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:742
+msgid "Uses of module %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:754
+msgid "Uses of class %s from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:757
+msgid "Uses of method %s from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:760
+msgid "Uses of function %s from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:839
+msgid "Previous Match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:840
+msgid "Next Match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:846
+msgid ""
+"Select a symbol in an editor and use Find Points of Use in the Source menu"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:854
+msgid "Show Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:905
+msgid "Uses"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/cap_usesgui.py:910
+msgid "Points of Use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:71
+msgid "_Interactive Search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:72
+msgid "_Batch Search Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:73
+msgid "Batch Search _Disk"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:74
+msgid "Batch Search D_ocumentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:75
+msgid "Interactive _Replace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:76
+msgid "Batch Re_place Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:77
+msgid "Batch Replace Dis_k"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:80
+msgid "Search: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:81
+msgid "Replace: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:427
+#: /Users/sdeibel/src/ide/src/search/interactive.py:325
+msgid "Failed to find editor for replace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:464
+msgid "Replace OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:510
+msgid "Replacing %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:533
+msgid "Replace Error: Could not convert %s to unicode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:561
+msgid "Replace Error:  Could not convert replaced %s to output encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:580
+msgid "Replace failed to open document"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:600
+msgid "Replaced %i matches in %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:604
+msgid "No replacement in %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:616
+msgid "Replaced %i matches in %i files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:620
+msgid "Replaced %i matches in %i file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:661
+msgid "Replace Paused"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:667
+msgid "Replace Continued"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:815
+#: /Users/sdeibel/src/ide/src/search/common.py:839
+msgid "Search manager state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:955
+msgid "Skipping large file %s; size=%i; max=%i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/common.py:963
+msgid "Could not open %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/interactive.py:139
+msgid "_In Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/interactive.py:185
+msgid "Wr_ap Search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/interactive.py:186
+msgid "_Incremental"
+msgstr "增量(_I)"
+
+#: /Users/sdeibel/src/ide/src/search/interactive.py:368
+msgid "Could not replace all: no search string"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/interactive.py:373
+msgid "Could not replace all: no active document"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/interactive.py:378
+msgid "Could not replace: document is readonly"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/interactive.py:687
+msgid "Search Successful"
+msgstr "搜索成功"
+
+#: /Users/sdeibel/src/ide/src/search/interactive.py:779
+#: /Users/sdeibel/src/ide/src/search/interactive.py:788
+msgid "Search"
+msgstr "搜索"
+
+#: /Users/sdeibel/src/ide/src/search/interactive.py:793
+msgid "Interactive Search and Replace"
+msgstr "交互式的搜索并替换"

@@ -1,0 +1,3562 @@
+# Module src_guimgr translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2013-11-20 20:44+0800\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Users/sdeibel/src/ide/src/guimgr/attribs.py:86
+msgid ""
+"Set this to cause Wing to automatically change perspectives to \"debug\" "
+"whenever debugging is started.  The previous perspective (\"edit\" by "
+"default) is restored after debugging has stopped."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/bootstrap.py:56
+msgid "Can't access %s"
+msgstr "无法访问 %s"
+
+#: /Users/sdeibel/src/ide/src/guimgr/bootstrap.py:57
+msgid ""
+"The user settings directory %s is read-only or cannot be accessed.  Wing "
+"cannot run without write access to this directory."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/bootstrap.py:67
+msgid "Can't create %s"
+msgstr "不能创建 %s"
+
+#: /Users/sdeibel/src/ide/src/guimgr/bootstrap.py:68
+msgid ""
+"Unable to create a %s directory because the disk is read-only or a file of "
+"the same name already exists.  Wing cannot run without write access to this "
+"directory."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:398
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:521
+msgid "_Show Docs..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:400
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:525
+msgid "_Load"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:401
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:526
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:129
+msgid "_Close"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:410
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:711
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:531
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:573
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:1030
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:4758
+msgid "Key Binding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:410
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:531
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:573
+msgid "Shared"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:410
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:531
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:573
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:760
+msgid "Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:431
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:610
+msgid "Right click on the list for editing operations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:438
+msgid "Manage File Sets"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:507
+msgid "Replace Existing File Set?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:508
+msgid ""
+"That fileset already exists.  Are you sure you want to replace the existing "
+"fileset '%s'?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:510
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:581
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:725
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:742
+msgid "OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:511
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:582
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:197
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:743
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3035
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3050
+msgid "Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:578
+msgid "Confirm File Set Delete"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:579
+msgid "Are you sure you want to delete file set '%s'?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:631
+msgid "Open This File Set"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:633
+msgid "New..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:634
+msgid "Delete..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:636
+msgid "Set Key Binding..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:638
+msgid "Update with Currently Opened Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:694
+msgid "FileSet Key Binding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_filesets.py:712
+msgid ""
+"The key binding to assign to the file set.  When pressed, this causes Wing "
+"to open all the files in the file set."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:191
+msgid "Save current GUI State?"
+msgstr "无法保存当前索引状态"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:192
+msgid ""
+"Do you want to save the current GUI state for the perspective %s before "
+"changing to perspective %s?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:195
+msgid "Save State"
+msgstr "保存状态"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:196
+msgid "Abandon State"
+msgstr "放弃保存"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:336
+msgid "Auto-Perspectives Enabled"
+msgstr "自动Perspectives启用"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:337
+msgid ""
+"Wing has turned on auto-perspectives for this project and has changed to the "
+"perspective '%s'."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:341
+msgid "Auto-Perspectives Disabled"
+msgstr "自动Perspectives禁用"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:342
+msgid ""
+"Wing has turned off auto-perspectives for this project and has changed to "
+"the default perspective 'user'."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:350
+msgid ""
+"The previously current perspective '%s' has been saved and can be restored "
+"from the Tools menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:353
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:875
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:888
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:390
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:452
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:235
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:247
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:1001
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:327
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:548
+msgid "_OK"
+msgstr "确认(_O)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:523
+msgid "_Preferences..."
+msgstr "偏好设置(_P)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:531
+msgid "Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:531
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:573
+msgid "Auto-save"
+msgstr "自动保存"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:620
+msgid "Manage Perspectives"
+msgstr "管理视图"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:722
+msgid "Cannot Rename Built-in Perspective"
+msgstr "不能重命名内置的视图"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:723
+msgid "The perspective '%s' is a built-in perspective and cannot be renamed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:739
+msgid "Overwrite Existing Perspective?"
+msgstr "确认覆盖已有的视图？"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:740
+msgid ""
+"That perspective already exists.  Are you sure you want to overwrite the "
+"existing perspective '%s'?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:872
+msgid "Cannot Delete Built-in Perspective"
+msgstr "不能删除内置的Perspective"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:873
+msgid "The perspective '%s' is a built-in perspective and cannot be deleted."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:884
+msgid "Confirm Perspective Delete"
+msgstr "确认删除perspective"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:885
+msgid ""
+"Are you sure you want to delete perspective '%s'?  The stored state will be "
+"lost."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:889
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:62
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:1003
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:1017
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:217
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:221
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:492
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:510
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:525
+msgid "_Cancel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:951
+msgid "_New..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:952
+msgid "D_uplicate..."
+msgstr "重复...(_u)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:953
+msgid "_Delete..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:955
+msgid "Set _Key Binding..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:957
+msgid "Update with _Current State"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:958
+msgid "_Restore Saved State"
+msgstr "恢复保存的状态(_R)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:1013
+msgid "Perspective Key Binding"
+msgstr "视图快捷键绑定"
+
+#: /Users/sdeibel/src/ide/src/guimgr/cap_perspectives.py:1031
+msgid ""
+"The key binding to assign to the perspective.  When pressed, this causes "
+"Wing to change to that perspective and restore the GUI state associated with "
+"it."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:93
+msgid "_File"
+msgstr "文件(_F)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:94
+msgid "_Debug"
+msgstr "调试(_D)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:95
+msgid "_Project"
+msgstr "项目(_P)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:96
+msgid "Testi_ng"
+msgstr "测试(_n)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:97
+msgid "W_indow"
+msgstr "窗口(_i)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:98
+msgid "_Recent"
+msgstr "最近(_R)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:99
+msgid "Debug _Recent"
+msgstr "调试最近打开文件(_R)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:100
+msgid "Debug Named Entry Point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:101
+msgid "Execute Re_cent"
+msgstr "执行最近文件(_c)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:102
+msgid "Execute Named Entry Point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:103
+msgid "Recen_t"
+msgstr "最近打开的文件(_t)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:104
+msgid "New Panel Window"
+msgstr "新建面板窗口"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:108
+msgid "_New"
+msgstr "新建(_N)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:109
+msgid "_Open..."
+msgstr "打开...(_O)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:110
+msgid "Open from _Project..."
+msgstr "从项目打开...(_P)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:111
+msgid "Open from _Keyboard"
+msgstr "从键入路径打开(_K)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:117
+msgid "File Sets"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:118
+msgid "Name Set of Open Files..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:119
+msgid "Name Set of Selected Files..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:121
+msgid "Manage File Sets..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:130
+msgid "Clos_e All"
+msgstr "关闭全部(_e)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:131
+msgid "Close O_thers"
+msgstr "关闭其余文件(_t)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:133
+msgid "_Save"
+msgstr "保存(_S)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:134
+msgid "Save _As..."
+msgstr "另存为...(_A)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:135
+msgid "Save A_ll"
+msgstr "全部保存(_l)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:137
+msgid "Revert to _Disk"
+msgstr "恢复到磁盘(_D)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:139
+msgid "_Insert File..."
+msgstr "插入文件...(_I)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:141
+msgid "_Print..."
+msgstr "打印...(_P)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:142
+msgid "Pa_ge Setup..."
+msgstr "页面设置...(_g)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:147
+msgid "_File Sets..."
+msgstr "文件设置(_F)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:151
+msgid "_Quit"
+msgstr "退出(_Q)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:163
+msgid "Enable Auto-Editing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:166
+msgid "Configure Auto-Editing..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:170
+msgid "Configure Tab Key..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:174
+msgid "_Undo"
+msgstr "撤销(_U)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:175
+msgid "_Redo"
+msgstr "重做(_R)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:177
+msgid "Cu_t"
+msgstr "剪切(_t)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:178
+msgid "_Copy"
+msgstr "复制(_C)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:179
+msgid "_Paste"
+msgstr "粘贴(_P)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:180
+msgid "C_lear"
+msgstr "清除(_l)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:181
+msgid "C_opy Filenames"
+msgstr "拷贝文件名(_o)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:183
+msgid "S_elect"
+msgstr "选择(_e)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:184
+msgid "Select _All"
+msgstr "选择全部(_A)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:186
+msgid "Select _More"
+msgstr "选择更多(_M)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:187
+msgid "Select _Less"
+msgstr "选择更少(_L)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:189
+msgid "Select _Statement"
+msgstr "选择语句(_S)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:190
+msgid "Select _Next Statement"
+msgstr "选择下一条语句(_N)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:191
+msgid "Select _Previous Statement"
+msgstr "选择上一条语句(_P)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:193
+msgid "Select _Block"
+msgstr "选择代码块(_B)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:194
+msgid "Select Ne_xt Block"
+msgstr "选择下一个代码块(_x)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:195
+msgid "Select Pre_vious Block"
+msgstr "选择上一个代码块(_v)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:197
+msgid "Select S_cope"
+msgstr "选择范围(_c)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:198
+msgid "Select Nex_t Scope"
+msgstr "选择下一个范围(_t)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:199
+msgid "Select Prev_ious Scope"
+msgstr "选择前一个范围(_i)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:201
+msgid "S_election Mode"
+msgstr "选择模式(_e)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:202
+msgid "_Characters"
+msgstr "字符(_C)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:203
+msgid "_Line"
+msgstr "行(_L)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:204
+msgid "_Block"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:206
+msgid "Ca_ncel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:209
+msgid "_Search and Replace"
+msgstr "搜索和替换(_S)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:210
+msgid "_Search"
+msgstr "搜索(_S)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:211
+msgid "_Replace"
+msgstr "替换(_R)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:212
+msgid "_Next Match"
+msgstr "下一个(_N)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:213
+msgid "_Previous Match"
+msgstr "前一个(_P)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:214
+msgid "Search for Selection F_orward"
+msgstr "向前搜索已选中内容(_o)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:215
+msgid "Search for Selection _Backward"
+msgstr "向后搜索已选中内容(_B)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:217
+msgid "Search in _Files"
+msgstr "在多个文件中搜索(_F)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:218
+msgid "R_eplace in Files"
+msgstr "在多个文件中替换(_e)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:220
+msgid "Mini-searc_h"
+msgstr "简易搜索(_h)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:221
+msgid "_Forward"
+msgstr "前进(_F)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:222
+msgid "_Backward"
+msgstr "后退(_B)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:223
+msgid "Selection For_ward"
+msgstr "向前查找选中内容(_w)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:224
+msgid "Selection Bac_kward"
+msgstr "向后查找选中内容(_k)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:225
+msgid "Rege_x Forward"
+msgstr "正则向前查找(_x)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:226
+msgid "Regex Ba_ckward"
+msgstr "正则向后查找(_c)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:227
+msgid "_Query/Replace"
+msgstr "搜索和替换(_Q)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:228
+msgid "Q_uery/Replace Regex"
+msgstr "正则搜索和替换(_u)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:229
+msgid "_Replace String"
+msgstr "替换(_R)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:230
+msgid "R_eplace Regex"
+msgstr "正则替换(_)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:232
+msgid "_Goto Line..."
+msgstr "跳转到...行(_G)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:235
+msgid "Show L_ine Numbers"
+msgstr "显示行号(_i)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:236
+msgid "Hide L_ine Numbers"
+msgstr "隐藏行号(_i)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:240
+msgid "Start _Macro Record"
+msgstr "开始录制宏(_M)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:241
+msgid "Stop _Macro Record"
+msgstr "停止录制宏(_M)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:243
+msgid "E_xecute Macro"
+msgstr "运行宏(_x)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:245
+msgid "Reload All Scripts"
+msgstr "重新加载全部脚本"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:246
+msgid "Command by _Name"
+msgstr "输入执行编辑器命令(_N)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:248
+msgid "Configure P_ython..."
+msgstr "设置Python(_y)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:249
+#: /Users/sdeibel/src/ide/src/guimgr/initialprefs.py:44
+msgid "_Keyboard Personality"
+msgstr "键盘个性化定义(_K)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:250
+msgid "P_lugins..."
+msgstr "插件(_l)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:251
+msgid "Pre_ferences..."
+msgstr "首选项(_f)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:259
+msgid "Compare Files..."
+msgstr "对比文件..."
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:260
+msgid "Compare Directories..."
+msgstr "对比目录..."
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:261
+msgid "Compare Visible Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:262
+msgid "Compare Buffer with Disk"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:263
+msgid "Compare Recent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:267
+msgid "Compare to Repository"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:271
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:639
+msgid "Next Difference"
+msgstr "下一处不同"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:272
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:637
+msgid "Previous Difference"
+msgstr "上一处不同"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:274
+msgid "Merge Change A->B"
+msgstr "向右合并"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:275
+msgid "Merge Change B->A"
+msgstr "向左合并"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:280
+msgid "Terminate Session"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:282
+msgid "Lock Scrolling"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:285
+msgid "Ignore Whitespace"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:302
+msgid "Enclose with ()"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:303
+msgid "Enclose with []"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:304
+msgid "Enclose with {}"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:305
+msgid "Enclose with ''"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:306
+msgid "Enclose with \"\""
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:307
+msgid "Enclose with <>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:311
+msgid "_Rename Symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:312
+msgid "_Move Symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:313
+msgid "E_xtract Function / Method"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:314
+msgid "_Introduce Variable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:318
+msgid "Re_wrap Text"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:319
+msgid "_Match Braces"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:320
+msgid "Insert _Tab Character"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:321
+msgid "_Show Auto-completer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:323
+msgid "_Evaluate File in Python Shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:324
+msgid "E_valuate Selection in Python Shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:326
+msgid "Toggle Block _Comment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:328
+msgid "_Goto Selected Symbol Defn"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:329
+msgid "Find Points of _Use"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:330
+msgid "_Find Symbol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:332
+msgid "Toggle _Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:333
+msgid "Set _Named Bookmark..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:334
+msgid "G_oto Bookmark..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:335
+msgid "Traverse Bookmarks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:336
+msgid "_Next Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:337
+msgid "_Previous Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:338
+msgid "Ne_xt Bookmark in Current File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:339
+msgid "Pre_vious Bookmark in Current File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:343
+msgid "Show Bookmar_ks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:345
+msgid "_Indentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:346
+msgid "In_dent Line(s) to Match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:347
+msgid "_Indent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:348
+msgid "_Outdent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:350
+msgid "Indentation _Manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:352
+msgid "Line Editing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:353
+msgid "New Line Above"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:354
+msgid "New Line Below"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:356
+msgid "Duplicate Lines Above"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:357
+msgid "Duplicate Lines Below"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:358
+msgid "Move Lines Up"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:359
+msgid "Move Lines Down"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:361
+msgid "Delete Lines"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:362
+msgid "Swap Lines"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:364
+msgid "Enclose"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:365
+msgid "_Folding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:366
+msgid "_Toggle Current Fold"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:367
+msgid "_Collapse Current More"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:368
+msgid "_Expand Current More"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:369
+msgid "C_ollapse Current Completely"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:370
+msgid "E_xpand Current Completely"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:371
+msgid "Collapse _All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:372
+msgid "Ex_pand All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:374
+msgid "Fold Python _Methods"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:375
+msgid "Fold Python _Classes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:376
+msgid "Fold Python Classes and _Defs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:378
+msgid "Difference and Merge"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:380
+msgid "Show _Python Environment..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:381
+msgid "Current File P_roperties..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:386
+msgid "_New Project"
+msgstr "新建项目(_N)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:387
+msgid "_Open Project..."
+msgstr "打开项目...(_O)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:390
+msgid "_Save Project"
+msgstr "保存项目(_S)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:391
+msgid "Save Project _As..."
+msgstr "项目另存为...(_A)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:392
+msgid "_Close Project"
+msgstr "关闭项目(_C)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:394
+msgid "Add Existing _Directory..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:395
+msgid "Add C_urrent File"
+msgstr "添加当前文件(_u)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:396
+msgid "Add Existing _File..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:397
+msgid "Add New F_ile"
+msgstr "添加新文件(_i)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:398
+msgid "Remove Selected _Entry"
+msgstr "删除选中的项"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:400
+msgid "Show Current File in Project Tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:402
+msgid "_Extensions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:403
+msgid "_Configure Project for Django"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:404
+msgid "Start _Django Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:406
+msgid "Launch Configurations..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:407
+msgid "Project P_roperties..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:412
+msgid "_Start / Continue"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:413
+msgid "Debug _To Cursor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:414
+msgid "Debug Current _File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:420
+msgid "_Attach to Process..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:421
+msgid "Det_ach from Process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:424
+msgid "_Pause"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:425
+msgid "Sto_p Debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:426
+msgid "Restart Debu_gging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:428
+msgid "Step _Over"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:429
+msgid "Step _Into"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:430
+msgid "Step O_ut"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:432
+msgid "U_p Stack"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:433
+msgid "Dow_n Stack"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:434
+msgid "S_how Original Position"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:436
+msgid "Add _Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:437
+msgid "Remove _Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:438
+msgid "Remo_ve All Breakpoints"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:439
+msgid "Brea_kpoint Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:440
+msgid "Set _Temporary Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:441
+msgid "Set _Conditional Breakpoint..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:442
+msgid "Edit Breakpoint C_ondition..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:444
+msgid "_Disable Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:445
+msgid "_Enable Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:446
+msgid "Disable _All Breakpoints"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:447
+msgid "Enable _All Breakpoints"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:448
+msgid "Set Breakpoint I_gnore Count..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:451
+msgid "E_xecute Current File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:458
+msgid "Set Current as _Main Debug File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:459
+msgid "Clear _Main Debug File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:460
+msgid "Named Entry Points..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:462
+msgid "C_lear Ignored Exceptions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:463
+msgid "Clear Stored Value Errors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:465
+msgid "Debug Environment..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:469
+msgid "Run _All Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:470
+msgid "Run Tests in Current _File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:471
+msgid "Run Tests at _Cursor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:472
+msgid "Run Fa_iled Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:473
+msgid "Run T_ests Again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:475
+msgid "_Abort Running Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:477
+msgid "Debug _All Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:478
+msgid "Debug Tests in Current _File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:479
+msgid "Debug Tests at _Cursor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:480
+msgid "Debug Fa_iled Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:481
+msgid "De_bug T_ests Again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:483
+msgid "Add Files from _Project..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:484
+msgid "Add Single Fi_le..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:485
+msgid "A_dd Current File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:487
+msgid "_Save All Results..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:488
+msgid "_Load Results..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:493
+msgid "_Load Perspective"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:494
+msgid "Enable Auto-Perspectives"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:495
+msgid "Disable Auto-Perspectives"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:496
+msgid "_Manage Perspectives..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:498
+msgid "Restore Default T_ool Set"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:505
+msgid "New _Document Window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:506
+msgid "New _Tool Window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:508
+msgid "_Next Window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:511
+msgid "Ne_xt Document"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:512
+msgid "Pre_vious Document"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:513
+msgid "_Most Recent Document"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:515
+msgid "Move _Focus"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:516
+msgid "Next Visit in _History"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:517
+msgid "Previous Visit in H_istory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:528
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:544
+msgid "Wing IDE _Manual"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:529
+msgid "Tut_orial"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:530
+msgid "_Quick Start Guide"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:531
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:546
+msgid "_How-Tos"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:532
+msgid "Wing _Tips..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:534
+msgid "_Search Help"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:535
+msgid "Des_cribe Key..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:537
+msgid "_Wingware Website..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:538
+msgid "Technica_l Support..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:539
+msgid "Wingware Wi_ki..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:541
+msgid "_Python Manual (HTML)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:543
+msgid "P_DF Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:545
+msgid "_Tutorial"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:555
+msgid "Lin_ks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:556
+msgid "Python _Website"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:557
+msgid "Python for _Beginners"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:558
+msgid "Python S_uccess Stories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:560
+msgid "_Search Python Resources"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:562
+msgid "_Help Fund Python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:565
+msgid "Submit _Feedback..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:566
+msgid "Submit _Bug Report..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:568
+msgid "Check for _Updates..."
+msgstr "检查更新(_U)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:569
+msgid "_About..."
+msgstr "关于...(_A)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:576
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:577
+msgid "_Source"
+msgstr "源码(_S)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:578
+msgid "_Refactor"
+msgstr "重构(_R)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:582
+msgid "_Tools"
+msgstr "工具(_T)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:584
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:598
+msgid "New"
+msgstr "新建"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:599
+msgid "Open..."
+msgstr "打开"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:600
+msgid "Save"
+msgstr "保存"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:600
+msgid "Save the active document"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:601
+msgid "Save All"
+msgstr "全部保存"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:605
+msgid "Cut"
+msgstr "剪切"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:606
+msgid "Copy"
+msgstr "复制"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:607
+msgid "Paste"
+msgstr "粘贴"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:609
+msgid "Undo"
+msgstr "撤销"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:610
+msgid "Redo"
+msgstr "重做"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:615
+msgid "Goto Definition"
+msgstr "跳转到定义处"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:619
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:440
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:729
+msgid "Search"
+msgstr "搜索"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:621
+msgid "Execute Toolbar Search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:626
+msgid "Indent"
+msgstr "缩进"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:627
+msgid "Indent the selected region one level"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:628
+msgid "Dedent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:629
+msgid "Un-indent the selected region one level"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:630
+msgid "Match Indent"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:631
+msgid ""
+"Adjust selected region indent to match context, or one level higher if "
+"already matching"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:635
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:711
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:730
+msgid "Diff/Merge"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:640
+msgid "Merge A->B"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:641
+msgid "Merge B->A"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:642
+msgid "Cancel Diff/Merge Session"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:646
+msgid "Python Environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:647
+msgid "Project Properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:656
+msgid "Run"
+msgstr "运行"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:661
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:662
+msgid "Break"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:664
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:733
+msgid "Debug"
+msgstr "调试"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:668
+msgid "Debug To Cursor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:671
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:682
+msgid "Step Into"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:674
+msgid "Stop"
+msgstr "停止"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:678
+msgid "Restart"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:679
+msgid "Pause"
+msgstr "暂停"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:683
+msgid "Step Over"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:684
+msgid "Step Out"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:689
+msgid "Up Stack"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:690
+msgid "Show Position"
+msgstr "显示位置"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:691
+msgid "Down Stack"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:697
+msgid "Run Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:698
+msgid "Abort Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:699
+msgid "Run All Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:702
+msgid "Debug Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:703
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:721
+msgid "Debug All Tests"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:709
+msgid "Update"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:710
+msgid "Commit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:712
+msgid "View Diffs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:713
+msgid "Status"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:719
+msgid "Create Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:724
+msgid "Goto Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:725
+msgid "Go to selected bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:726
+msgid "Previous Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:728
+msgid "Next Bookmark"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:734
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:738
+msgid "Search in Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:735
+msgid "Pause Search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:736
+msgid "Previous Match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:737
+msgid "Next Match"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:807
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:434
+msgid "Previous"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:808
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:435
+msgid "Next"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:809
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:436
+msgid "Contents"
+msgstr "內容"
+
+#: /Users/sdeibel/src/ide/src/guimgr/constants.py:810
+msgid "Close"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:428
+msgid "Select from recently visited documents"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:433
+msgid "History"
+msgstr "历史"
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:479
+msgid "Help"
+msgstr "帮助"
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:485
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:531
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2709
+msgid "Wing IDE Help"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:609
+msgid ""
+"Could not find document section %s:  Please report this error to "
+"bugs@wingware.com."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:610
+msgid "Could not find document"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:683
+msgid "Copy Text to Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:684
+msgid "Copy HTML to Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:686
+msgid "Smaller Font"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:687
+msgid "Larger Font"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:738
+#: /Users/sdeibel/src/ide/src/guimgr/document.py:755
+msgid "Help view state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:54
+msgid "Wing IDE: Submit Bug Report"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:57
+msgid "Wing IDE: Please Send Feedback"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:60
+msgid "_Do Later"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:67
+msgid "Configure Proxy..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:68
+msgid "_Submit Now"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:77
+msgid "Show this dialog on unexpected errors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:86
+msgid "Show this dialog when quitting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:96
+msgid "Include error log: %s (%i KB)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:121
+msgid ""
+"Please provide as much information as possible about what caused the bug "
+"that you are reporting."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:124
+msgid ""
+"An unexpected error occurred.  Please submit this bug report to us, with as "
+"much additional information as possible about what caused the problem.\n"
+"\n"
+"Sorry for this inconvenience -- submitting a report will help us to fix the "
+"problem sooner."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:130
+msgid ""
+"Please tell us what you think!  Your feedback drives our product development."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:138
+msgid "Summary: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:145
+msgid "Details: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:167
+msgid "Where did you hear about Wing IDE?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:175
+msgid "If you want us to respond, please include a valid email address:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:186
+msgid "You can also do this later from the Help menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:212
+msgid "Submitting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:213
+msgid "Submitting to wingware.com. Please wait"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:261
+msgid "Collecting Data"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:289
+msgid "Nothing to Submit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:290
+msgid "Nothing was entered in summary or detail."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:314
+msgid "Encoding Data"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:330
+msgid "Creating Request"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:338
+msgid "Opening Connection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:346
+msgid "Reading Reply"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:353
+msgid "Closing Connection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:359
+msgid "Submit Error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:360
+msgid ""
+"Received unexpected response.  There may be a network problem:\n"
+"\n"
+"%s\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:376
+msgid "Bug Report Submitted"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:377
+msgid ""
+"Thanks for your bug report.  It has been submitted to wingware.com and will "
+"be emailed to our software development staff."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:381
+msgid "Feedback Submitted"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:382
+msgid ""
+"Thanks for your feedback.  It has been submitted to wingware.com and will be "
+"emailed to our software development staff."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:423
+msgid "Continue Report"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:424
+msgid "Cancel Report"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:428
+msgid "Cancel Bug Report?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:430
+msgid "Cancel Feedback?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/feedback.py:431
+msgid ""
+"Are you sure you want to cancel?  Any text you have entered will be lost."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:178
+msgid "X11 Configuration Problems"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:180
+msgid ""
+"Please consider enabling the <literal>Fix Tiger Option Key</literal> Wing "
+"IDE preference if you want to use the option key to enter foreign language "
+"characters or characters that require a key other than Command, Control, or "
+"Shift to be pressed.  This is needed because the X11 Server shipped with "
+"Tiger (OS X 10.4) does not distinguish between option / alt and what is "
+"known as the mode switch key."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:188
+msgid ""
+"Please disable the <literal>Enable key equivalents under X11</literal> "
+"preference in the Input section of the X11 Server's preferences dialog "
+"(accessed from the X11 menu at the top of the screen).  This preference must "
+"be disabled when using Wing's OS X keyboard personality. If you want the X11 "
+"server to process Command keys, you must select a keyboard personality other "
+"than OS X in Wing's preferences.  <literal>Note:</literal> This X11 "
+"preference change will apply to all X11 applications."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:226
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:227
+msgid "Please"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:227
+msgid "Please also"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:238
+msgid "Don't show this notice again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:400
+msgid "No Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:404
+msgid " (r/o)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:772
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:784
+msgid "Failed language change"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:773
+msgid ""
+"Failed to remove %s -- the language cannot be changed until this file can be "
+"removed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:785
+msgid ""
+"Failed to write %s -- the language cannot be changed until this file can be "
+"written."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:1023
+msgid ""
+"The new font size may not apply successfully to all of the GUI until you "
+"restart Wing IDE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:1469
+msgid "Document Open Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:1469
+msgid "Failed to open document '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2030
+msgid "Could not show panel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2031
+msgid "Could not display requested panel of type '%s' (unknown panel type)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2203
+msgid "No Project Open"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2206
+msgid "Wing IDE Menu: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2361
+msgid "The file to select"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2363
+msgid "Select file:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2425
+msgid "General failure obtaining application-wide visual state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2443
+msgid "No windows in application-wide state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2452
+msgid "Creating window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2454
+msgid "Creating window #%i..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2490
+msgid "Configuring window..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2492
+msgid "Configuring window (%i)..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2544
+msgid "Could not set tool window visual state:  No notebook view"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2577
+msgid "General failure in setting application-wide state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2658
+msgid "Auto-Save Files Before Debug or Execute"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:2713
+msgid "Default Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3030
+msgid "Add Directory to Project?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3031
+msgid "Would you like to add %s to your project?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3034
+msgid "Add Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3042
+msgid "Add Directories to Project?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3043
+msgid "Please select directories to add to the project:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3049
+msgid "Add Selected Dirs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3098
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3154
+msgid "Wing IDE: %s (r/o)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3100
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3156
+msgid "Wing IDE: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3102
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3158
+msgid "Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3233
+msgid "Failed to set panel window state:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3288
+msgid "Toolbox: %s: Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3290
+msgid "%s: %s: Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3293
+msgid "Toolbox: Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3295
+msgid "%s: Wing IDE"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3448
+msgid "Failed to save portions of visual state for %s:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3464
+msgid "Really Restore Default Tools?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3469
+msgid ""
+"This command will close all currently open tools and restore the factory "
+"default tool set for the perspective '%s'.  Are you sure you want to do this?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3473
+msgid ""
+"This command will close all currently open tools and restore the factory "
+"default tool set for user-defined perspectives.  Are you sure you want to do "
+"this?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3477
+msgid ""
+"This command will close all currently open tools and restore the factory "
+"default tool set.  Are you sure you want to do this?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3480
+msgid "_Yes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3481
+msgid "_No"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3586
+msgid " (named entry point)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3712
+msgid "Left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3714
+msgid "Right"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3718
+msgid "Bottom"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3720
+msgid "Top"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3743
+msgid "%sToolbox"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3748
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3751
+msgid "%sToolbox Split #%i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3779
+msgid "Insert Tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3796
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3390
+msgid "New Window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3816
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3381
+msgid "Window %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3831
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3414
+msgid "Move %s to"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3840
+msgid "Remove %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3846
+msgid "%s Key Binding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3847
+msgid "Key binding used to show the most recently accessed %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3849
+msgid "Set Key Binding for %s..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3862
+msgid "Put Toolbox Back Into %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3869
+msgid "Move Toolbox to Right"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3870
+msgid "Move Toolbox to Left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3871
+msgid "Move Toolbox to Top"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3872
+msgid "Move Toolbox to Bottom"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3883
+msgid "Move Toolbox to New Window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3891
+msgid "Move Toolbox Split #%i to New Window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3902
+msgid "Add Toolbox Split"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3906
+msgid "Remove Toolbox Split"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3912
+msgid "Hide Toolbox"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3927
+msgid "Use Vertical Splits"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3929
+msgid "Use Horizontal Splits"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3953
+msgid "Place Tabs at Bottom"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3955
+msgid "Place Tabs at Top"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3958
+msgid "Place Tabs at Right"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3960
+msgid "Place Tabs at Left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3975
+msgid "The window title (blank for internal default)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3982
+msgid "Set Window Title..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:3992
+msgid "Keep Window on Top"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:4566
+msgid "Failed to set colors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:4567
+msgid "Failed to set selected colors because the file %s could not be written"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:4589
+msgid "_Restart Now"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:4590
+msgid "_Continue Working"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:4593
+msgid ""
+"Wing IDE requires a restart to reinitialize its display to match the current "
+"display  preferences.  You may either quit now or continue working without "
+"all the preferences applied."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/guimanager.py:4599
+msgid "Restart for Display Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/initialprefs.py:45
+msgid "_Tab Key Action"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/initialprefs.py:48
+msgid "_Enable Auto-Editing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/initialprefs.py:51
+msgid ""
+"Please select your preferred editor behaviors.  Hover over the fields for "
+"additional documentation."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/initialprefs.py:53
+msgid ""
+"You can alter these settings later in Preferences or by using the Edit > "
+"Keyboard Personality menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/initialprefs.py:92
+msgid "Use Wing _Defaults"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/initialprefs.py:93
+msgid "Use _These Settings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/initialprefs.py:97
+msgid "Select Initial Preferences"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/initialprefs.py:113
+msgid "Configuring window %i..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/keyboard.py:1056
+msgid "%s: Undefined key sequence"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/keyboard.py:1136
+msgid "Unavailable commands: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/keyboard.py:1427
+msgid "Failed to save portion of editor state for %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/keyboard.py:1504
+msgid "Failed to restore portions of editor state for %s:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/keyboard.py:1847
+msgid "[not unique]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/keyboard.py:1854
+msgid "[no match]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/keyboard.py:2155
+msgid "Repeat: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/keyboard.py:2226
+msgid "Count: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:39
+msgid "general"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:40
+msgid "editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:41
+msgid "debugger"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:42
+msgid "search"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:43
+msgid "transient"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:44
+msgid "scripts"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:45
+msgid "project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:46
+msgid "browser"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:47
+msgid "analysis"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:108
+msgid "Messages"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:113
+msgid "Wing IDE Sub-System Messages"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:237
+msgid "Error"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:376
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:391
+msgid "Messages visual state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/messages.py:414
+msgid "Show Messages:  "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:638
+msgid "Switch between open files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:836
+msgid ""
+"This editor is locked and will not be used to open other files.  Click the "
+"lock icon to change modes."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:841
+msgid ""
+"This file is sticky and will remain open until closed.  Click the stick pin "
+"icon to change modes."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:845
+msgid ""
+"This document is non-transient and will remain open until closed "
+"explicitly.  Click the stick pin icon to auto-close it when hidden."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:851
+msgid ""
+"This file is non-sticky and will auto-close when hidden.  Click the stick "
+"pin icon to change modes."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:854
+msgid ""
+"This document is transient and will be closed when hidden.  Click the stick "
+"pin icon to keep it open."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:859
+msgid "Right-click for menu of recently visited documents."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1051
+msgid "Configure..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1131
+msgid "Next visit in history (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1133
+msgid "Next visit in history"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1137
+msgid "Previous visit in history (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1139
+msgid "Previous visit in history"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1159
+msgid "Diff/Merge session options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1161
+msgid "Navigate to bookmarks in this file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1165
+msgid "Close Document"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1167
+msgid "Document View Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1219
+msgid "Remove Bookmarks in this File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:1978
+msgid "General failure getting multi-editor visual state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:2018
+msgid "Current editor file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:2035
+msgid "General failure setting multi-editor visual state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:2471
+msgid "Could not open %s.  Please check the filename."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:2471
+msgid "File open failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3388
+msgid "Move %s to New Window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3424
+msgid "Close %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3427
+msgid "Close Others"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3430
+msgid "Close All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3437
+msgid "Copy File Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3444
+msgid "Show in Explorer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3446
+msgid "Show in Finder"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3448
+msgid "Show Directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3454
+msgid "Show in Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3458
+msgid "Split Top and Bottom"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3459
+msgid "Split Side by Side"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3461
+msgid "Join all Splits"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3467
+msgid "Show All Files in All Splits"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3474
+msgid "Hide Notebook Tabs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3476
+msgid "Show Notebook Tabs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3481
+msgid "Keep Tabs Alphabetized"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3484
+msgid "Sort Symbol Menus Alphabetically"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3486
+msgid "Sort Symbol Menus in File Order"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3666
+msgid "General failure getting paned editor state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3701
+msgid "Currently open editor files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/multieditor.py:3721
+msgid "General failure setting paned editor state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/personality.py:128
+msgid "Could not read key map"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/personality.py:129
+msgid ""
+"The key map file '%s' could not be found or is not readable. Attempting to "
+"fall back to internal defaults. Please restore the missing file or change "
+"the User Interface / Advanced / Key Map File preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:39
+msgid "Combined Toolbox and Editor Windows"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:40
+msgid "Separate Toolbox Windows"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:41
+msgid "One Window per Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:46
+msgid ""
+"Policy to use for window creation:  Combined Toolbox and Editor mode places "
+"toolboxes into editor windows, Separate Toolbox mode creates separate "
+"toolbox windows, and One Window per Editor mode also creates a new window "
+"for each file opened in an editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:55
+msgid ""
+"Defines location of the keymap override file.  Use None for default "
+"according to configured editor personality.  See the Wing IDE Manual for "
+"details on building your keymap override file -- in general this is used "
+"only in development or debugging keymaps; use the keymap-override preference "
+"instead for better tracking across Wing versions."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:61
+msgid "Override with selected:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:61
+msgid "Use Default for Personality"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:64
+msgid ""
+"Override key bindings in the keymap.  To enter the key, place focus on the "
+"entry area and type the key combination desired.  The command is one of "
+"those documented in the user manual's Command Reference, or the name of any "
+"user scripts that have been loaded into the IDE.  Leave the command name "
+"blank to remove the default binding for a key (this is useful when adding "
+"multi-key bindings that conflict with a default)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:71
+msgid "Key"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:71
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:760
+msgid "Command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:78
+msgid ""
+"Rectangle to use for the IDE work area on screen.  All windows open within "
+"this area.  Format is (x, y, width, height), or use None for full screen."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:81
+msgid "Full Screen"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:81
+msgid "Height"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:81
+msgid "This Rectangle:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:81
+msgid "Width"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:81
+msgid "X"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:81
+msgid "Y"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:87
+msgid "Whether toolbar is shown in any window."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:91
+msgid "Auto-Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:92
+msgid "Tiny (Text Height)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:93
+msgid "Small"
+msgstr "小"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:94
+msgid "Medium"
+msgstr "中"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:95
+msgid "Large"
+msgstr "大"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:96
+msgid "Extra Large"
+msgstr "非常大"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:97
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:130
+msgid "System Default"
+msgstr "系统默认"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:101
+msgid ""
+"Sets size of the toolbar icons.  By default, adjusts according to available "
+"space."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:125
+msgid "Adjust for Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:126
+msgid "Icon Only"
+msgstr "仅图标"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:127
+msgid "Text Only"
+msgstr "仅文字"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:128
+msgid "Icon and Text Below"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:129
+msgid "Icon and Text to Side"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:150
+msgid ""
+"Select style of toolbar icons to use.  By default, adjusts according to "
+"available space."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:156
+msgid "Primary color for icons"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:161
+msgid "Secondary color for icons"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:166
+msgid "Tertiary color for icons"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:171
+msgid "Quaternary color for icons"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:176
+msgid "Quinary color for icons"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:181
+msgid "Senary color for icons"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:187
+msgid ""
+"Controls whether or not tooltips containing help are shown when the mouse "
+"hovers over areas of the user interface."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:198
+msgid "The base font and size to use for the user interface's menus and labels"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:201
+msgid "Use Default"
+msgstr "使用默认值"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:201
+msgid "Use Selected Font/Size:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:219
+msgid "Configures the overall display style used by Wing IDE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:232
+msgid "Native for OS"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:233
+msgid "Selected Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:234
+msgid "Match Palette:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:241
+msgid ""
+"The overall color palette used by Wing IDE.  All color preferences default "
+"to using colors from the palette, but can be overridden individually.  The "
+"background colors from the palette will only apply to the editor, unless the "
+"Display Style preference is set to Match Palette.  Additional palettes can "
+"be defined and added to the 'palettes' sub-directory of the User Settings "
+"directory."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:257
+msgid "Use Windows Defaults"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:260
+msgid "Use System Default Theme"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:263
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:266
+msgid "Use Default Wing Theme (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:297
+msgid " (Wing Default)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:303
+msgid ""
+"Configures the overall display style, or theme, used by Wing IDE.  "
+"Additional GTK2 themes may be downloaded from http://art.gnome.org/themes "
+"and placed into %s or %s.  These will be added to the choices below.  "
+"However, only the pixbuf, metal, and redmond95 theme engines are supported."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:314
+msgid "Use Selected Theme:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:320
+msgid ""
+"Controls whether project files are opened as project or as text when opened "
+"from the File menu.  This does not affect opening from the Project menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:325
+msgid "Maximum number of items to display in the Recent menus."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:328
+msgid "Base Name Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:329
+msgid "Prepend Relative Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:330
+msgid "Append Relative Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:331
+msgid "Prepend Full Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:332
+msgid "Append Full Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:335
+msgid ""
+"Format used for titles of source files:  Use Base Name Only to display just "
+"the file name, Prepend Relative Path to use partial relative path from the "
+"project file location or configured Project Home Directory, Append Relative "
+"Path to instead append the relative path after the file namePrepend Full "
+"Path to use full path, or Append Full Path to instead append the fullpath "
+"after the file name."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:346
+msgid "Maximum size of files that Wing will try to open, in MB."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:350
+msgid ""
+"Enable to always show the full path of a file name in the tooltips shown "
+"from the editor tabs and file selection menus.  When disabled, the "
+"configured Source Title Style is used instead."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:356
+msgid ""
+"Posix only: The commands used to display or edit local disk files selected "
+"from the Help menu or project files selected for external display.  This is "
+"a map from mime type to a list of display commands; each display command is "
+"tried in order of the list until one works.  The mime type \"*\" can be used "
+"to set a generic viewer, such as a web browser.  Use %s to place the file "
+"name on the command lines. If unspecified then Wing will use the configured "
+"URL viewer in the environment (specified by BROWSER environment variable or "
+"by searching the path for common browsers). On Windows, the default viewer "
+"for the file type is used instead so this preference is ignored. On OS X, "
+"files are opened with \"open\" by default so this preference is rarely "
+"needed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:369
+msgid "Mime Type"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:369
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:384
+msgid "Display Commands"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:372
+msgid ""
+"Posix only: The commands used to display URLs.  This is a map from protocol "
+"type to a list of display commands; each display command is tried in order "
+"of the list until one works.  The protocol \"*\" can be used to set a "
+"generic viewer, such as a multi-protocol web browser.  Use %s to place the "
+"URL on the command lines. If unspecified then Wing will use the configured "
+"URL viewer in the environment (specified by BROWSER environment variable or "
+"by searching the path for common browsers). On Windows, the default web "
+"browser is used instead so this preference is ignored. On OS X, URLs are "
+"opened with \"open\" by default so this preference is rarely needed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:384
+msgid "Protocol"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:393
+msgid ""
+"Controls whether or not all edited files are saved without asking before a "
+"debug run, before starting unit tests, or before a file or build process is "
+"executed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:401
+msgid ""
+"Controls whether or not Wing ignores files that were not saved before "
+"starting debug or that have changed since they were loaded by the debug "
+"process.  Wing normally will warn of unsynchronized files since breakpoints "
+"may not be reached and stepping through the files may not work properly if "
+"lines have moved.  Checking this option turns off these warnings."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:413
+msgid ""
+"Controls whether or not to set the foreground lock timeout on Windows XP, "
+"where normally Wing will be unable to bring source windows to front whenever "
+"the debug process has windows in the foreground.  When this preference is "
+"true, the system-wide value that prevents background applications from "
+"raising windows is cleared whenever Wing is running.  This means that other "
+"apps will also be able to raise windows without these restrictions while "
+"Wing is running. Set the preference to false to avoid this, but be prepared "
+"for windows to fail to raise in some instances.  Note:  If Wing is "
+"terminated abnormally or from the task manager, the changed value will "
+"persist until the user logs out."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:431
+msgid ""
+"Sets the timeout in seconds to use for typing, after which keys pressed are "
+"considered a separate group of characters.  This is used for typing-to-"
+"select on lists and in other GUI areas.  Before the timeout subsequent keys "
+"are added to previous ones to refine the selection during keyboard "
+"navigation."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:450
+msgid "The color used to indicate the current text selection on editable text."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:456
+msgid ""
+"Controls whether or not the Wing Tips tool is shown automatically at startup "
+"of the IDE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:462
+msgid ""
+"Controls whether or not Wing shows tabs for switching between editors.  When "
+"false, a popup menu is used instead."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:468
+msgid "File Order"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:469
+msgid "Alphabetical Order"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:474
+msgid ""
+"Control preferred order in source index displays such as the editor browse "
+"menus.  Either sort in the order found in the file or alphabetical order."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:482
+msgid "Whether to show all open editors in a window in every split."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:487
+msgid "Whether to keep tabs in alphabetical order."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:493
+msgid "All"
+msgstr "全部"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:494
+msgid "General"
+msgstr "常规"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:495
+msgid "Debugger"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:496
+msgid "Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:497
+msgid "Search Progress"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:498
+msgid "Browser"
+msgstr "浏览器"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:499
+msgid "Project Manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:500
+msgid "Source Analysis"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:501
+msgid "Scripts"
+msgstr "脚本"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:505
+msgid "All Messages"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:506
+msgid "Only Warnings and Errors"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:507
+msgid "Only Errors"
+msgstr "仅显示错误"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:515
+msgid ""
+"Controls the format and verbosity of messages shown to the user for each "
+"message domain in the message area.  Each domain specifies the format (in "
+"Python 2.3 logging.Formatter format), and the minimum logging level that "
+"should be shown in the display.  If a message domain is left unspecified, "
+"then the parent domain settings are used instead (\"\" is the parent of all "
+"domains)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:522
+msgid "Config"
+msgstr "配置"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:522
+msgid "Domain"
+msgstr "域"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:524
+msgid "Format"
+msgstr "格式"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:524
+msgid "Max Lines"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:524
+msgid "Minimum Level"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:530
+msgid "Whether feedback dialog is shown to user on quit."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:534
+msgid ""
+"Used internally to avoid showing the feedback dialog on exit over and over "
+"again."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:539
+msgid ""
+"Whether the error bug reporting dialog (also available from the Help menu) "
+"is shown automatically when an unexpected exception is encountered inside "
+"Wing IDE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:545
+msgid ""
+"Used internally to remember which unexpected exceptions have already been "
+"reported so we only show error reporting dialog once for each."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:551
+msgid ""
+"Maximum number of non-sticky (auto-closing) editors to keep open at one "
+"time, in addition to any that are visible on screen"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:558
+msgid "Email address to use by default in the Feedback and Bug Report dialogs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:572
+msgid ""
+"Use the system wide gtk library (requires gtk 2.2 or later).  Wing comes "
+"with its own  private copy of the gtk libraries for which it is built and "
+"tested.  Use the system gtk option to better integrate with the gnome or "
+"other desktop environment, however on some systems this may result in random "
+"crashing or other  bugs resulting from binary incompatibilities in library "
+"versions.   This preference may be overridden on the command line with the --"
+"system-gtk and --private-gtk command line options."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:584
+msgid "Use System Qt if 4.8"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:585
+msgid "Use System Qt"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:586
+msgid "Use Wing's private Qt"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:592
+msgid ""
+"Use the system-provided Qt library (requires Qt4 4.8 or later).  Wing comes "
+"with its own  private copy of the Qt libraries for which it is built and "
+"tested.  Use the system Qt option to better integrate with the gnome or "
+"other desktop environment, however on some systems this may result in random "
+"crashing or other  bugs resulting from binary incompatibilities in library "
+"versions.   This preference may be overridden on the command line with the --"
+"system-qt and --private-qt command line options."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:608
+msgid "Scan for pythoncom shell extensions on Windows"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:616
+msgid "Both Option keys"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:617
+msgid "Left Option key"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:618
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:649
+msgid "Command keys"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:619
+msgid "No Alt key"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:623
+msgid ""
+"Selects the key to use as the Alt- modifier in key bindings.  Note that the "
+"Option key is also used to enter characters, such as ® on US keyboards or ] "
+"on German keyboards.  When the Option key is used for the Alt key, Alt-key "
+"bindings take precedence and thus may block entering of characters with the "
+"Option key.  If both functions are needed, use the left Option key for the "
+"Alt-key and enter characters with the right Option key.  If the Command keys "
+"are used for the Alt key, any Alt-key bindings will override Command-key "
+"bindings for the same key."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:636
+msgid ""
+"Specifies whether plain Alt keystrokes should be used only for accelerators. "
+"When enabled, Alt-key presses that could be for an accelerator will be used "
+"only for accelerators and never for key bindings.  When disabled, Alt-key "
+"bindings take precedence over accelerators.  This preference is ignored when "
+"Wing is running with native OS X display style, since in that case "
+"accelerators do not exist."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:646
+msgid "No alt key / not Apple X11"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:647
+msgid "Left option key"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:648
+msgid "Both option keys"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:652
+msgid ""
+"Use key for alt key in all X11 applications on OS X -- typically used when "
+"using a non OS X keyboard layout on the Apple X11 server. The option key "
+"should be used only if it's not needed to enter individual characters. This "
+"will use xmodmap to set the global X11 key map to use the specified key as "
+"the alt key modifier.  Turning this option off if it was on previously will "
+"reset the option key back to mode_switch, which is the Apple default "
+"setting. Non-default options will override any externally set xmodmap "
+"setting so use with care if you've customized your xmodmap."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:667
+msgid ""
+"Whether to fix the inability to use Mode_switch on Tiger (OS X 10.4). If "
+"true, Wing will run xmodmap when it starts to remap the Mode_switch keys "
+"(option, Alt Gr, and other composition keys on non-US keyboards) from mod1 "
+"to mod5.  The xmodmap modifications will affect all X11 applications."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:675
+msgid "Query X11"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:676
+msgid "Yes"
+msgstr "是"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:677
+msgid "No"
+msgstr "否"
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:680
+msgid ""
+"Whether an Apple keyboard is in use. Use query x11 option to attempt to "
+"determine setting from X11 server each time Wing is run. This is an OS X "
+"only preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:688
+msgid ""
+"Used internally to show information about osx keyboard issues to new users.  "
+"Once turned off, it is never turned on again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:694
+msgid ""
+"Controls whether names are sorted case sensitively (with all caps preceding "
+"small letters) or case insensitively"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:700
+msgid ""
+"Controls whether \"Search in Files\" dialog has an extra row of  visible "
+"options as buttons."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:706
+msgid "Use Default for OS"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:707
+msgid "Use for Copy/Cut/Paste"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:708
+msgid "Use for VI Native Actions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:711
+msgid ""
+"Controls the behavior of the Ctrl-X/C/V key bindings in vi mode.  Either "
+"always use these for cut/copy/paste, use them for vi native actions such as "
+"initiate-numeric-repeat and start-select-block, or use the default by system "
+"(clipboard on win32 and other commands elsewhere)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:721
+msgid ""
+"Controls whether to automatically move keyboard focus from the editor to "
+"tools when they are revealed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:727
+msgid "File Operations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:728
+msgid "Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:731
+msgid "Indentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:732
+msgid "Project Management"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:741
+msgid "Bookmarks"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:744
+msgid "Testing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:747
+msgid "Version Control"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:750
+msgid "Controls which groups of tools will be shown in the toolbar."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:758
+msgid "Extra items to add to the tool bar."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:760
+msgid "Icon"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/prefs.py:766
+msgid "Quit application when last document window closes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:98
+msgid " -- Editor has unsaved changes!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:106
+msgid ""
+"These edited items have also changed on disk.  Select those for which you "
+"want to discard your changes and reload from disk:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:108
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:114
+msgid "Discard Changes & _Reload"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:109
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:115
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:121
+msgid "_Don't Reload"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:112
+msgid ""
+"These items, some with local edits, have changed on disk.  Select those "
+"which you want to reload from disk.  Any changes in the editor will be "
+"discarded:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:118
+msgid ""
+"These unedited items have changed on disk.  Select those which you want to "
+"reload:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:120
+msgid "_Reload Selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:125
+msgid "Confirm Reload"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/reloader.py:141
+msgid "Con_figure Reloading"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:43
+msgid "Use System Default (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:45
+msgid "Use Preference Setting (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:144
+msgid ""
+"The file %s has been modified.\n"
+"Save it now?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:145
+msgid ""
+"Save the following files?  The selected files will be saved.  You will be "
+"prompted to name any untitled files:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:166
+msgid "  (Could not encode)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:168
+msgid "  (Changing file format)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:170
+msgid "  (Disk file is newer)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:172
+msgid "  (Write failed)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:213
+msgid "Save Files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:215
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:220
+msgid "_Save Selected Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:216
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:222
+msgid "_Don't Save Any Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:324
+msgid "File is open"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:325
+msgid ""
+"A file named '%s' is already open for editing.  Please choose a new file  "
+"name or close the file and choose save as again."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:355
+msgid "Save Document As"
+msgstr "文件另存为"
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:358
+msgid "Save Project As"
+msgstr "项目另存为...(_A)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:359
+msgid "Project Files (*.wpr)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:361
+msgid "Python Files (*.py); All Files (*.*)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:475
+msgid "Failed to write file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:476
+msgid "Failed to write %s.  Save to another file?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:486
+msgid "Disk file is newer"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:487
+msgid ""
+"File %s is newer on disk. Do you want to overwrite changes, abandon your "
+"changes and reload, select another target file, or cancel save?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:489
+msgid "_Overwrite"
+msgstr "覆盖(_O)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:490
+msgid "_Abandon"
+msgstr "放弃保存(_A)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:491
+msgid "Another _File"
+msgstr "另外一个文件(_F)"
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:499
+msgid "Different file format"
+msgstr "其它的文件格式"
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:504
+msgid "File %s doesn't match the file format being written."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:506
+msgid ""
+" Do you want to write changes to this file, select another target file, or "
+"cancel the save?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:508
+msgid "O_verwrite"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:509
+msgid "_Another File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:517
+msgid "Could not encode file contents"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:522
+msgid "Could not encode."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:523
+msgid "_Save using Specified Encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:546
+msgid "Failed to Save As"
+msgstr "保存内容失败"
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:547
+msgid "Failed to write %s. You have closed the editor window!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:559
+msgid "Conflicting Filenames"
+msgstr "冲突的文件名"
+
+#: /Users/sdeibel/src/ide/src/guimgr/savemanager.py:560
+msgid ""
+"The file %s is open in another editor.  Please specify another file name to "
+"save to."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/toolbar_qt.py:855
+msgid "Icon Size"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/toolbar_qt.py:864
+msgid "Tool Style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/toolbar_qt.py:871
+msgid "Show Tool Tips"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/toolbar_qt.py:881
+msgid "Hide this Group"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/toolbar_qt.py:894
+msgid "Groups Shown"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/toolbar_qt.py:898
+msgid "Customize Toolbar..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/guimgr/wingtips.py:88
+msgid "Show at startup"
+msgstr "启动时显示"
+
+#: /Users/sdeibel/src/ide/src/guimgr/wingtips.py:241
+msgid "Wing Tips"
+msgstr "Wing 点滴"

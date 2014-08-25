@@ -1,0 +1,125 @@
+# Module src_search_commands translation file for language=en
+# Copyright (C) 2010 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2010-11-24 23:48 EST\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:36
+msgid ""
+"Globally available commands defined for the search manager.  These\n"
+"  commands are available regardless of whether a search manager is visible\n"
+"  or has keyboard focus."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:49
+#: /Users/sdeibel/src/ide/src/search/commands.py:180
+#: /Users/sdeibel/src/ide/src/search/commands.py:199
+msgid " Bring up the search manager in search mode. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:54
+msgid " Search again using the search manager's current settings. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:78
+msgid ""
+" Search again using the search manager's current settings\n"
+"    in forward direction "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:86
+msgid ""
+" Search again using the search manager's current settings\n"
+"    in backward direction "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:93
+msgid " Bring up the search manager in replace mode. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:98
+msgid " Replace current selection with the search manager. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:113
+msgid " Replace current selection and search again. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:164
+msgid " Get initial text to put in search field. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:257
+#: /Users/sdeibel/src/ide/src/search/commands.py:267
+msgid " Search forward using current selection "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:273
+msgid " Search backward using current selection "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:279
+msgid ""
+" Search on current selection using the Search in Files tool. The look_in "
+"argument gets\n"
+"    entered in the look in field if not None or ''. The current selection is "
+"put into the search\n"
+"    field if it doesn't span multiple lines and either use_selection is true "
+"or there's nothing in\n"
+"    the search field. The given search text is used instead, if provided"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:290
+msgid " Move to the next found match in the Search in Files tool. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:298
+msgid " Move to the previous found match in the Search in Files tool. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:306
+msgid " Display search and replace in files tool. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:313
+msgid " Pause the currently running batch search, if any "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:326
+msgid ""
+"Commands for a particular search manager instance.  These are only\n"
+"  available when the search manager has they keyboard focus."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:358
+msgid ""
+"Place a forward tab at the current cursor position in search or replace\n"
+"    string"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:377
+msgid " Cut selected text "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:386
+msgid " Copy selected text "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:394
+msgid " Clear selected text "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/search/commands.py:402
+msgid " Paste text from clipboard "
+msgstr ""

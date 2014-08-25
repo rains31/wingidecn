@@ -1,0 +1,2628 @@
+# Module src_debug_client translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2013-11-23 16:28+0800\n"
+"Last-Translator: Rains <rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:34
+msgid "Breakpoints for a file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:38
+msgid "Exceptions ignored for a file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:42
+msgid "History list of commands in Python Shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:46
+msgid "History list of commands in Debug Probe"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:50
+msgid "History list of expressions used in the evaluator"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:54
+msgid "History list of expressions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:61
+msgid ""
+"Use $(ENV) to insert values from the environment or from the following "
+"special variables:  $(WING:FILENAME) for full path of current file, $(WING:"
+"LINENO) for current line number, $(WING:SCOPE) for x.y.z-formatted list of "
+"current Python scope, $(WING:PROJECT) for full path of current project, "
+"$(WING:PROJECT_DIR) for the directory that contains the current project, "
+"$(WING:SELECTION) for the text selected on the current editor, and $(WING:"
+"PYTHON) forthe full path to the Python being used by the current project.  "
+"%s can be used as a short hand for $(WING:FILENAME).  These values will be "
+"empty if undefined or there is no current file. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:71
+msgid ""
+"Command line arguments to use when executing or debugging.  Arguments can "
+"optionally be delimited by \"s or 's.  Use \\\" to add \" to an argument and "
+"\\\\\" to add \\\" to an argument.   Environment variable references may "
+"also be used.  A \\ that does not precede a \", ', or $ adds a \\ to an "
+"argument."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:87
+msgid "Used internally to save recently used run arguments"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:96
+msgid ""
+"Whether to show dialog before running file.  This may be overridden with the "
+"Debugger > Advanced > Auto-show Run Args Dialog preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/attribs.py:99
+msgid "Whether to show dialog before running file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/bpmanager.py:110
+msgid "Breakpoint Insert Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/bpmanager.py:110
+msgid "Failed to insert breakpoint: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/bpmanager.py:450
+msgid "No code at the selected line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/bpmanager.py:1041
+msgid ""
+"No response from TrackBreaks:  Setting server side ID opportunistically "
+"during UpdateChangedBPs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/bpmanager.py:1041
+msgid "TrackBreaks Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:56
+msgid "Call Stack"
+msgstr "调用栈"
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:61
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:142
+msgid "Debug Process Call Stack"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:195
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:203
+msgid "Stack Frames"
+msgstr "栈帧"
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:244
+msgid " pos %s-%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:246
+msgid " line %s"
+msgstr "%s 行"
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:255
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:496
+msgid "<thread is running>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:319
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:720
+msgid "Failed to select stack frame"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:320
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:721
+msgid "Could not display selected stack frame"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:380
+msgid "Copy Stack to Clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:382
+msgid "Hide Code Line"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:384
+msgid "Show Code Line Appended"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:386
+msgid "Show Code Line Below"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:389
+msgid "Show Call Stack Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/callstack.py:394
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:437
+msgid "Breakpoint Mgr"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:320
+msgid "Cannot ignore breakpoint '%s' times"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:320
+msgid "Invalid Value"
+msgstr "无效的值"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:357
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:701
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:806
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1703
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1762
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:600
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2650
+msgid "_OK"
+msgstr "确认(_O)"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:358
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:702
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:807
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1704
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1763
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:729
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2058
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:1177
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:362
+msgid "Conditional Breakpoint"
+msgstr "条件断点"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:388
+msgid "Enter new breakpoint condition:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:461
+msgid "OK"
+msgstr "确认"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:462
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:413
+msgid "Cancel"
+msgstr "取消"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:466
+msgid "Ignore Breakpoint"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_advbreak.py:492
+msgid "Enter number of hits to ignore:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:143
+msgid "Could not attach"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:143
+msgid "Could not attach to host %s, port %s: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:144
+msgid ""
+"The remote process is not accepting connections, or is not running.  This "
+"may be caused by a missing or incorrect wingdebugpw file.  The wingdebugpw "
+"file in the IDE's user settings directory (%s) must match the wingdebugpw "
+"file that is being read by the debug process (see kPWFilePath in wingdbstub."
+"py)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:291
+msgid "Both host and port must be filled in"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:291
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:297
+msgid "Invalid Entry"
+msgstr "无效的条目"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:297
+msgid "Invalid (non-numeric) port number"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:322
+msgid "Select a process to attach to:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:336
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:340
+msgid "Description"
+msgstr "描述"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:336
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:340
+msgid "Host"
+msgstr "主机"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:336
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:340
+msgid "Origin"
+msgstr "来源"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:336
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:340
+msgid "PID"
+msgstr "进程号"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:336
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:340
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:156
+msgid "Port"
+msgstr "端口"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:358
+msgid "Prefs"
+msgstr "首选项"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:360
+msgid "Wing IDE"
+msgstr "Wing IDE"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:362
+msgid "External"
+msgstr "外部"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:373
+msgid "Host:"
+msgstr "主机:"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:386
+msgid "Port:"
+msgstr "端口:"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:410
+msgid "Attach"
+msgstr "附着"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_attach.py:428
+msgid "Attach to Debug Process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:57
+msgid "Breakpoints"
+msgstr "断点"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:62
+msgid "Debug Breakpoint Manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:147
+msgid "Breakpoint Manager"
+msgstr "断点管理器"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:162
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:172
+msgid "Breakpoint manager state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:224
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:304
+msgid "Condition"
+msgstr "条件"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:224
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:304
+msgid "Ignores"
+msgstr "忽略"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:224
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:304
+msgid "Location"
+msgstr "位置"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:224
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:304
+msgid "Temporary"
+msgstr "临时"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:224
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:304
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:573
+msgid "Enabled"
+msgstr "已启用"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:225
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:305
+#, fuzzy
+msgid "Hits"
+msgstr "浏览次数"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:225
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:305
+msgid "Ignores Left"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:359
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:547
+msgid "%s, line %i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:425
+msgid "Show Breakpoint"
+msgstr "显示断点"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:426
+msgid "Remove Breakpoint"
+msgstr "移除断点"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:428
+msgid "Remove All Breakpoints"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:429
+msgid "Disable _All Breakpoints"
+msgstr "禁用全部断点(_A)"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:430
+msgid "Enable _All Breakpoints"
+msgstr "启用全部断点(_A)"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_breakpanel.py:432
+msgid "Show Breakpoints Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:114
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:525
+msgid "Cannot execute: program is exiting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:120
+msgid "Cannot execute: debug process is busy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:124
+msgid "Executing command.  Please wait for result."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:126
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:531
+msgid "Waiting for keyboard input"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:128
+msgid "Commands execute in current stack frame.  Use arrow keys for history."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:130
+msgid "Cannot execute: no debug process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:132
+msgid "Cannot execute: debug program is connecting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:134
+msgid "Cannot execute: debugger not ready or exiting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:136
+msgid "Cannot execute: unknown or invalid debug mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:175
+msgid "Debug Probe"
+msgstr "调试探头"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:180
+msgid "Command Line for Probing Paused Debug Process Data"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:262
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:578
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:318
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1317
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:648
+msgid "_Clear"
+msgstr "清除(_C)"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:263
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:652
+msgid "_Save a Copy..."
+msgstr "保存副本"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:265
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:581
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1325
+msgid "_Wrap Lines"
+msgstr "超长自动换行"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:266
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1326
+msgid "_Pretty Print"
+msgstr "易读方式打印(_P)"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:267
+msgid "_Enable Auto-completion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:268
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1328
+msgid "_Filter history by entered prefix"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:270
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1330
+msgid "Evaluate Only W_hole Lines"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:273
+msgid "Show Debug Probe _Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_debugprobe.py:296
+msgid "Could not find definition of '%s'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:44
+msgid "Untitled"
+msgstr "无标题"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:343
+msgid "Launch %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:345
+msgid "Untitled Launch Config"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:580
+msgid "Show _Docs..."
+msgstr "显示文档(_D)..."
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:582
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1602
+msgid "_Close"
+msgstr "关闭"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:585
+msgid "ID"
+msgstr "编号"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:585
+msgid "Shared"
+msgstr "共享的"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:585
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1146
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1605
+msgid "Name"
+msgstr "名称"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:621
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1634
+msgid "Right click on the list for editing operations"
+msgstr "右键点击列表编辑"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:628
+msgid "Manage Launch Configurations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:698
+msgid "Use Duplicate Launch Configuration Name?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:699
+msgid ""
+"That launch configuration already exists.  Are you sure you want to create "
+"two launch configurations named '%s'?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:783
+msgid "Named Entry Point: "
+msgstr "已命名的入口点:"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:791
+msgid "File: "
+msgstr "文件: "
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:793
+msgid ""
+"This launch configuration is used by the following, which will revert to "
+"using project-wide settings if the launch configuration is removed:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:802
+msgid "Delete Launch Configuration?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:803
+msgid ""
+"Are you sure you want to delete launch configuration '%s'?  This cannot be "
+"undone."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:838
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1828
+msgid "_New..."
+msgstr "新建(_N)..."
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:839
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1829
+msgid "D_uplicate..."
+msgstr "重复(u)..."
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:840
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1830
+msgid "_Edit..."
+msgstr "编辑(_E)..."
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:841
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1831
+msgid "_Delete..."
+msgstr "删除(_D)..."
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:875
+#, fuzzy
+msgid "Launch Configuration: %s"
+msgstr "调用配置工具：%s"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:963
+msgid ""
+"Python Executable '%s' is a full path, which may not work if this launch "
+"configuration is shared to other machines or OSes.  You may want to use an "
+"environment variable reference such as ${ENV} as the first part of the path "
+"or use the project setting and configure the project on each machine or OS."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:978
+msgid ""
+"Python Path entry '%s' is a partial path -- We recommend using full paths to "
+"avoid problems locating source files for analysis and debugging.  If this "
+"launch configuration will be shared to other machines or OSes, use an "
+"environment variable reference such as ${WING:PROJECT_DIR} as the first part "
+"of the entry.  "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:984
+msgid ""
+"If you must use a partial path, be sure to set Initial Directory under the "
+"Python tab."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:988
+msgid "Python Path entry '%s' is also a partial path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:992
+msgid ""
+"Python Path entry '%s' is a full path which may not work when this launch "
+"configuration is shared to another machine or OS.  Use an environment "
+"variable reference such as ${WING:PROJECT_DIR} as the first part of the path."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:998
+msgid "Python Path entry '%s' is also a full path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1002
+msgid "Python Path entry '%s' does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1004
+msgid "Python Path entry '%s' is not a directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1022
+msgid "Build command '%s' could not be found by id or title"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1071
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1939
+msgid "Environment"
+msgstr "环境"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1072
+msgid "Python"
+msgstr "Python"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1101
+msgid ""
+"Command line arguments to use when executing or debugging with this launch "
+"configuration.  Arguments can optionally be delimited by \"s or 's.  Use \\"
+"\" to add \" to an argument and \\\\\" to add \\\" to an argument.   "
+"Environment variable references may also be used.  A \\ that does not "
+"precede a \", ', or $ adds a \\ to an argument."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1110
+msgid ""
+"The starting directory for the sub-process.  If unspecified, the directory "
+"for commands will be the location of the project's main debug file or the "
+"project file.  For executing a file, the default directory is the location "
+"of the file. $(ENV) formatted variables may be used to insert values from "
+"the environment and special variables."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1117
+msgid ""
+"Environment variables to set before running this command.  Entries are in "
+"\"name=value\" format, one per line.  Use \"name=\" (without a value) to "
+"unset and remove an inherited environment value.  If unspecified, the "
+"environment Wing inherits at startup is used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1122
+msgid ""
+"The Python executable to use.  The default is to use the value selected in "
+"Project Properties, or the interpreter run by \"python\" on the command line "
+"or as found on the path (or registry on Windows)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1125
+msgid ""
+"The PYTHONPATH to set when running this command.  The path separator is \"%s"
+"\". If unspecified, the PYTHONPATH Wing inherits at startup is used.  $(ENV) "
+"formatted variables may be used to insert values from the environment and "
+"special variables."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1130
+msgid ""
+"Arguments to pass to the Python interpreter when debugging.  The default is "
+"to use the value selected in Project Properties, or -u for unbuffered "
+"output.  Prompts for keyboard input may not appear without the -u option."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1137
+msgid ""
+"Command to execute before launching.  If the launch configuration is shared "
+"to other projects, machines, or OSes the command must be given a title and a "
+"like-titled command must be created in each project or on each machine."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1147
+msgid "The name of the launch configuration"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1167
+msgid "Unbuffered (-u)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1173
+msgid "None"
+msgstr "无"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1593
+msgid "_Show Docs..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1595
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2042
+msgid "_Debug"
+msgstr "调试(_D)"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1599
+msgid "_Execute"
+msgstr "执行(_E)"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1605
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:2080
+msgid "Debug Key Binding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1605
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:2083
+msgid "Execute Key Binding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1641
+msgid "Manage Named Entry Points"
+msgstr "管理已命名的入口点..."
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1700
+msgid "Overwrite Existing Named Entry Point?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1701
+msgid ""
+"That named entry point already exists.  Are you sure you want to overwrite "
+"the existing named entry point '%s'?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1759
+msgid "Confirm Named Entry Point Deletion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1760
+msgid "Are you sure you want to delete named entry point '%s'?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1833
+msgid "_Set Debug Key Binding..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1834
+msgid "Set E_xecute Key Binding..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1866
+msgid "Named Entry Point: %s"
+msgstr "已命名的入口点: %s"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1918
+msgid "Data"
+msgstr "数据"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1933
+msgid "Python File"
+msgstr "Python 文件"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1934
+msgid "The Python file to launch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1940
+msgid ""
+"The launch environment to use.  Either the project environment with "
+"specified run arguments, or a selected launch configuration."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:1947
+msgid "Whether to show this dialog before launching this entry point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:2025
+msgid "You must specify a file to launch."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:2030
+msgid "The selected file does not exist."
+msgstr "所选的文件不存在。"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:2034
+msgid ""
+"The selected file is not a Python file.  Use the OS Commands tool to launch "
+"non-Python files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:2041
+msgid "The selected launch configuration no longer exists."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:2102
+msgid "The key binding assigned to initiate debug of the named entry point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:2104
+msgid ""
+"The key binding assigned to initiate execution (without debugger) of the "
+"named entry point"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_launch.py:2106
+msgid "Key Binding"
+msgstr "快捷键绑定"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_modview.py:55
+msgid "Modules"
+msgstr "模块"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_modview.py:60
+msgid "Module-oriented Debug Data View (sys.modules)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:47
+msgid "Cannot evaluate: no debug program"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:49
+msgid "Cannot evaluate: debug program is running"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:51
+msgid "Right-click for option menu"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:53
+msgid "Cannot evaluate: debugger not ready"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:55
+msgid "Cannot evaluate: unknown or invalid debug mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:81
+msgid "Watch"
+msgstr "监视"
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:86
+msgid "Watch Debug Data Values and Expressions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:104
+msgid "No reference value selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:110
+msgid "No value found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:116
+msgid "No reference to track"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:126
+msgid "No parent reference to track"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:129
+msgid "No parent found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:132
+msgid "No parent value found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:144
+msgid "No symbolic path found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:159
+msgid "Value not in module scope"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:181
+msgid "Invalid watch style"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:260
+msgid "Watch tool tree state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:270
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:307
+msgid "Watch tool state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:292
+msgid "Debug %s watch on %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:294
+msgid "Debug %s watch on %s: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:304
+msgid "Debug watch tree state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:423
+msgid "Add Expression"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:425
+msgid "Clear Selected"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:426
+msgid "Clear All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:428
+msgid "Use Tree View"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:429
+msgid "Use Combo View"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:432
+msgid "Watching"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:432
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:512
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:213
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:1067
+msgid "Value"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:473
+msgid ""
+"Cannot edit sub-value name::Only top-level watch point names can be edited"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/cap_watch.py:478
+msgid "Cannot edit watchpoint name::Only expressions can be edited"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:331
+msgid "Debug I/O"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:336
+msgid "Debug Process I/O"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:483
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:235
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1051
+msgid "_Options"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:518
+msgid ""
+"Redirected I/O is disabled on Windows 98 & ME; See external console for "
+"debug I/O"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:522
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:530
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:1018
+msgid "No debug process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:533
+msgid "Debug I/O appears in context where process was launched"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:536
+msgid "See external console for debug I/O"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:539
+msgid "Debug I/O (stdin, stdout, stderr) appears below"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:582
+msgid "_Auto-Clear When Debug Starts"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:589
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:528
+msgid "Never Auto-Show"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:590
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:530
+msgid "Always Auto-Show on Output"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:591
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:529
+msgid "Auto-Show on First Output"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/debugio.py:595
+msgid "Configure _External Console..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:135
+msgid ""
+"File<html>&nbsp;</html><strong>\"%s\"</strong>, line %s, in <literal>%s</"
+"literal>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:185
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:699
+msgid "Exceptions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:190
+msgid "Debug Process Exceptions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:213
+msgid "_Ignore this exception location"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:217
+msgid ""
+"Wing reports exceptions that are likely to indicate a bug in code, including "
+"some that may be handled normally outside the debugger.  Use this check box "
+"to ignore an exception you are not interested in.  Ignored exceptions are "
+"still reported if they later lead to program termination.  You can also use "
+"the Configure item in the Options menu to alter when Wing IDE reports "
+"exceptions and to edit the lists of exceptions that are always reported or "
+"always ignored."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:241
+msgid "Move down the exception stack"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:250
+msgid "Show innermost frame of the exception stack"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:259
+msgid "Move up the exception stack"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:314
+msgid "Copy the exception and traceback to the clipboard"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:315
+msgid "Copy _Traceback"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:316
+msgid ""
+"Clear this exception display to blank and remove any remaining debugger run "
+"markers from source code."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:330
+msgid ""
+"Truncate the exception message to at most 10 lines, each with at most 1024 "
+"characters."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:332
+msgid "_Truncate Long Summaries"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:340
+msgid ""
+"Change between exception reporting modes and add/remove exceptions that are "
+"always reported or always ignored."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:342
+msgid "C_onfigure..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:349
+msgid "Clear the list of all previously ignored exceptions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:350
+msgid "Clear _Ignored Exceptions"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:541
+msgid " in file %s, line %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:691
+msgid "Copy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/excpanel.py:692
+msgid "Clear"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:99
+msgid "Could not start shell process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:461
+msgid "Internal Wing IDE Error -- please submit a bug report"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:512
+msgid "Restarting shell process...\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:529
+msgid "Executing command.  Please wait for result"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:533
+msgid "Commands execute without debug.  Use arrow keys for history."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:536
+msgid "Cannot execute: waiting for shell to restart"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:538
+msgid "Cannot execute: use Options -> Restart Shell to launch shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:541
+msgid "Needs restart for Python env"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:697
+msgid "Traceback (most recent call last):\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:699
+msgid "  File \"%s\", line %s, in %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:718
+msgid "Stale Python Shell Environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:719
+msgid ""
+"Warning:  The configured Python environment has changed since the Python "
+"Shell was started.  Do you want to restart it now?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:728
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2054
+msgid "_Restart"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:731
+msgid "_Don't show this again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:968
+msgid "Python Shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:973
+msgid "Interactive Python Shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1076
+msgid "Copy _With Prompts"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1082
+msgid "_Goto Definition"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1086
+msgid "Move Cursor Up (Ctrl-Up)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1087
+msgid "Move Cursor Down (Ctrl-Down)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1088
+msgid "Insert Line Break (Ctrl-Return)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1251
+msgid "Evaluate _line %i from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1253
+msgid "Evaluate _lines %i-%i from %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1256
+msgid "Evaluate _selection on line %i in %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1258
+msgid "Evaluate _selection on lines %i-%i in %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1263
+msgid "Evaluate _Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1316
+msgid "_Restart Shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1318
+msgid "Sa_ve a Copy..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1320
+msgid "_Evaluate %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1327
+msgid "Enable Auto-_completion"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1332
+msgid "_Auto-restart when Evaluate File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1337
+msgid "_Launch Configuration"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1338
+msgid "_Prompt on Stale Environment"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1341
+msgid "Show Python Shell _Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1353
+msgid "Use Project Properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/interactive.py:1364
+msgid "Manage Launch Configurations..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:343
+msgid "Could not watch value::%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:403
+msgid "Ignored Exceptions Cleared"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:404
+msgid ""
+"Previously ignored exceptions have been cleared:  %i exception(s) were "
+"removed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:471
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:554
+msgid ""
+"Invalid debug.location-map preference\n"
+":Could not match %s\n"
+"In %s\n"
+"Using %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:577
+msgid "Invalid debug.location-map preferences key: %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:578
+msgid "Should be a non-empty string host name or IP address\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:604
+msgid "Skipping invalid debug.location-map preference value: %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:605
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:631
+msgid "Found under host name %s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:606
+msgid "Tuple items must be strings\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:630
+msgid ""
+"Skipping invalid debug.location-map preference entry:\n"
+"%s\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:632
+msgid "Should be a tuple of (remote, local) tuples"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/manager.py:773
+msgid ""
+"Unable to create %s because the disk is read-only or a directory called  %s "
+"could not be created.  You will not be able to attach/detach with the "
+"debugger."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:28
+msgid ""
+"Controls whether the debugger raises source files to indicate exception "
+"locations encountered when working in the Debug Probe, and other debugger "
+"tools."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:36
+msgid ""
+"Controls whether or not the debugger listens for connections from an "
+"externally launched program. This should be enabled when the debug program "
+"is not launched by the IDE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:40
+msgid ""
+"Controls whether or not the debugger listens passively for connections from "
+"an externally launched program (false to disable; true to enable). This "
+"should be on when the debug program is not launched by the IDE (e.g., as "
+"with a CGI script)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:51
+msgid ""
+"Sets which hosts are allowed to connect to the debugger when it is listening "
+"for externally launched programs."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:54
+msgid ""
+"Sets which hosts are allowed to connect to the debugger when it is listening "
+"passively for externally launched programs."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:64
+msgid ""
+"Defines a mapping between the remote and local locations of files for host-"
+"to-host debugging.  For each IP address, a remote and local prefix is given. "
+"This should be used when full paths of files on the remote host do not match "
+"those for the same files on the local host.  Wing assumes an external file "
+"server or synchronization protocol is in use and does not itself transfer "
+"the files."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:74
+msgid "File Mappings"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:74
+msgid "Remote IP Address"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:75
+msgid "Same as localhost"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:75
+msgid "Specify mapping"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:76
+msgid "Local"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:76
+msgid "Remote"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:87
+msgid ""
+"Controls how Wing reports exceptions that are raised by your debug process.  "
+"By default, Wing shows exceptions at the time that the exception traceback "
+"would normally be printed.  Alternatively, Wing can try to predict which "
+"exceptions are unhandled, and stop immediately when unhandled exceptions are "
+"raised so that any finally clauses can be stepped through in the debugger. "
+"Wing can also stop on all exceptions (even if handled) immediately when they "
+"are raised, or it can wait to report fatal exceptions as the debug process "
+"terminates.  In the latter case Wing makes a best effort to stop before the "
+"debug process exits or at least to report the exception post-mortem, but one "
+"or both may fail if working with externally launched debug processes.  In "
+"that case, we recommend using When Printed exception reporting mode."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:104
+msgid "When Printed (Default)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:105
+msgid "At Process Termination"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:106
+msgid "Always Immediately"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:107
+msgid "Immediately if Appear Unhandled (Python <=2.6)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:112
+msgid ""
+"Controls whether to stop on exceptions logged with logging.exception if the "
+"exception mode is set to 'When Printed'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:119
+msgid ""
+"Determines the network interface on which the debugger listens for "
+"connections.  This can be a symbolic name, an IP address, or left "
+"unspecified to indicate that the debugger should listen on all valid network "
+"interfaces on the machine.  Note that when a debug session is launched from "
+"within the IDE (with the Run button), it always connects from the loopback "
+"interface (127.0.0.1)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:126
+msgid "All valid interfaces"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:127
+msgid "This interface"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:133
+msgid ""
+"Determines the TCP/IP port on which the IDE will listen for the connection "
+"from the debug process.  This needs to be unique for each developer working "
+"on a given host.  The debug process, if launched from outside of the IDE, "
+"needs to be told the value specified here using kWingHostPort inside "
+"wingdbstub.py or by WINGDB_HOSTPORT environment variable before importing "
+"wingdbstub in the debug process."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:146
+msgid ""
+"List of host/port combinations that should be included by default in the "
+"attach request list shown with Attach to Process in the Debug menu, in "
+"addition to those that are registered at runtime.  These are used primarily "
+"with externally launched debug processes, since Wing automatically shows IDE-"
+"launched processes for attach when appropriate.  This value corresponds with "
+"kAttachPort configured in wingdbstub.py or by WINGDB_ATTACHPORT environment "
+"variable before importing wingdbstub in the debug process."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:156
+msgid "IP Address"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:161
+msgid ""
+"Enable or disable the terminating debug processes that were launched from "
+"outside of the IDE.  When disabled, Wing just detaches from the process, "
+"leaving it running."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:170
+msgid ""
+"Controls the amount of time that the IDE will wait for the debug process to "
+"respond before it gives up.  This protects the IDE from freezing up if your "
+"program running within the debug process crashes or becomes unavailable. It "
+"must also be taken into account when network connections are slow or if "
+"sending large data values (see the Huge List Threshold and Hug String "
+"Threshold preferences)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:183
+msgid ""
+"Defines types for which values should never be probed for contents. These "
+"are types that are known to crash when the debugger probes them because they "
+"contain buggy data value extraction code.  These values are instead shown as "
+"an opaque value with hex object instance id and are never accessed for "
+"runtime introspection."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:194
+msgid "Defines types for which values are never shown by the debugger."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:205
+msgid ""
+"Defines variable/key names for which values are never shown by the debugger."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:213
+msgid ""
+"Defines the character length threshold under which a value will always be "
+"shown on a single line, even if the value is a complex type like a list or "
+"dict."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:222
+msgid ""
+"Defines the length threshold over which a list, dict, or other complex type "
+"will be considered too large to show in the normal debugger.  If this is set "
+"too large, the debugger will time out (see the Network Timeout preference)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:232
+msgid ""
+"Defines the length over which a string is considered too large to fetch for "
+"display in the debugger.  If this is set too large, the debugger will time "
+"out (see the Network Timeout preference)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:242
+msgid ""
+"Set this to true to have the debug server use the __members__ attribute to "
+"try to interpret otherwise opaque data values.  This is a preference because "
+"some extension modules contain bugs that result in crashing if this "
+"attribute is accessed.  Note that __members__ has been deprecated since "
+"Python version 2.2."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:254
+msgid ""
+"Number of seconds to wait before the debugger will stop in its own code "
+"after a pause request is received and no other Python code is reached."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:263
+msgid ""
+"Sets the tracking style used when a value is double clicked in order to "
+"watch it.  Values may be tracked by symbolic name, by object reference and "
+"attribute by name, and by direct object reference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:269
+msgid "Symbolic name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:270
+msgid "Parent reference + name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:271
+msgid "Direct object reference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:277
+msgid "Search Registry for Python"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:279
+msgid "Search PATH for 'python'"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:283
+msgid ""
+"Sets the default Python Executable to use for debugging and source code "
+"analysis.  This can be overridden on a project by project basis in Project "
+"Properties."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:288
+msgid "Specify:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:293
+msgid "Select the display style for integer values."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:296
+msgid "Decimal"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:296
+msgid "Hex"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:296
+msgid "Octal"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:301
+msgid ""
+"Controls whether or not time out, huge value, and error handling value "
+"errors are displayed by the debugger the first time they are encountered in "
+"each run of Wing."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:317
+msgid ""
+"The color of the text highlight used for the run position during debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:325
+msgid ""
+"Select transparency (0-160) of the text highlight used for the run position "
+"during debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:328
+msgid "Opaque"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:329
+msgid "Alpha:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:334
+msgid ""
+"Whether sys.stdin should be set a wrapper object for user input in the "
+"program being debugged.  The wrapper allows debug commands, such as pause, "
+"to be executed while the program is waiting for user input.  The wrapper may "
+"cause problems with multi-threaded programs that use C stdio functions to "
+"read directly from stdin and will be slower than the normal file object."
+"However, turning this preference off means that your debug process will not "
+"pause or accept breakpoint changes while waiting for keyboard input, and any "
+"keyboard input that occurs as a side effect of commands typed in the Debug "
+"Probe will happen in unmodified stdin instead (even though output will still "
+"appear in the Debug Probe as always)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:348
+msgid ""
+"This is used to obtain verbose information about debugger internals in cases "
+"where you are having problems getting debugging working. Logging can be "
+"disabled, or sent to stderr, stdout, or a file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:354
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:375
+msgid "No logging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:355
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:376
+msgid "Log to sys.stderr"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:356
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:377
+msgid "Log to sys.stdout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:357
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:378
+msgid "Log to file:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:361
+msgid ""
+"This is used to turn on very verbose and detailed logging from the "
+"debugger.  Only recommended when debugging the debugger."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:369
+msgid ""
+"This is used to obtain verbose information about the Python Shell internals "
+"in cases where you are having problems getting it working. Logging can be "
+"disabled, or sent to stderr, stdout, or a file."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:382
+msgid ""
+"This is used to turn on very verbose and detailed logging from the Python "
+"Shell internals.  Only recommended when debugging the  Python Shell."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:391
+msgid ""
+"Selects whether to use the integrated Debug I/O tool for debug process input/"
+"output or an external DOS Command prompt window when running. on Windows.  "
+"Use an external window if your debug process depends on details of the "
+"command prompt environment for cursor movement, color text, etc."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:399
+msgid ""
+"Selects whether to use the integrated Debug I/O tool for debug process input/"
+"output or an external terminal window.  Use an external window if your debug "
+"process depends on details of the command prompt environment for cursor "
+"movement, color text, etc."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:412
+msgid ""
+"Determines whether to leave up the console after normal program exit, or to "
+"close the console right away in all cases.  This is only relevant when "
+"running with an external native console instead of using the integrated "
+"Debug I/O tool."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:431
+msgid ""
+"A list of the terminal programs that are used with debug processes when "
+"running with an external console.  Each is tried in turn until one is found "
+"to exist.  If just the name is given, Wing will look for each first on the "
+"PATH and then in likely places.  Specify the full path (starting with \"/\") "
+"to use a specific executable.  If program arguments are specified, they must "
+"end with the argument that indicates that the rest of arguments are the "
+"program to run in the terminal.  If the program name starts with "
+"${WINGHOME} , ${WINGHOME} is replaced by the Wing install directory.  On OS "
+"X if the program name ends is .applescript, the environment is loaded from a "
+"file before starting the debugger."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:448
+msgid "Enables line wrapping in the integrated Debug I/O tool."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:455
+msgid "Enables line wrapping in the Python Shell."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:462
+msgid "Enables line wrapping in the Debug Probe."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:469
+msgid ""
+"Enable to filter shell history traversal when something is entered prior to "
+"starting traversal.  When enabled, Wing will only show history items "
+"starting with the text between the start of the current item and the caret."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:477
+msgid ""
+"Auto-restart the Python Shell before a file is evaluated within it.  When "
+"this is disabled, be aware that previously defined symbols will linger in "
+"the Python Shell environment."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:489
+msgid ""
+"Evaluate whole lines from editor rather than the exact selection, when a "
+"selection from the editor is sent to the Python Shell tool."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:495
+msgid ""
+"Set to False so that shells will act modal in the same way as editors when "
+"working with a modal key bindings such as that for VI.  When True, the "
+"shells always act as if in Insert mode."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:502
+msgid ""
+"The number of lines after which the Python Shell will just print a summary "
+"rather than the actual lines of code pasted, dragged, or other transferred "
+"to the shell."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:509
+msgid ""
+"Whether to always execute immediately after text is pasted into a shell. "
+"Note that if the number of lines exceed the pasted line threshold, the lines "
+"are immediately executed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:516
+msgid ""
+"Used internally to show information about exception handling to new users.  "
+"Once turned off, it is never turned on again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:522
+msgid ""
+"Enable to automatically clear the Debug I/O tool each time a new debug "
+"session is started"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:534
+msgid ""
+"Controls whether and when to automatically show the Debug I/O tool when it "
+"receives output."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:539
+msgid ""
+"Names of builtin exceptions to never report, even if the exception is not "
+"handled.  This list takes precedence over the Always Report preference and "
+"the Report Exceptions preference when it is set to a value other than Always "
+"Immediately."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:546
+msgid ""
+"Names of builtin exceptions to (nearly) always report.  These exceptions are "
+"not reported only if they are explicitly caught by the specific subclass in "
+"the same frame in which they are raised.  "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:554
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:572
+msgid "Disabled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:555
+msgid "Symbols Only"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:556
+msgid "All (Use with Caution!)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:560
+msgid ""
+"Controls whether debug values are shown when the mouse hovers over a "
+"selection in the editor.  This may be disabled, enabled for symbols (like x."
+"y.z) only, or enabled for all selections including function or methods "
+"calls.  WARNING:  Enabling evaluation of any selection may result in "
+"function or method calls that have side effects such as altering the program "
+"state or even making unintended database or disk accesses!"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:577
+msgid ""
+"Enable to display debug data values for any symbol on the editor when the "
+"mouse cursor hovers over it."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:583
+msgid ""
+"Set to introspect live Python runtimes for information displayed in "
+"autocompletion, the Source Assistant, and debug data value tooltips.  "
+"Runtimes introspected include the Python Shell and live debug processes "
+"stopped at an exception or breakpoint."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:592
+msgid ""
+"Set to show property values in the debug data views.  This should be used "
+"with caution.  It enables invocation of the fget() method on the property, "
+"which in some code bases can execute unwanted code, make unexpected changes "
+"to runtime state, hang on lengthy computations, trigger thread deadlocks, "
+"or  crash on buggy user code while debug data is being displayed in the IDE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:602
+msgid ""
+"Set to allow Python code and other dynamic calls to be invoked while "
+"introspecting values in the debugger, for display in the auto-completer, "
+"shells, and source assistant.  This should be used with caution. In some "
+"code bases, enabling this can execute unwanted code, make unexpected changes "
+"to runtime state, hang on lengthy computations, trigger thread deadlocks, or "
+"crash on buggy user code, while working in the IDE."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:615
+msgid ""
+"Allow __repr__ methodes implemented in Python to be invoked. Set to false if "
+"the __repr__ methods take too long to compute or fail due to other bugs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:629
+msgid "Console default (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:634
+msgid "Encoding of input/output in the Debug I/O panel"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:641
+msgid "Use default stdin / stdout encoding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:645
+msgid "Encoding of input/output in the integrated Python Shell and Debug Probe"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:647
+msgid "Encoding of input/output in the integrated Python Shell"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:661
+msgid ""
+"Enable to display a dialog when the Python Shell state no longer matches the "
+"configured Python Executable and/or Python Path."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:667
+msgid ""
+"Enable to use pprint.pprint to display values in the Python Shell and Debug "
+"Probe."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:673
+msgid ""
+"Selects the file to use for storing and retrieving shared launch "
+"configurations. By default the file 'launch' in the user settings directory "
+"is used."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:678
+msgid "Default"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:679
+msgid "File:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:685
+msgid "Never"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:686
+msgid "According to File Properties"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/prefs.py:690
+msgid ""
+"Controls whether the Debug Args dialog is shown before each debug run:  "
+"Either never show the dialog or show it only if 'Show this dialog before "
+"each run' is checked in the file's properties (this is the default)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:84
+msgid "Server not responding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:85
+msgid ""
+"The debug server has stopped responding: Network connection has been closed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:477
+msgid "Could not find a file to debug"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:477
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:483
+msgid "Nothing to debug"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:483
+msgid "File does not exist: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:503
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:511
+msgid "Debugger launch cancelled"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:595
+msgid "Build Command Not Found"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:596
+msgid ""
+"The build command set in file or project properties could not be found "
+"because it was removed from the OS Commands tool.  Please edit your file or "
+"project properties to correct this error.  Starting debug without build."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:614
+msgid "Build Command Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:615
+msgid "The build command failed.  Start debugging anyway?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:621
+msgid "_Yes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:622
+msgid "_No"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:668
+msgid "Could not debug unsaved file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:671
+msgid "Could not debug %s because it does not exist."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:672
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:699
+msgid "Could not start debug process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:686
+msgid "Could not start TCP/IP listen"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:777
+msgid "Could not debug \"%s\" -- the file does not exist"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:780
+msgid "Could not debug directory  \"%s\""
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:783
+msgid "Cannot debug main file located within a zip or egg  \"%s\""
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:803
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:903
+msgid "Configured run directory does not exist: %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:886
+msgid ""
+"Could not launch debugger for \"%s\".  The python interpreter \"%s\" may not "
+"exist."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:891
+msgid "Could not launch debugger for \"%s\"."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:920
+msgid ""
+"You have specified that Wing should display a separate console for this "
+"debug process but Wing cannot find any of the configured consoles:\n"
+"\n"
+"%s\n"
+"\n"
+"Try altering the setting the Debug External Consoles preference from "
+"Preferences in the Edit menu or use integrated I/O by unchecking the Use "
+"External Console preference.\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:979
+msgid ""
+"Could not start debugger because the filename %s cannot be encoded in the "
+"current file system encoding (%s)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1246
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2038
+msgid "Step Over"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1254
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2039
+msgid "Step Into"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1262
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2040
+msgid "Step Out"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1289
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2041
+msgid "Continue"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1296
+msgid "Debug to Cursor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1703
+msgid " [%ld of %ld files changed since module load]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1706
+msgid " [%ld modules loaded]"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1830
+msgid "Debug Listen Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1831
+msgid ""
+"Debugger could not listen for connections:  Another copy of the IDE may be "
+"running on the same network port (TCP/IP port %s).  This can be configured "
+"with the Debugger > External/Remote preferences."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1833
+msgid "Passive Listen Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1834
+msgid ""
+"Debugger could not enter passive listen mode:  Another copy of the IDE may "
+"be running on the same network port (TCP/IP port %s).  This can be "
+"configured with the Debugger / External/Remote preferences."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1854
+msgid "; pid=%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1856
+msgid "; host=%s, pid=%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1861
+msgid "No debug process / not listening for connections"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1863
+msgid "Debug process running"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1866
+msgid "Debug process paused"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1869
+msgid "Listening for back-connection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1874
+msgid "Allowed hosts:  "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1875
+msgid ""
+"No debug process / listening for connections on TCP/IP port %s\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1878
+msgid "Program exception"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1881
+msgid "Connected to debug process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1884
+msgid "Unknown or invalid debug mode"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1944
+msgid " (changed on disk only)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1946
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1961
+msgid " (unsaved changes)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:1949
+msgid " (open and changed on disk)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2030
+msgid ""
+"The following files are unsaved or do not match the code running in the "
+"debug process because they have changed in the IDE and/or on disk since they "
+"were last loaded. This may lead to incorrect source display for those files "
+"or failure to stop on breakpoints.  If your debug program is not designed to "
+"reload altered modules, you may wish to restart your debug process now."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2036
+msgid "Files Modified"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2038
+msgid "_Step Over"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2039
+msgid "_Step Into"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2040
+msgid "_Step Out"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2041
+msgid "Con_tinue"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2042
+msgid "Debug"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2047
+msgid "Save & _Restart"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2049
+msgid "Save & Sto_p Debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2050
+msgid "Sa_ve & "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2051
+msgid " Without Saving"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2056
+msgid "Sto_p Debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2059
+msgid "Always _ignore module changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2062
+msgid "_Auto-save before debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2175
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2178
+msgid "Failed to Start"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2176
+msgid ""
+"Failed to start the debug the program:  Could not listen on TCP/IP port %s."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2179
+msgid ""
+"Failed to start the debug the program:  Could not listen on TCP/IP host %s, "
+"port %s."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2253
+msgid ""
+"The debug process never connected back to Wing IDE:  Aborting debug "
+"session.  See Trouble-shooting Failure to Debug in the product manual."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2254
+msgid "Connection Failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2299
+msgid "Protocol Mismatch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2300
+msgid ""
+"The debug server protocol version (%i) does not match IDE protocol version "
+"(%i).  Please update\n"
+"  your wingdbstub.py file and debug server installation, if debugging "
+"remotely."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2333
+msgid "Couldn't initialize debug process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2334
+msgid "Couldn't get information from the debug process or initialize it"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2442
+msgid "Open failed: %s is probably a binary file"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2627
+msgid "Debug Process Exception"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2628
+msgid ""
+"Your debug process has raised an exception.  Use the <literal>Stack Data</"
+"literal> and other debugger tools to inspect the program state.\n"
+"\n"
+"<strong>IMPORTANT:</strong> Wing tries to report only unhandled exceptions, "
+"but for clarity will also report any exception you step over in the "
+"debugger.  If you reach an exception that you do not see running outside of "
+"the debugger, it may mean that Wing was unable to find the handler.  These "
+"exceptions can be ignored in the <literal>Exceptions</literal> tool. Other "
+"exception handling modes are also available. To get the most out of Wing, it "
+"is a good idea to read <literal>Managing Exceptions</literal> in the manual."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/runstate.py:2653
+msgid "Don't show this notice again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:335
+msgid "Save Session"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:336
+msgid "Choose file to which to save the session:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:643
+msgid "Select _All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:645
+msgid "C_opy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:646
+msgid "_Paste"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:651
+msgid "Print..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:1103
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:1120
+msgid "Shell state for %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:1172
+msgid "Save Selection?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:1173
+msgid "Would you like to save only the current selection?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:1175
+msgid "Save _Selection"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/shell.py:1176
+msgid "Save _All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:57
+msgid "Stack Data"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:62
+msgid "Debug Process Stack Data"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:111
+msgid "Debugger: "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:138
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:141
+msgid "_Continue Debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:139
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:142
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:145
+msgid "_Stop Debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:144
+msgid "_Pause Debug Process"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:147
+msgid "_Start Debugging"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:149
+msgid "Attach to Process..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:153
+msgid "_Accept Debug Connections"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:155
+msgid "_Enable Passive Listen"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:251
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:258
+msgid "Thread #0"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:251
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:489
+msgid "No debug process is running"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:258
+msgid "Debug process is running"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:271
+msgid " (first to stop)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:274
+msgid " (running)"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:275
+msgid "Debug process threads"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:489
+msgid "<no debug process stack>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:496
+msgid "Thread is running"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:509
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:511
+msgid ", line "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/stackpanel.py:512
+msgid "Selected thread's stack"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:422
+msgid "Note: Debug connection closed while polling for server messages"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:426
+msgid ""
+"Error: The debug connection closed unexpectedly while polling for server "
+"messages:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:534
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:548
+msgid "<no valid stack frame>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:554
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:793
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:891
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:919
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:986
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:1017
+msgid "<network timeout during evaluate>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:1272
+msgid ""
+"Error: The debug connection closed unexpectedly while sending message\n"
+"with type %s to server:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:1319
+msgid ""
+"Error: The debug connection closed unexpectedly while waiting for\n"
+"reply type %s after message type %s:\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:1322
+msgid ""
+"Error: The debug connection was closed after failing to unpack \n"
+"reply type %s after message type %s:\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/tnetproxy.py:1339
+msgid ""
+"Error: The debug connection timed out after %s seconds while waiting\n"
+"for reply type %s after message type %s.\n"
+"\n"
+"You may need to increase the value of debug.network-timeout preference."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varmanager.py:241
+msgid ""
+"Stored debug data value errors have been cleared.  Values will be refetched\n"
+"as needed for display after stepping or restarting your debug session.\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varmanager.py:241
+msgid "Value Errors Cleared"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varmanager.py:324
+msgid "Warning: Error Probing Debug Data"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varmanager.py:325
+msgid ""
+"Warning:  The debug server encountered an error in probing locals or\n"
+"global data values.  This is usually caused by an unexpected exception\n"
+"raised by code in an extension module in the debug code.\n"
+"\n"
+"For more information, turn on debugger logging in the Debugger / Advanced /\n"
+"Debug Internals Log File preference from the Edit menu."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varmanager.py:337
+msgid "Warning: Timeout During Evaluation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varmanager.py:338
+msgid ""
+"Warning:  Evaluation time for one or more locals or globals data values in\n"
+"your debug process exceeds the value of your Debugger / Advanced / Network "
+"Timeout\n"
+"preference.  Increase this value to see your data in the main debugger\n"
+"window, or use the Debug Probe or Watch tool to view parts of the value "
+"instead.\n"
+"\n"
+"You may also need to increase the huge list/string thresholds under "
+"Debugger / Data\n"
+"Filters preferences to accomodate these large data values."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varmanager.py:351
+msgid "Warning: Huge Value Encountered"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varmanager.py:352
+msgid ""
+"Warning:  The size of one or more locals or globals data values in\n"
+"your debug process exceeds the value of your huge list/string thresholds\n"
+"in Debugger / Data Filters preferences.  Increase these values to\n"
+"see your data in the main debugger window, or use the Debug Probe\n"
+"and Watch tool to view parts of the value instead.\n"
+"\n"
+"You may also need to increase preference Debugger / Advanced / Network\n"
+"timeout to accomodate transfer times for these large data values."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varmanager.py:473
+msgid "Cannot access data"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:213
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:1067
+msgid "Variable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:495
+msgid "Show Detail"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:500
+msgid "Hide Detail"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:504
+msgid "Expand More"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:505
+msgid "Collapse More"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:510
+msgid "Watch by Symbolic Path"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:511
+msgid "Watch by Direct Reference"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:512
+msgid "Watch by Parent Slot"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:513
+msgid "Watch by Module Slot"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:517
+msgid "Force Reload"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/vartree.py:545
+msgid "%s(): %s, line %i"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:117
+msgid "<error handling value>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:119
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:491
+msgid "<timeout>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:123
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:861
+msgid "<undefined>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:127
+msgid "<huge "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:145
+msgid "\""
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:147
+msgid "<long "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:160
+msgid "<opaque "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:328
+msgid "%s(): %s, line %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:330
+msgid "%s, line %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:376
+msgid "No symbolic path available"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:487
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:869
+msgid "<error evaluating>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:489
+msgid "<error handling>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/debug/client/varutils.py:1021
+msgid "Could not obtain symbolic path, err=%s"
+msgstr ""

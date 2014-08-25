@@ -1,0 +1,394 @@
+# Module scripts_templating translation file for language=en
+# Copyright (C) 2005 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2013-11-23 16:28+0800\n"
+"Last-Translator: 小雨 <rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1
+msgid ""
+"Example script that implements editing files using templates, both "
+"creating \n"
+"files from templates or inserting templated bits of code into the current "
+"editor.\n"
+"\n"
+"NOTE: This script is disabled and provided as an example only.  As of Wing\n"
+"3.1, the  templating/snippets capability is implemented internally rather \n"
+"than as a script.  This script represents the functionality that was\n"
+"delivered in Wing version 2.1.\n"
+"\n"
+"Some of the API's capabilities exhibited in this script are:\n"
+"\n"
+"* Accessing the document and editor objects\n"
+"* Making use of the editor's inline data entry mode\n"
+"* Accessing project-provided environment variables\n"
+"\n"
+"The following additional capabilities are also illustrated, but these\n"
+"reach through the formal API into stable but not formalized internal\n"
+"functionality of the IDE:\n"
+"\n"
+"* Writing a data entry dialog\n"
+"* Adding adhoc commands and custom key bindings for them\n"
+"* Adding a new tool panel to Wing that includes a notebook of\n"
+"  several lists and a popup context menu\n"
+"\n"
+"In general, writing a script of this complexity requires running Wing IDE "
+"from\n"
+"the source distribution, so that Wing (and the script) can be debugged "
+"inside\n"
+"another copy of Wing IDE.\n"
+"\n"
+"Copyright (c) 2005-2008, Wingware All rights reserved.\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\n"
+"IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\n"
+"CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n"
+"TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n"
+"SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n"
+"\n"
+"------\n"
+"Thanks to Peter Mott for adding support for %% escaping so string formats\n"
+"can be given as part of templates (and not processed by the template) and\n"
+"for other improvements.\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:93
+msgid "System-wide"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:94
+msgid "User-specific"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:98
+msgid ""
+"Get value for given environment variable, either as defined in \n"
+"  Project Properties or in the inherited environment if present.\n"
+"  Returns the given default when the value cannot be found."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:140
+msgid ""
+"Parse argument spec to determine argname, arginfo to use for\n"
+"  collecting the value from user if necessary, and specification\n"
+"  for default value."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:182
+msgid ""
+"Parse template text to extract information about the arguments to \n"
+"  collect from user and where to insert them in the template.  Returns\n"
+"  (ptxt, info) where ptxt is the text with argument specs removed and\n"
+"  info is a list of (argname, arginfo, default, pos, flags) that defines "
+"the\n"
+"  argument name, _AI() spec for data collection, default spec (which\n"
+"  isn't interpreted until the template is actually used), and the\n"
+"  position in ptxt where that argument should be placed."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:220
+msgid "Read in a single template and add it to the registry"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:244
+msgid "Scan templates directories and load templates found in them"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:273
+msgid "Fill in any missing default values from the given value dict."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:285
+msgid ""
+"Find prefix to use in wrapping long lines for a value placed on\n"
+"  the last line of the given text"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:301
+msgid ""
+"Turn given template into text by resolving defaults, prompting user for\n"
+"  values, and inserting them into the template.  The completion routine\n"
+"  is called with the final text when ready."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:408
+msgid ""
+"Convert the given text's indent style and newlines for insertion into \n"
+"  the given editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:489
+msgid "Create a new file with given extension and initial content"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:500
+msgid "Insert given content into currently active editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:507
+#: /Users/sdeibel/src/ide/scripts/templating.py:1063
+msgid "No Active Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:508
+#: /Users/sdeibel/src/ide/scripts/templating.py:1064
+msgid "Could not paste the selected template because there is no active editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:515
+msgid ""
+"Get given template by name, optionally constraining search to given\n"
+"  directory. This also loads new templates on demands and reloads the "
+"template\n"
+"  if it has changed on disk. Returns (filename, template_text, arginfos)."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:573
+#: /Users/sdeibel/src/ide/scripts/templating.py:692
+#: /Users/sdeibel/src/ide/scripts/templating.py:861
+msgid "Template Name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:580
+msgid ""
+"Insert given template into current editor. When a template directory is\n"
+"  used, the template is drawn from there. Otherwise, the template path is\n"
+"  traversed to find the template. When use_window is True, argument "
+"collection\n"
+"  occurs in a dialog box instead of at the bottom of the current document\n"
+"  window."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:603
+msgid ""
+"Create a new file containing the given template. When a template directory "
+"is\n"
+"  used, the template is drawn from there. Otherwise, the template path is\n"
+"  traversed to find the template. When use_window is True, argument "
+"collection\n"
+"  occurs in a dialog box instead of at the bottom of the current document\n"
+"  window."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:649
+msgid "Panel definition for the project manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:662
+msgid ""
+"Get (label, prefix, suffix) for the display label to use for the given\n"
+"    panel instance"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:665
+#: /Users/sdeibel/src/ide/scripts/templating.py:1028
+msgid "Templates"
+msgstr "模板"
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:668
+msgid "Get full title for the given panel instance"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:670
+#: /Users/sdeibel/src/ide/scripts/templating.py:812
+msgid "Template Manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:673
+msgid "Commands available on a specific instance of the template manager tool"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:686
+msgid "Add a new template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:694
+msgid "New File Extension"
+msgstr "新文件扩展名"
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:699
+msgid "Edit the selected template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:711
+msgid "Remove the selected template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:718
+msgid ""
+"Assign/reassign/unassign the key binding associated with\n"
+"    the given template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:726
+#: /Users/sdeibel/src/ide/scripts/templating.py:861
+msgid "Key Binding"
+msgstr "快捷键绑定"
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:740
+msgid "Clear the key binding associated with the given template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:749
+msgid "Show the Wing IDE documentation section for the template manager"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:754
+msgid "Paste the currently selected template into the current editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:765
+msgid "Paste the currently selected template into a new editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:773
+msgid ""
+"Reload all the template files.  The template manager does this\n"
+"    automatically most of the time, but reload can be useful to cause\n"
+"    the template panel display to update when templates are added or\n"
+"    removed from outside of Wing."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:781
+msgid "A single template manager view"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:784
+msgid " Constructor "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:810
+msgid " Returns the title of this view suitable for display. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:815
+msgid " Get the command map object for this view. "
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:831
+#: /Users/sdeibel/src/ide/scripts/templating.py:843
+msgid "Template manager state"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:891
+msgid "Look up the key binding for the given template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:902
+msgid "Set the key binding for the given template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:921
+msgid ""
+"Get the template directory and template name for currently selected template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:935
+msgid "Add a new template to the currently selected template directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:947
+msgid "Template already exists"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:948
+msgid ""
+"The template '%s' already exists in %s.  Do you want to open the existing "
+"file?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:953
+msgid "Open Existing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:954
+#: /Users/sdeibel/src/ide/scripts/templating.py:1001
+msgid "Cancel"
+msgstr "取消"
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:986
+msgid "Add currently selected template from template directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:992
+msgid "Remove Disk File?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:993
+msgid ""
+"Really remove the template '%s' in %s?  This will permanently erase the file "
+"from disk."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1000
+msgid "Remove File"
+msgstr "移除文件"
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1007
+msgid "Construct popup menu for this object."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1010
+msgid "Paste Into Current Editor"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1011
+msgid "Paste Into New File"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1013
+msgid "Add New Template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1014
+msgid "Edit Template"
+msgstr "编辑模板"
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1015
+msgid "Remove Template"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1017
+msgid "Assign Key Binding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1018
+msgid "Clear Key Binding"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1020
+msgid "Reload All Templates"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1022
+msgid "Show Templating Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/scripts/templating.py:1074
+msgid "Callback to display the popup menu"
+msgstr ""

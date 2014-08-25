@@ -1,0 +1,649 @@
+# Module src_versioncontrol translation file for language=en
+# Copyright (C) 2010 Wingware
+# Wingware Python IDE -- www.wingware.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2010-11-24 23:48 EST\n"
+"Last-Translator: 小雨<rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: text/plain\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/attribs.py:25
+msgid "List of recent locations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/attribs.py:30
+msgid "Whether to display unregistered files in status displays"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:44
+msgid "BZR"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:45
+msgid "Bazaar"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:60
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:67
+msgid "_Annotate"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:62
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1823
+msgid "Project Status"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:63
+msgid "Commit Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:65
+msgid "Merge Entire Branch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:66
+msgid "Push Entire Branch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:68
+msgid "Add"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:69
+msgid "Remove"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:71
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:80
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:76
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:80
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_perforce.py:198
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:90
+msgid "Configure..."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:346
+msgid "Merge entire branch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:347
+msgid "Merge from"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:348
+msgid "Merge"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:358
+msgid "Push entire branch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:359
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:669
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:409
+msgid "Push to"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_bzr.py:360
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:670
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:410
+msgid "_Push"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:60
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:57
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_perforce.py:170
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:67
+msgid "Extra arguments to pass to every command."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:95
+msgid "CVS Update"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:96
+msgid "CVS"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:107
+msgid "CVS Executable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:108
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:95
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:146
+msgid "Extra global arguments"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:928
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:826
+msgid "Checkout working copy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:929
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:827
+msgid "Checkout"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:930
+msgid "Module"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:947
+msgid "Missing module"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_cvs.py:947
+msgid "The module name must be specified"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:61
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:69
+msgid "_Project Status"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:62
+msgid "C_ommit Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:64
+msgid "List _Branches"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:65
+msgid "S_witch Branch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:67
+msgid "_Fetch Repository Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:68
+msgid "P_ull Branch Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:69
+msgid "Pus_h Branch Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:71
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:77
+msgid "_Add"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:72
+msgid "_Remove"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:83
+msgid "Git"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:527
+msgid "Failed to run git command"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:528
+msgid "Could not find git working directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:603
+msgid "Pull from repository"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:604
+msgid "Pull from"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:605
+msgid "_Pull"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:611
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:639
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:676
+msgid "Branch name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:638
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2085
+msgid "Working directory"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:641
+msgid "_Switch Branch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:652
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2108
+msgid "Missing locations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:653
+msgid "Both the working directory and the branch must be specified"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:668
+msgid "Push branch to repository"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:701
+msgid "Fetch changes from repository"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:702
+msgid "Fetch from"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_git.py:703
+msgid "_Fetch"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:42
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:43
+msgid "Mercurial"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:70
+msgid "_Commit Project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:72
+msgid "P_ull Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:73
+msgid "Up_date"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:74
+msgid "_Merge"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:75
+msgid "Pu_sh Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:78
+msgid "Remo_ve"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:384
+msgid "Pull All Changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:385
+msgid "Pull From"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:386
+msgid "Pull"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:391
+msgid "Update"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:408
+msgid "Push all changes"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:470
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_hg.py:481
+msgid "Cannot find single hg working directory root"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_perforce.py:176
+msgid ""
+"Don't find unregistered files when scanning for file status. This can "
+"substantially reduce the time to scan large repositories."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_perforce.py:321
+msgid "Perforce Sync"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_perforce.py:322
+msgid "Perforce"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_perforce.py:333
+msgid "Perforce Executable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_perforce.py:334
+msgid "Extra Global Arguments"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_perforce.py:335
+msgid "Don't Find Unregistered Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:62
+msgid "Executable command to run svn"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:132
+msgid "SVN Update"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:133
+msgid "SVN"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:144
+msgid "SVN Executable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/cap_svn.py:145
+msgid "SVN Admin Executable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/manager.py:460
+msgid "Tools"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/manager.py:460
+msgid "Window"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/manager.py:461
+msgid "Help"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/manager.py:499
+msgid "Auto-update %s Status"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/manager.py:736
+msgid "No %s %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/manager.py:737
+msgid ""
+"%(identifier)s does not support a %(name)s command. The files were "
+"%(past_tense)s on disk, but new files and directories were not added and "
+"version control history was not copied."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/manager.py:743
+msgid "OK"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:28
+msgid "Enable the integrated version control system."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:34
+msgid "Save without prompting before running version control commands."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:40
+msgid ""
+"Maximum number of completed commands to store in the version control tool."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:46
+msgid ""
+"Watch disk for version control changes and update the Project view and "
+"Project Status accordingly."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:53
+msgid ""
+"Track file add, remove, and rename operations made with Wing's Project view "
+"into the version control repository."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:60
+msgid "Log all commands to the error-log."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:68
+msgid "Always Active"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:69
+msgid "Active if used by project directories"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:70
+msgid "Not active"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/prefs.py:84
+msgid "Active"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/repository.py:116
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:569
+msgid ""
+"\n"
+"[command terminated]\n"
+"\n"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/repository.py:195
+msgid "Executable command to run %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/repository.py:198
+msgid "When %s version control support is active"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/repository.py:249
+msgid "%s Executable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/repository.py:277
+msgid "History of remote locations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/repository.py:468
+msgid "Cannot commit because the commit message is empty"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:223
+msgid "Save without _prompting"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:285
+msgid "Discard Changes in Files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:288
+msgid ""
+"Are you sure you want to discard your changes to %s and revert to the "
+"current state on this branch in %s?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:314
+msgid "Remove Files?"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:318
+msgid ""
+"Are you sure you want to remove the following?\n"
+"\n"
+"%s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:405
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:410
+msgid "Ou_tput"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:418
+msgid "Cance_l"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:422
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:882
+msgid "Run Again"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:534
+msgid "Failed to run: %s</span>"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:598
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:881
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1316
+msgid "Goto Source"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:599
+msgid "Copy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:600
+msgid "Select All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:662
+msgid "C_onsole"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:883
+msgid "_Copy"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:884
+msgid "Select _All"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1036
+msgid "Failed to find source"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1037
+msgid "Failed to find filename in diff output"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1306
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2206
+msgid "Hide Unregistered"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1309
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2202
+msgid "Show Unregistered"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1311
+msgid "View as List"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1313
+msgid "View as Tree"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1478
+msgid "No modified files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1717
+msgid "No %s files in project"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1733
+msgid "_Output"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1753
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1779
+msgid "Status"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1782
+msgid "Auto-update"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1794
+msgid "Refresh"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1839
+msgid "Running status"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1870
+msgid "_Message"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1878
+msgid "_Diffs"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1882
+msgid "_Files"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1885
+msgid "_Commit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1935
+msgid "Nothing to commit"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1954
+msgid "Committing"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1960
+msgid "Commit succeeded"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:1963
+msgid "Commit failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2007
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2010
+msgid "Command completed:  Output displayed in scratch editor."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2062
+msgid "_Locations"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2084
+msgid "Repository"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2109
+msgid "Both the repository and the working directory must be specified"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2183
+msgid "Configure %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2184
+msgid "Display Documentation"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2189
+msgid "Show Scope"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2191
+msgid "Hide Scope"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2194
+msgid "Show Console"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/versioncontrol/widgets.py:2196
+msgid "Hide Console"
+msgstr ""

@@ -1,0 +1,144 @@
+# Module src_command translation file for language=en
+# Copyright (C) 2003 Archaeopteryx Software, Inc.
+# Wing IDE for Python -- www.wingide.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingide 5.0.0\n"
+"POT-Creation-Date: 2013-11-13 10:33+EST\n"
+"PO-Revision-Date: 2013-11-23 16:28+0800\n"
+"Last-Translator: Rains <rains31@gmail.com>\n"
+"Language-Team: www.knownsec.com\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: /Users/sdeibel/src/ide/src/command/argentry.py:149
+msgid "Cannot execute %s: incorrect value for %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:150
+msgid "%sarginfo[%s].doc not valid.  Using None."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:157
+msgid "%sarginfo[%s].type not valid.  Treating arg as small string."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:164
+msgid "%sarginfo[%s].formlet not valid.  Treating arg as small string."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:197
+msgid "Callable %s.arginfo[%s].%s failed.  Using default."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:393
+msgid "Command name is not a string"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:396
+msgid "Command doc is not a None, string, or callable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:400
+msgid "Command label is not a string or callable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:476
+msgid "%sarginfo not dict or callable.  Using short string args."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:488
+msgid "%sarginfo[%s]: %s not an arg name."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:497
+msgid "%sarginfo[%s] not CArgInfo or callable"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:506
+msgid "%sarginfo[%s]: exception inspecting value"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:518
+msgid "%sarginfo for %s not found.  Using short string."
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:738
+msgid "Error executing %s.available()"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:764
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:779
+msgid "Tried to execute unavailable command %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:796
+msgid "Error obtaining args for script %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:799
+msgid "Error obtaining args for command %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:826
+msgid "Error executing script %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:829
+msgid "Error executing command %s"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:903
+msgid "Callable %s.arginfo raised an exception"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:910
+msgid ""
+"Callable %s.arginfo returned invalid arginfo; treating args as short string"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:931
+msgid "Default "
+msgstr "默认"
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:934
+msgid "%s: Callable default arginfo failed"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:952
+msgid "Callable %s.arginfo[%s] failed; treating arg as short string"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:986
+msgid "Callable %s.label failed; using label derived from command name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:991
+msgid ""
+"Callable %s.label returned non-string; using label derived from command name"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:1019
+msgid "Callable %s.doc failed; using ''"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:1024
+msgid "Callable %s.doc returned non-string; using ''"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:1055
+msgid "Callable %s.flags returned non-dict; using {}"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:1377
+msgid "* Error(s) loading %s.%s.%s:"
+msgstr ""
+
+#: /Users/sdeibel/src/ide/src/command/commandmgr.py:1386
+msgid "Exception while loading %s.%s.%s"
+msgstr ""
