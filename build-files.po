@@ -191,15 +191,15 @@ msgstr "Wing 点滴"
 
 #: /Users/sdeibel/src/ide/build-files/wingide.py:1507
 msgid "Introduction to Wing IDE %s"
-msgstr "Wing IDE 介绍"
+msgstr "Wing IDE %s 介绍"
 
 #: /Users/sdeibel/src/ide/build-files/wingide.py:1508
 msgid "Wing IDE %s Reference Manual"
-msgstr "Wing IDE 参考手册"
+msgstr "Wing IDE %s 参考手册"
 
 #: /Users/sdeibel/src/ide/build-files/wingide.py:1509
 msgid "Wing IDE %s How-Tos"
-msgstr "Wing IDE 帮助"
+msgstr "Wing IDE %s 帮助"
 
 #: /Users/sdeibel/src/ide/build-files/wingide.py:4632
 msgid "Wing IDE for Steam - Non-Commercial Use"

@@ -23,7 +23,7 @@ msgstr ""
 
 #: /Users/sdeibel/src/ide/src/diff/diffpanel.py:59
 msgid "Difference and Merge"
-msgstr ""
+msgstr "比较和合并工具"
 
 #: /Users/sdeibel/src/ide/src/diff/diffpanel.py:114
 #: /Users/sdeibel/src/ide/src/diff/manager.py:837
@@ -42,11 +42,11 @@ msgstr ""
 
 #: /Users/sdeibel/src/ide/src/diff/diffpanel.py:180
 msgid "Dummy"
-msgstr ""
+msgstr "虚拟"
 
 #: /Users/sdeibel/src/ide/src/diff/diffpanel.py:295
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: /Users/sdeibel/src/ide/src/diff/diffpanel.py:302
 #: /Users/sdeibel/src/ide/src/diff/manager.py:2037
@@ -73,11 +73,11 @@ msgstr ""
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:272
 msgid "OK"
-msgstr ""
+msgstr "确认"
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:405
 msgid "No Differences Found"
-msgstr ""
+msgstr "没有发现差异。"
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:406
 msgid ""
@@ -93,12 +93,12 @@ msgstr ""
 #: /Users/sdeibel/src/ide/src/diff/manager.py:412
 #: /Users/sdeibel/src/ide/src/diff/manager.py:634
 msgid "Continue"
-msgstr ""
+msgstr "继续"
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:416
 #: /Users/sdeibel/src/ide/src/diff/manager.py:639
 msgid "Don't show this message again"
-msgstr ""
+msgstr "不再显示此消息"
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:480
 msgid "Failed to set up the diff session"
@@ -138,7 +138,7 @@ msgstr ""
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:635
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:1073
 msgid "Create Directories?"
@@ -153,7 +153,7 @@ msgstr ""
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:1083
 msgid "Create"
-msgstr ""
+msgstr "创建"
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:1084
 msgid "Cancel Merge"
@@ -190,7 +190,7 @@ msgstr ""
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:1596
 msgid "Revision"
-msgstr ""
+msgstr "修订版"
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:1639
 #: /Users/sdeibel/src/ide/src/diff/manager.py:1643
@@ -202,13 +202,13 @@ msgstr ""
 #: /Users/sdeibel/src/ide/src/diff/manager.py:1645
 #: /Users/sdeibel/src/ide/src/diff/manager.py:2169
 msgid "%s is not a directory"
-msgstr ""
+msgstr "%s 不是目录。"
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:1915
 #: /Users/sdeibel/src/ide/src/diff/manager.py:1918
 #: /Users/sdeibel/src/ide/src/diff/manager.py:2187
 msgid "%s is not a file"
-msgstr ""
+msgstr "“%s”不是一个文件"
 
 #: /Users/sdeibel/src/ide/src/diff/manager.py:2037
 msgid "Filename"
@@ -252,11 +252,11 @@ msgstr ""
 
 #: /Users/sdeibel/src/ide/src/diff/prefs.py:21
 msgid "Side by Side"
-msgstr ""
+msgstr "左右"
 
 #: /Users/sdeibel/src/ide/src/diff/prefs.py:22
 msgid "Top and Bottom"
-msgstr ""
+msgstr "上下"
 
 #: /Users/sdeibel/src/ide/src/diff/prefs.py:26
 msgid "Orientation of difference/merge views: Side-by-side or top/bottom"
